@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Банкетный ресторан «Гурман» в Тюмени: русская и кавказская кухня, банкеты, свадьбы, юбилеи, корпоративы. Ул. Линейная, 66.">
+<meta name="theme-color" content="#1c0509">
+<title>Ресторан Гурман</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Literata:opsz,wght@7..72,400;7..72,600&family=Marck+Script&display=swap">
+<style>
+/* Layout: one long page, dark burgundy ground, gold hairlines, large serif type for an older audience */
+:root {
+  --wine-deep: #1c0509;
+  --wine: #2e0b12;
+  --wine-lift: #421620;
+  --gold: #d2ab5f;
+  --gold-soft: #a98644;
+  --cream: #f3e8d2;
+  --cream-dim: #cdbfa5;
+  --ruby: #8c1d2c;
+  --f-display: "Cormorant Garamond", "Times New Roman", serif;
+  --f-body: "Literata", Georgia, serif;
+  --f-script: "Marck Script", "Cormorant Garamond", cursive;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--wine-deep);
+  color: var(--cream);
+  font-family: var(--f-body);
+  font-size: 19px;
+  line-height: 1.65;
+  padding-inline: 0;
+}
+a { color: inherit; }
+img { display: block; max-width: 100%; }
+:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
+
+.wrap { width: min(1160px, 100%); margin-inline: auto; padding-inline: 20px; }
+section { padding-block: 84px; }
+.eyebrow {
+  font-size: 14px; letter-spacing: .24em; text-transform: uppercase;
+  color: var(--gold); margin: 0 0 14px;
+}
+h1, h2, h3 { font-family: var(--f-display); font-weight: 600; line-height: 1.08; margin: 0; text-wrap: balance; }
+h2 { font-size: clamp(38px, 5vw, 58px); }
+h3 { font-size: 28px; }
+p { margin: 0; }
+.lead { font-size: 21px; color: var(--cream); max-width: 34em; }
+.muted { color: var(--cream-dim); }
+
+.rule {
+  display: flex; align-items: center; gap: 16px; color: var(--gold); margin-block: 22px;
+}
+.rule::before, .rule::after { content: ""; height: 1px; flex: 1; background: linear-gradient(90deg, transparent, var(--gold-soft)); }
+.rule::after { background: linear-gradient(270deg, transparent, var(--gold-soft)); }
+.rule svg { width: 34px; height: 34px; flex: none; }
+.rule.left::before { display: none; }
+.rule.left { max-width: 360px; }
+
+/* buttons */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+  min-height: 56px; padding: 12px 30px; border-radius: 2px;
+  font-size: 20px; font-weight: 600; letter-spacing: .02em;
+  text-decoration: none; border: 1px solid var(--gold); cursor: pointer;
+}
+.btn-gold { background: linear-gradient(180deg, #e2c27d, #bd9348); color: var(--wine-deep); }
+.btn-ghost { background: transparent; color: var(--gold); }
+.btn-gold:hover { filter: brightness(1.08); }
+.btn-ghost:hover { background: rgba(210,171,95,.12); }
+.btn-row { display: flex; flex-wrap: wrap; gap: 16px; }
+
+/* header */
+.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: rgba(28,5,9,.94); border-bottom: 1px solid rgba(210,171,95,.35); backdrop-filter: blur(6px); }
+.top .wrap { display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 76px; }
+.mark { display: flex; align-items: baseline; gap: 12px; text-decoration: none; }
+.mark b { font-family: var(--f-display); font-size: 36px; letter-spacing: .06em; color: var(--gold); font-weight: 700; }
+.mark span { font-size: 12px; letter-spacing: .3em; text-transform: uppercase; color: var(--cream-dim); }
+.nav { display: flex; gap: 26px; }
+.nav a { text-decoration: none; font-size: 17px; color: var(--cream-dim); }
+.nav a:hover { color: var(--gold); }
+.top-phone, .btn, .c-item .big a { font-family: var(--f-body); font-variant-numeric: lining-nums tabular-nums; }
+.top-phone { font-size: 22px; font-weight: 600; letter-spacing: .02em; color: var(--gold); text-decoration: none; white-space: nowrap; }
+
+/* new year strip */
+.ny-strip { background: linear-gradient(90deg, var(--ruby), #5e1019 60%, var(--ruby)); border-bottom: 1px solid var(--gold-soft); }
+.ny-strip a { display: flex; flex-wrap: wrap; justify-content: center; align-items: baseline; gap: 6px 18px; padding: 14px 20px; text-decoration: none; text-align: center; }
+.ny-strip .script { font-family: var(--f-script); font-size: 30px; color: #ffd9a0; line-height: 1; }
+.ny-strip .txt { font-size: 17px; }
+.ny-strip .go { color: var(--gold); font-weight: 600; border-bottom: 1px solid var(--gold); }
+
+/* hero */
+.hero { padding-block: 72px 90px; background:
+  radial-gradient(900px 500px at 78% 30%, rgba(140,29,44,.55), transparent 70%),
+  var(--wine-deep); }
+.hero .wrap { display: grid; grid-template-columns: 1.05fr .95fr; gap: 56px; align-items: center; }
+.hero h1 { font-size: clamp(64px, 11vw, 132px); letter-spacing: .02em; color: var(--gold); font-weight: 700; }
+.hero .sub { font-family: var(--f-display); font-size: clamp(26px, 3vw, 34px); font-style: italic; color: var(--cream); margin-top: 22px; line-height: 1.15; }
+.hero .lead { margin-block: 18px 34px; color: var(--cream-dim); }
+.hero-photo { position: relative; }
+.hero-photo img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 220px 220px 4px 4px; border: 1px solid var(--gold); }
+.hero-photo::after { content: ""; position: absolute; inset: 12px; border-radius: 210px 210px 2px 2px; border: 1px solid rgba(210,171,95,.5); pointer-events: none; }
+.facts { display: flex; flex-wrap: wrap; gap: 14px 40px; margin-top: 36px; padding-top: 22px; border-top: 1px solid rgba(210,171,95,.3); }
+.facts div b { display: block; font-family: var(--f-display); font-size: 34px; color: var(--gold); line-height: 1; }
+.facts div span { font-size: 15px; color: var(--cream-dim); }
+
+/* about */
+.about { background: var(--wine); border-block: 1px solid rgba(210,171,95,.25); }
+.about .wrap { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: start; }
+.about p + p { margin-top: 16px; }
+.dishes { display: grid; gap: 0; }
+.dish { padding-block: 22px; border-bottom: 1px solid rgba(210,171,95,.3); display: grid; grid-template-columns: auto 1fr; gap: 6px 22px; }
+.dish:first-child { padding-top: 0; }
+.dish .ic { grid-row: span 2; width: 46px; height: 46px; color: var(--gold); }
+.dish h3 { font-size: 30px; color: var(--cream); }
+.dish p { color: var(--cream-dim); font-size: 17px; }
+
+/* banquets */
+.banq .head { max-width: 720px; margin-bottom: 44px; }
+.banq-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.banq-card { border: 1px solid rgba(210,171,95,.4); background: linear-gradient(180deg, rgba(66,22,32,.55), rgba(46,11,18,.3)); display: flex; flex-direction: column; }
+.banq-card img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-bottom: 1px solid var(--gold-soft); }
+.banq-card .body { padding: 26px 26px 30px; }
+.banq-card h3 { color: var(--gold); margin-bottom: 10px; }
+.banq-card p { font-size: 17px; color: var(--cream-dim); }
+.banq-note { margin-top: 36px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; padding: 26px 30px; border: 1px solid var(--gold-soft); }
+.banq-note p { font-family: var(--f-display); font-size: 28px; font-weight: 600; }
+
+/* new year */
+.ny { background:
+  radial-gradient(800px 520px at 15% 20%, rgba(140,29,44,.6), transparent 70%),
+  linear-gradient(180deg, #2a0710, #1c0509); border-block: 1px solid var(--gold-soft); }
+.ny-grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: 56px; align-items: stretch; }
+.ny-panel { border: 1px solid var(--gold); padding: 30px 30px 14px; background: linear-gradient(180deg, rgba(66,22,32,.7), rgba(46,11,18,.45)); display: flex; flex-direction: column; }
+.ny-panel h3 { color: var(--gold); }
+.ny-phones { margin-top: 14px; font-size: 16px; }
+.ny-docs { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 48px; }
+.ny-docs a { display: flex; flex-direction: column; gap: 2px; padding: 18px 24px; border: 1px solid var(--gold-soft); text-decoration: none; }
+.ny-docs a:hover { background: rgba(210,171,95,.1); border-color: var(--gold); }
+.ny-docs b { font-family: var(--f-display); font-size: 26px; font-weight: 600; color: var(--gold); }
+.ny-docs span { font-size: 15px; color: var(--cream-dim); }
+.ny-title { font-family: var(--f-script); font-size: clamp(56px, 8vw, 96px); color: #ffd9a0; line-height: .88; margin-block: 10px 14px; font-weight: 400; }
+.ny-prog { list-style: none; margin: 18px 0 0; padding: 0; border-top: 1px solid rgba(210,171,95,.3); }
+.ny-prog li { display: flex; align-items: center; gap: 16px; min-height: 52px; padding-block: 8px; font-size: 18px; line-height: 1.35; border-bottom: 1px solid rgba(210,171,95,.3); }
+.ny-prog li::before { content: ""; flex: none; width: 9px; height: 9px; background: var(--gold); transform: rotate(45deg); }
+.price-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-block: 32px; }
+.price { border: 1px solid var(--gold); padding: 18px 22px; text-align: center; }
+.price small { display: block; font-size: 15px; color: var(--cream-dim); }
+.price b { display: block; font-family: var(--f-display); font-variant-numeric: lining-nums; font-size: 46px; color: var(--gold); line-height: 1.1; }
+.price span { font-size: 15px; color: var(--cream-dim); }
+.gift { display: flex; flex-wrap: wrap; gap: 8px 24px; margin-bottom: 30px; padding: 16px 22px; background: linear-gradient(90deg, var(--ruby), #5e1019); border: 1px solid var(--gold-soft); font-size: 18px; }
+.gift b { color: #ffd9a0; font-weight: 600; }
+
+/* contacts */
+.contacts { background: var(--wine); border-top: 1px solid rgba(210,171,95,.25); }
+.contacts .wrap { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; }
+.c-list { display: grid; gap: 26px; margin-top: 26px; }
+.c-item small { display: block; font-size: 13px; letter-spacing: .24em; text-transform: uppercase; color: var(--gold); margin-bottom: 4px; }
+.c-item .big { font-family: var(--f-display); font-size: 34px; font-weight: 600; line-height: 1.2; }
+.c-item .big a { font-size: 28px; font-weight: 600; }
+.c-item .big a { text-decoration: none; }
+.map {
+  min-height: 380px; border: 1px solid var(--gold); position: relative; overflow: hidden;
+  background:
+    linear-gradient(0deg, rgba(28,5,9,.55), rgba(28,5,9,.55)),
+    repeating-linear-gradient(0deg, transparent 0 46px, rgba(210,171,95,.12) 46px 47px),
+    repeating-linear-gradient(90deg, transparent 0 62px, rgba(210,171,95,.12) 62px 63px),
+    var(--wine-lift);
+  display: grid; place-items: center; text-align: center; padding: 28px;
+}
+.map .pin { width: 54px; height: 54px; color: var(--gold); margin: 0 auto 10px; }
+.map p { font-family: var(--f-display); font-size: 30px; font-weight: 600; margin-bottom: 18px; }
+
+footer { padding-block: 34px; border-top: 1px solid rgba(210,171,95,.25); font-size: 15px; color: var(--cream-dim); }
+footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px 24px; }
+
+/* adaptive */
+@media (max-width: 900px) {
+  body { font-size: 18px; }
+  section { padding-block: 60px; }
+  .nav { display: none; }
+  .hero .wrap, .about .wrap, .ny-grid, .contacts .wrap { grid-template-columns: 1fr; gap: 40px; }
+  .hero-photo { max-width: 460px; }
+  .banq-grid { grid-template-columns: 1fr; }
+  .price-row { grid-template-columns: 1fr; }
+}
+@media (max-width: 520px) {
+  .mark span { display: none; }
+  .top-phone { font-size: 19px; }
+  .btn { width: 100%; }
+  .ny-docs { grid-template-columns: 1fr; }
+  .ny-panel { padding: 24px 20px 8px; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="orn" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M20 4c2 5 2 9 0 13-2-4-2-8 0-13z"/><path d="M20 17c-5-2-9 0-12 4 4 1 8 0 12-4z"/><path d="M20 17c5-2 9 0 12 4-4 1-8 0-12-4z"/><path d="M20 17v19"/><path d="M12 36h16"/>
+  </symbol>
+  <symbol id="i-fire" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M6 30h36"/><path d="M10 30c0 6 6 10 14 10s14-4 14-10"/><path d="M24 6c3 5 7 7 7 13a7 7 0 0 1-14 0c0-3 2-4 3-7 2 1 3 2 3 4 0-4 0-7 1-10z"/>
+  </symbol>
+  <symbol id="i-bread" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M6 28c0-9 8-16 18-16s18 7 18 16c0 4-3 7-7 7H13c-4 0-7-3-7-7z"/><ellipse cx="24" cy="26" rx="8" ry="5"/><path d="M24 22v8"/>
+  </symbol>
+  <symbol id="i-samovar" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 5v4"/><path d="M20 9h8"/><path d="M14 14h20c3 4 4 9 3 14-1 6-6 10-13 10s-12-4-13-10c-1-5 0-10 3-14z"/><path d="M14 38v4h20v-4"/><path d="M37 20h5v6h-5"/><path d="M11 22H6"/>
+  </symbol>
+  <symbol id="i-pin" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 44s14-12 14-23a14 14 0 0 0-28 0c0 11 14 23 14 23z"/><circle cx="24" cy="21" r="5"/>
+  </symbol>
+</svg>
+
+<header class="top">
+  <div class="wrap">
+    <a class="mark" href="#top" aria-label="Ресторан Гурман"><b>Гурман</b><span>ресторан</span></a>
+    <nav class="nav" aria-label="Разделы">
+      <a href="#about">О ресторане</a>
+      <a href="#banquets">Банкеты</a>
+      <a href="#newyear">Новый год</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <a class="top-phone" href="tel:+73452217565">21-75-65</a>
+  </div>
+</header>
+
+<main id="top">
+<section class="ny" id="newyear">
+  <div class="wrap">
+    <div class="ny-grid">
+      <div class="ny-main">
+        <p class="eyebrow">Новогоднее шоу</p>
+        <h2 class="ny-title">Русский шик</h2>
+        <p class="lead">С характером, вкусом и смыслом. Встретьте Новый год за большим столом, с хорошей программой и настоящим размахом.</p>
+        <div class="price-row">
+          <div class="price"><small>18, 19, 25, 26 декабря</small><b>5 000 ₽</b><span>с человека</span></div>
+          <div class="price"><small>Остальные даты</small><b>4 000 ₽</b><span>с человека</span></div>
+        </div>
+        <div class="gift"><span><b>Шампанское на велком</b> в подарок</span><span><b>Алкоголь свой,</b> без пробкового сбора</span></div>
+        <div class="btn-row">
+          <a class="btn btn-gold" href="tel:+73452218115">Забронировать 21-81-15</a>
+        </div>
+        <p class="muted ny-phones">Бронь по телефонам: 21-81-15, 21-75-65, 99-22-99</p>
+      </div>
+      <aside class="ny-panel" aria-labelledby="ny-prog-h">
+        <h3 id="ny-prog-h">В программе вечера</h3>
+        <ul class="ny-prog">
+          <li>Самовар с шампанским настроением</li>
+          <li>Изысканные угощения</li>
+          <li>Царские розыгрыши и подарки</li>
+          <li>Фотозона в гостеприимной резиденции</li>
+          <li>Харизматичная ведущая в стиле «аля-русс»</li>
+          <li>Виртуозы оригинального жанра</li>
+          <li>Настоящие Дед Мороз и Снегурочка</li>
+          <li>Дресс-код приветствуется</li>
+        </ul>
+      </aside>
+    </div>
+    <div class="ny-docs">
+      <a href="files/new-year-program.jpeg" target="_blank" rel="noopener"><b>Афиша программы</b><span>Открыть изображение</span></a>
+      <a href="files/new-year-menu.jpeg" target="_blank" rel="noopener"><b>Новогоднее меню</b><span>Открыть изображение</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Банкетный ресторан · Тюмень</p>
+      <h1>Гурман</h1>
+      <p class="sub">Русская и кавказская кухня для больших и важных встреч</p>
+      <div class="rule left"><svg><use href="#orn"/></svg></div>
+      <p class="lead">Шашлык с мангала, горячие хачапури и домашний русский стол. Просторный зал, чуткий сервис и столы, накрытые так, как принято на хорошем празднике.</p>
+      <div class="btn-row">
+        <a class="btn btn-gold" href="tel:+73452217565">Позвонить 21-75-65</a>
+        <a class="btn btn-ghost" href="files/menu.pdf" target="_blank" rel="noopener">Меню (PDF)</a>
+      </div>
+      <div class="facts">
+        <div><b>до 150</b><span>гостей в зале</span></div>
+        <div><b>11:00–00:00</b><span>ежедневно</span></div>
+        <div><b>Линейная, 66</b><span>Тюмень</span></div>
+      </div>
+    </div>
+    <div class="hero-photo">
+      <img src="assets/hero.jpg" alt="Накрытый стол в зале ресторана Гурман с цветочным оформлением" width="595" height="495">
+    </div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">О ресторане</p>
+      <h2>Кухня, за которой возвращаются</h2>
+      <div class="rule left"><svg><use href="#orn"/></svg></div>
+      <p class="lead">«Гурман» принимает гостей на Линейной с давних пор: семейные торжества, юбилеи, свадьбы и деловые ужины.</p>
+      <p class="muted">Мы готовим без спешки и подаём щедро. На столе вы найдёте блюда русской и кавказской кухни, которые знакомы с детства, и те, что приготовлены по рецептам нашего повара.</p>
+    </div>
+    <div class="dishes">
+      <div class="dish">
+        <svg class="ic"><use href="#i-fire"/></svg>
+        <h3>Шашлыки с мангала</h3>
+        <p>Свинина, баранина, курица и рыба на углях. Подаём с лавашом, соусами и свежей зеленью.</p>
+      </div>
+      <div class="dish">
+        <svg class="ic"><use href="#i-bread"/></svg>
+        <h3>Хачапури и выпечка</h3>
+        <p>Хачапури по-аджарски и по-имеретински, пироги с рыбой, курицей и сыром.</p>
+      </div>
+      <div class="dish">
+        <svg class="ic"><use href="#i-samovar"/></svg>
+        <h3>Русский стол</h3>
+        <p>Холодец с горчицей, солёные грузди, винегрет с грибами, салат «Боярин», чай с мёдом.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="banq" id="banquets">
+  <div class="wrap">
+    <div class="head">
+      <p class="eyebrow">Банкеты и мероприятия</p>
+      <h2>Праздник, о котором вспоминают годами</h2>
+      <div class="rule left"><svg><use href="#orn"/></svg></div>
+      <p class="lead">Поможем составить меню, расставить столы и оформить зал. Вы приходите к готовому празднику.</p>
+    </div>
+    <div class="banq-grid">
+      <div class="banq-card"><img src="assets/wedding.jpg" alt="Стол для молодожёнов в цветах"><div class="body"><h3>Свадьбы</h3><p>Оформление зала цветами, отдельный стол молодожёнов, место для ведущего и музыкантов.</p></div></div>
+      <div class="banq-card"><img src="assets/anniversary.jpg" alt="Длинный праздничный стол с угощениями"><div class="body"><h3>Юбилеи и семейные торжества</h3><p>Накроем на всю семью. Меню составим с учётом вкусов гостей и повода.</p></div></div>
+      <div class="banq-card"><img src="assets/corporate.jpg" alt="Зал с панорамными окнами и сценой"><div class="body"><h3>Корпоративы</h3><p>Деловой ужин или праздник для коллектива. Проведём без суеты и лишних хлопот.</p></div></div>
+    </div>
+    <div class="banq-note">
+      <p>Расскажите о празднике, мы всё посчитаем</p>
+      <a class="btn btn-gold" href="tel:+73452217565">21-75-65</a>
+    </div>
+  </div>
+</section>
+
+<section class="contacts" id="contacts">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Контакты</p>
+      <h2>Приходите в гости</h2>
+      <div class="rule left"><svg><use href="#orn"/></svg></div>
+      <div class="c-list">
+        <div class="c-item"><small>Адрес</small><div class="big">Тюмень, ул. Линейная, 66</div></div>
+        <div class="c-item"><small>Телефоны</small>
+          <div class="big"><a href="tel:+73452217565">21-75-65</a> · <a href="tel:+73452218115">21-81-15</a> · <a href="tel:+79044499299">99-22-99</a></div>
+        </div>
+        <div class="c-item"><small>Часы работы</small><div class="big">Ежедневно, 11:00–00:00</div></div>
+        <div class="c-item"><small>Меню</small><div class="big"><a href="files/menu.pdf" target="_blank" rel="noopener" style="color:var(--gold)">Скачать меню (PDF)</a></div></div>
+      </div>
+    </div>
+    <div class="map">
+      <div>
+        <svg class="pin"><use href="#i-pin"/></svg>
+        <p>Линейная, 66</p>
+        <a class="btn btn-ghost" href="https://yandex.ru/maps/?text=%D0%A2%D1%8E%D0%BC%D0%B5%D0%BD%D1%8C%2C%20%D0%9B%D0%B8%D0%BD%D0%B5%D0%B9%D0%BD%D0%B0%D1%8F%2C%2066">Открыть на карте</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Ресторан «Гурман», Тюмень, ул. Линейная, 66</span>
+    <span>ресторан-гурман.рф</span>
+  </div>
+</footer>
+</body>
+</html>
