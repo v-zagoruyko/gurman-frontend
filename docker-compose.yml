@@ -10,6 +10,13 @@ services:
       - traefik.http.routers.gurman.entrypoints=websecure
       - traefik.http.routers.gurman.tls.certresolver=le
       - traefik.http.services.gurman.loadbalancer.server.port=80
+      - traefik.http.routers.gurman-www.rule=Host(`www.xn----7sbblh9beecscegov.xn--p1ai`)
+      - traefik.http.routers.gurman-www.entrypoints=websecure
+      - traefik.http.routers.gurman-www.tls.certresolver=le
+      - traefik.http.routers.gurman-www.middlewares=gurman-www-redirect
+      - traefik.http.middlewares.gurman-www-redirect.redirectregex.regex=^https://www\.(.*)
+      - traefik.http.middlewares.gurman-www-redirect.redirectregex.replacement=https://$${1}
+      - traefik.http.middlewares.gurman-www-redirect.redirectregex.permanent=true
 
 networks:
   proxy:
