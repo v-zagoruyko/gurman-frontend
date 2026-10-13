@@ -8,7 +8,7 @@
 <title>Ресторан Гурман</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Literata:opsz,wght@7..72,400;7..72,600&family=Marck+Script&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Literata:opsz,wght@7..72,400;7..72,600&family=Marck+Script&family=Playfair+Display:ital,wght@1,700&display=swap">
 <style>
 /* Layout: one long page, dark burgundy ground, gold hairlines, large serif type for an older audience */
 :root {
@@ -135,19 +135,17 @@ p { margin: 0; }
 .ny { background:
   radial-gradient(800px 520px at 15% 20%, rgba(140,29,44,.6), transparent 70%),
   linear-gradient(180deg, #2a0710, #1c0509); border-block: 1px solid var(--gold-soft); }
-.ny-grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: 56px; align-items: stretch; }
-.ny-panel { border: 1px solid var(--gold); padding: 30px 30px 14px; background: linear-gradient(180deg, rgba(66,22,32,.7), rgba(46,11,18,.45)); display: flex; flex-direction: column; }
-.ny-panel h3 { color: var(--gold); }
 .ny-phones { margin-top: 14px; font-size: 16px; }
-.ny-docs { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 48px; }
-.ny-docs a { display: flex; flex-direction: column; gap: 2px; padding: 18px 24px; border: 1px solid var(--gold-soft); text-decoration: none; }
-.ny-docs a:hover { background: rgba(210,171,95,.1); border-color: var(--gold); }
-.ny-docs b { font-family: var(--f-display); font-size: 26px; font-weight: 600; color: var(--gold); }
-.ny-docs span { font-size: 15px; color: var(--cream-dim); }
-.ny-title { font-family: var(--f-script); font-size: clamp(56px, 8vw, 96px); color: #ffd9a0; line-height: .88; margin-block: 10px 14px; font-weight: 400; }
-.ny-prog { list-style: none; margin: 18px 0 0; padding: 0; border-top: 1px solid rgba(210,171,95,.3); }
-.ny-prog li { display: flex; align-items: center; gap: 16px; min-height: 52px; padding-block: 8px; font-size: 18px; line-height: 1.35; border-bottom: 1px solid rgba(210,171,95,.3); }
-.ny-prog li::before { content: ""; flex: none; width: 9px; height: 9px; background: var(--gold); transform: rotate(45deg); }
+.ny-title { font-family: "Playfair Display", var(--f-display); font-size: clamp(48px, 7vw, 84px); color: #ffd9a0; line-height: 1.05; margin-block: 10px 14px; font-weight: 700; font-style: italic; }
+.ny-head { max-width: 760px; margin: 0 auto 44px; text-align: center; }
+.ny-posters { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; max-width: 900px; margin-inline: auto; }
+.ny-poster { display: block; text-decoration: none; }
+.ny-poster img { display: block; width: 100%; height: auto; border: 1px solid var(--gold); box-shadow: 0 18px 50px rgba(0,0,0,.55); }
+.ny-poster span { display: block; margin-top: 14px; text-align: center; font-size: 17px; color: var(--cream-dim); }
+.ny-poster:hover span { color: var(--gold); }
+.ny-bottom { max-width: 760px; margin-inline: auto; }
+.ny-bottom .btn-row { justify-content: center; }
+.ny-bottom .ny-phones { text-align: center; }
 .price-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-block: 32px; }
 .price { border: 1px solid var(--gold); padding: 18px 22px; text-align: center; }
 .price small { display: block; font-size: 15px; color: var(--cream-dim); }
@@ -184,17 +182,16 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
   body { font-size: 18px; }
   section { padding-block: 60px; }
   .nav { display: none; }
-  .hero .wrap, .about .wrap, .ny-grid, .contacts .wrap { grid-template-columns: 1fr; gap: 40px; }
+  .hero .wrap, .about .wrap, .contacts .wrap { grid-template-columns: 1fr; gap: 40px; }
   .hero-photo { max-width: 460px; }
   .banq-grid { grid-template-columns: 1fr; }
   .price-row { grid-template-columns: 1fr; }
+  .ny-posters { grid-template-columns: 1fr; max-width: 470px; }
 }
 @media (max-width: 520px) {
   .mark span { display: none; }
   .top-phone { font-size: 19px; }
   .btn { width: 100%; }
-  .ny-docs { grid-template-columns: 1fr; }
-  .ny-panel { padding: 24px 20px 8px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 </style>
@@ -234,38 +231,31 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
 <main id="top">
 <section class="ny" id="newyear">
   <div class="wrap">
-    <div class="ny-grid">
-      <div class="ny-main">
-        <p class="eyebrow">Новогоднее шоу</p>
-        <h2 class="ny-title">Русский шик</h2>
-        <p class="lead">С характером, вкусом и смыслом. Встретьте Новый год за большим столом, с хорошей программой и настоящим размахом.</p>
-        <div class="price-row">
-          <div class="price"><small>18, 19, 25, 26 декабря</small><b>5 000 ₽</b><span>с человека</span></div>
-          <div class="price"><small>Остальные даты</small><b>4 000 ₽</b><span>с человека</span></div>
-        </div>
-        <div class="gift"><span><b>Шампанское на велком</b> в подарок</span><span><b>Алкоголь свой,</b> без пробкового сбора</span></div>
-        <div class="btn-row">
-          <a class="btn btn-gold" href="tel:+73452218115">Забронировать 21-81-15</a>
-        </div>
-        <p class="muted ny-phones">Бронь по телефонам: 21-81-15, 21-75-65, 99-22-99</p>
-      </div>
-      <aside class="ny-panel" aria-labelledby="ny-prog-h">
-        <h3 id="ny-prog-h">В программе вечера</h3>
-        <ul class="ny-prog">
-          <li>Самовар с шампанским настроением</li>
-          <li>Изысканные угощения</li>
-          <li>Царские розыгрыши и подарки</li>
-          <li>Фотозона в гостеприимной резиденции</li>
-          <li>Харизматичная ведущая в стиле «аля-русс»</li>
-          <li>Виртуозы оригинального жанра</li>
-          <li>Настоящие Дед Мороз и Снегурочка</li>
-          <li>Дресс-код приветствуется</li>
-        </ul>
-      </aside>
+    <div class="ny-head">
+      <p class="eyebrow">Новогоднее шоу</p>
+      <h2 class="ny-title">Русский шик</h2>
+      <p class="lead">С характером, вкусом и смыслом. Встретьте Новый год за большим столом, с хорошей программой и настоящим размахом.</p>
     </div>
-    <div class="ny-docs">
-      <a href="files/new-year-program.jpeg" target="_blank" rel="noopener"><b>Афиша программы</b><span>Открыть изображение</span></a>
-      <a href="files/new-year-menu.jpeg" target="_blank" rel="noopener"><b>Новогоднее меню</b><span>Открыть изображение</span></a>
+    <div class="ny-posters">
+      <a class="ny-poster" href="files/new-year-program.jpeg" target="_blank" rel="noopener">
+        <img src="files/new-year-program.jpeg" alt="Афиша новогоднего шоу «Русский шик»: самовар с шампанским, угощения, розыгрыши, фотозона, ведущая, Дед Мороз и Снегурочка, дресс-код" width="853" height="1280" loading="lazy">
+        <span>Афиша программы: открыть крупно</span>
+      </a>
+      <a class="ny-poster" href="files/new-year-menu.jpeg" target="_blank" rel="noopener">
+        <img src="files/new-year-menu.jpeg" alt="Новогоднее меню «Русский шик»: холодные закуски, салаты, выпечка, горячие блюда, десерты, напитки" width="853" height="1280" loading="lazy">
+        <span>Новогоднее меню: открыть крупно</span>
+      </a>
+    </div>
+    <div class="ny-bottom">
+      <div class="price-row">
+        <div class="price"><small>18, 19, 25, 26 декабря</small><b>5 000 ₽</b><span>с человека</span></div>
+        <div class="price"><small>Остальные даты</small><b>4 000 ₽</b><span>с человека</span></div>
+      </div>
+      <div class="gift"><span><b>Шампанское на велком</b> в подарок</span><span><b>Алкоголь свой,</b> без пробкового сбора</span></div>
+      <div class="btn-row">
+        <a class="btn btn-gold" href="tel:+73452218115">Забронировать 21-81-15</a>
+      </div>
+      <p class="muted ny-phones">Бронь по телефонам: 21-81-15, 21-75-65, 99-22-99</p>
     </div>
   </div>
 </section>
