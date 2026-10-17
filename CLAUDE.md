@@ -12,7 +12,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ```bash
 # локальная проверка так же, как на сервере
-docker build -t gurman-test . && docker run --rm -p 8089:80 gurman-test   # http://localhost:8089
+docker build -t gurman-test . && docker run --rm --name gurman-test -p 8089:80 gurman-test   # http://localhost:8089
 ```
 
 Отдельной dev-сборки нет: можно просто открыть `index.html` в браузере.
