@@ -3,3 +3,4 @@
 .env
 design/
 refs/
+.playwright-mcp/
