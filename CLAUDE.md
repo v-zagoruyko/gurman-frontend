@@ -64,5 +64,5 @@ docker build -t gurman-test . && docker run --rm --name gurman-test -p 8089:80 g
 - Тексты под заголовками блоков короткие (до 4 строк на телефоне), абзацем, без принудительных переносов; блоки выровнены по левому краю.
 
 ## Задачи
-- Локальные: `TASKS.md` (формат: skill `tasks`).
+- Локальные: vault, проект `[[gurman]]` (skill `tasks`).
 - Внешний трекер: GitHub Issues (`gh issue list`).
