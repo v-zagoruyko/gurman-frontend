@@ -100,6 +100,8 @@ h2 { color: var(--action); font-family: var(--serif); font-size: calc(23 * var(-
 .dish:last-child { border-bottom: 0; }
 .dish-photo {
   display: flex;
+  width: 100%;
+  min-width: 0;
   aspect-ratio: 1.08;
   align-items: center;
   justify-content: center;
