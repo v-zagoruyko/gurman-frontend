@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "delivery/index.html"
+        ],
+        "createdAt": "2026-11-10T19:28:19.045Z",
+        "reason": "Agent: delivery/index.html links to delivery/styles.css; that stylesheet sets body to 19-20px, h3 to 22px, h2 to 30-40px, and h1 to 52-92px, so the computed hierarchy is not flat."
+      }
+    ]
+  }
+}

@@ -16,32 +16,37 @@
 <meta property="og:description" content="Шашлыки, закуски, выпечка и сеты. Выбирайте блюда и звоните: 21-75-65.">
 <meta property="og:url" content="https://xn----7sbblh9beecscegov.xn--p1ai/delivery/">
 <meta property="og:image" content="https://xn----7sbblh9beecscegov.xn--p1ai/assets/og.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preload" href="/assets/fonts/golos-text.ttf" as="font" type="font/ttf" crossorigin>
 <link rel="stylesheet" href="/delivery/styles.css">
 </head>
 <body>
 <a class="skip-link" href="#menu">Перейти к меню</a>
-<svg class="symbols" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><symbol id="plate" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="32" cy="34" r="20"></circle><circle cx="32" cy="34" r="14"></circle><path d="M7 12v13m5-13v13M7 20h5m-2.5 5v29M56 12c-6 9-6 18 0 18v24M26 6l-2 4m10-5-1 4m10 0-3 4"></path></g></symbol></svg>
-<header class="topbar wrap"><a class="back-link" href="/">← На главную</a><span>Тюмень · Линейная, 66</span></header>
+<svg class="symbols" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><symbol id="camera" viewBox="0 0 32 32"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 6h10l3 4h3a3 3 0 0 1 3 3v13a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V13a3 3 0 0 1 3-3h3z"></path><circle cx="16" cy="19" r="6"></circle></g></symbol></svg>
+<header class="topbar wrap">
+  <a class="brand" href="/" aria-label="Гурман — на главную">Гурман</a>
+  <a class="pdf-link" href="/files/menu-delivery.pdf" target="_blank" rel="noopener" type="application/pdf" aria-label="Открыть меню в PDF" data-goal="menu_open" data-menu="delivery" data-place="delivery-page">PDF</a>
+</header>
 <main>
   <header class="menu-hero wrap">
-    <p class="eyebrow">Ресторан «Гурман»</p>
-    <div class="hero-title"><h1>Меню</h1><span class="menu-count">29 блюд и наборов<br>4 раздела</span></div>
-    <p class="intro">Выберите блюда — примем заказ по&nbsp;телефону.</p>
-    <a class="pdf-link" href="/files/menu-delivery.pdf" target="_blank" rel="noopener" type="application/pdf" data-goal="menu_open" data-menu="delivery" data-place="delivery-page">Меню в PDF <span aria-hidden="true">↗</span></a>
+    <h1>Меню на вынос</h1>
+    <p class="address">Тюмень · Линейная, 66</p>
   </header>
   <nav class="menu-nav" aria-label="Разделы меню"><div class="wrap nav-links">
-      <a href="#shashlik">Шашлыки<span>11</span></a>
-      <a href="#snacks">Закуски<span>5</span></a>
-      <a href="#bakery">Выпечка<span>9</span></a>
-      <a href="#sets">Сеты<span>4</span></a>
+      <a href="#shashlik" aria-current="location">Шашлыки</a>
+      <a href="#snacks">Закуски</a>
+      <a href="#bakery">Выпечка</a>
+      <a href="#sets">Сеты</a>
   </div></nav>
   <div class="wrap" id="menu">
   <section class="menu-section" id="shashlik" aria-labelledby="shashlik-title">
-    <div class="section-heading"><div><p class="eyebrow">С мангала</p><h2 id="shashlik-title">Шашлыки</h2></div><span class="section-count">11 позиций</span></div>
+    <div class="section-heading"><div><h2 id="shashlik-title">Шашлыки</h2></div><span class="section-count">11 блюд</span></div>
     <div class="dish-grid">
       <article class="dish" data-dish="pork-neck">
         <!-- TODO-PHOTO: replace with a real photo of pork-neck. -->
-        <div class="dish-photo" aria-hidden="true"><svg width="64" height="64"><use href="#plate"></use></svg><span>Фото скоро</span></div>
+        <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото блюда<br>пока нет</span></div>
         <div class="dish-main">
           <h3>Свиная шея</h3>
           <dl class="dish-prices">
@@ -50,20 +55,9 @@
           </dl>
         </div>
       </article>
-      <article class="dish" data-dish="pork-loin">
-        <!-- TODO-PHOTO: replace with a real photo of pork-loin. -->
-        <div class="dish-photo" aria-hidden="true"><svg width="64" height="64"><use href="#plate"></use></svg><span>Фото скоро</span></div>
-        <div class="dish-main">
-          <h3>Свиная корейка</h3>
-          <dl class="dish-prices">
-            <div><dt>200 г</dt><dd><data value="300">300&nbsp;₽</data></dd></div>
-            <div><dt>1 кг</dt><dd><data value="1430">1 430&nbsp;₽</data></dd></div>
-          </dl>
-        </div>
-      </article>
       <article class="dish" data-dish="pork-ribs">
         <!-- TODO-PHOTO: replace with a real photo of pork-ribs. -->
-        <div class="dish-photo" aria-hidden="true"><svg width="64" height="64"><use href="#plate"></use></svg><span>Фото скоро</span></div>
+        <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото блюда<br>пока нет</span></div>
         <div class="dish-main">
           <h3>Свиные рёбра</h3>
           <dl class="dish-prices">
@@ -74,7 +68,7 @@
       </article>
       <article class="dish" data-dish="chicken-assortment">
         <!-- TODO-PHOTO: replace with a real photo of chicken-assortment. -->
-        <div class="dish-photo" aria-hidden="true"><svg width="64" height="64"><use href="#plate"></use></svg><span>Фото скоро</span></div>
+        <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото блюда<br>пока нет</span></div>
         <div class="dish-main">
           <h3>Куриное ассорти</h3>
           <dl class="dish-prices">
@@ -83,9 +77,20 @@
           </dl>
         </div>
       </article>
+      <article class="dish" data-dish="pork-loin">
+        <!-- TODO-PHOTO: replace with a real photo of pork-loin. -->
+        <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото блюда<br>пока нет</span></div>
+        <div class="dish-main">
+          <h3>Свиная корейка</h3>
+          <dl class="dish-prices">
+            <div><dt>200 г</dt><dd><data value="300">300&nbsp;₽</data></dd></div>
+            <div><dt>1 кг</dt><dd><data value="1430">1 430&nbsp;₽</data></dd></div>
+          </dl>
+        </div>
+      </article>
       <article class="dish" data-dish="chicken-fillet">
         <!-- TODO-PHOTO: replace with a real photo of chicken-fillet. -->
-        <div class="dish-photo" aria-hidden="true"><svg width="64" height="64"><use href="#plate"></use></svg><span>Фото скоро</span></div>
+        <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото блюда<br>пока нет</span></div>
         <div class="dish-main">
           <h3>Куриное филе</h3>
           <dl class="dish-prices">
@@ -96,7 +101,7 @@
       </article>
       <article class="dish" data-dish="chicken-wings">
         <!-- TODO-PHOTO: replace with a real photo of chicken-wings. -->
-        <div class="dish-photo" aria-hidden="true"><svg width="64" height="64"><use href="#plate"></use></svg><span>Фото скоро</span></div>
+        <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото блюда<br>пока нет</span></div>
         <div class="dish-main">
           <h3>Куриные крылья</h3>
           <dl class="dish-prices">
@@ -107,7 +112,7 @@
       </article>
       <article class="dish" data-dish="lamb-on-bone">
         <!-- TODO-PHOTO: replace with a real photo of lamb-on-bone. -->
-        <div class="dish-photo" aria-hidden="true"><svg width="64" height="64"><use href="#plate"></use></svg><span>Фото скоро</span></div>
+        <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото блюда<br>пока нет</span></div>
         <div class="dish-main">
           <h3>Баранина на косточке</h3>
           <dl class="dish-prices">
@@ -118,7 +123,7 @@
       </article>
       <article class="dish" data-dish="salmon-steak">
         <!-- TODO-PHOTO: replace with a real photo of salmon-steak. -->
-        <div class="dish-photo" aria-hidden="true"><svg width="64" height="64"><use href="#plate"></use></svg><span>Фото скоро</span></div>
+        <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото блюда<br>пока нет</span></div>
         <div class="dish-main">
           <h3>Стейк из сёмги</h3>
           <dl class="dish-prices">
@@ -129,7 +134,7 @@
       </article>
       <article class="dish" data-dish="lyulya-pork-beef">
         <!-- TODO-PHOTO: replace with a real photo of lyulya-pork-beef. -->
-        <div class="dish-photo" aria-hidden="true"><svg width="64" height="64"><use href="#plate"></use></svg><span>Фото скоро</span></div>
+        <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото блюда<br>пока нет</span></div>
         <div class="dish-main">
           <h3>Люля из свинины и говядины</h3>
           <dl class="dish-prices">
@@ -140,7 +145,7 @@
       </article>
       <article class="dish" data-dish="lyulya-beef-lamb">
         <!-- TODO-PHOTO: replace with a real photo of lyulya-beef-lamb. -->
-        <div class="dish-photo" aria-hidden="true"><svg width="64" height="64"><use href="#plate"></use></svg><span>Фото скоро</span></div>
+        <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото блюда<br>пока нет</span></div>
         <div class="dish-main">
           <h3>Люля из говядины и баранины</h3>
           <dl class="dish-prices">
@@ -151,7 +156,7 @@
       </article>
       <article class="dish" data-dish="lyulya-chicken">
         <!-- TODO-PHOTO: replace with a real photo of lyulya-chicken. -->
-        <div class="dish-photo" aria-hidden="true"><svg width="64" height="64"><use href="#plate"></use></svg><span>Фото скоро</span></div>
+        <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото блюда<br>пока нет</span></div>
         <div class="dish-main">
           <h3>Люля куриный</h3>
           <dl class="dish-prices">
@@ -163,11 +168,11 @@
     </div>
   </section>
   <section class="menu-section" id="snacks" aria-labelledby="snacks-title">
-    <div class="section-heading"><div><p class="eyebrow">К вашему заказу</p><h2 id="snacks-title">Закуски</h2></div><span class="section-count">5 позиций</span></div>
+    <div class="section-heading"><div><h2 id="snacks-title">Закуски</h2></div><span class="section-count">5 блюд</span></div>
     <div class="dish-grid">
       <article class="dish" data-dish="fries">
         <!-- TODO-PHOTO: replace with a real photo of fries. -->
-        <div class="dish-photo" aria-hidden="true"><svg width="64" height="64"><use href="#plate"></use></svg><span>Фото скоро</span></div>
+        <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото блюда<br>пока нет</span></div>
         <div class="dish-main">
           <h3>Картофель фри</h3>
           <dl class="dish-prices">
@@ -177,7 +182,7 @@
       </article>
       <article class="dish" data-dish="country-potatoes">
         <!-- TODO-PHOTO: replace with a real photo of country-potatoes. -->
-        <div class="dish-photo" aria-hidden="true"><svg width="64" height="64"><use href="#plate"></use></svg><span>Фото скоро</span></div>
+        <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото блюда<br>пока нет</span></div>
         <div class="dish-main">
           <h3>Картофель по-деревенски</h3>
           <dl class="dish-prices">
@@ -187,7 +192,7 @@
       </article>
       <article class="dish" data-dish="grilled-vegetables">
         <!-- TODO-PHOTO: replace with a real photo of grilled-vegetables. -->
-        <div class="dish-photo" aria-hidden="true"><svg width="64" height="64"><use href="#plate"></use></svg><span>Фото скоро</span></div>
+        <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото блюда<br>пока нет</span></div>
         <div class="dish-main">
           <h3>Овощи гриль</h3>
           <dl class="dish-prices">
@@ -197,7 +202,7 @@
       </article>
       <article class="dish" data-dish="grilled-mushrooms">
         <!-- TODO-PHOTO: replace with a real photo of grilled-mushrooms. -->
-        <div class="dish-photo" aria-hidden="true"><svg width="64" height="64"><use href="#plate"></use></svg><span>Фото скоро</span></div>
+        <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото блюда<br>пока нет</span></div>
         <div class="dish-main">
           <h3>Шампиньоны гриль</h3>
           <dl class="dish-prices">
@@ -207,7 +212,7 @@
       </article>
       <article class="dish" data-dish="chicken-nuggets">
         <!-- TODO-PHOTO: replace with a real photo of chicken-nuggets. -->
-        <div class="dish-photo" aria-hidden="true"><svg width="64" height="64"><use href="#plate"></use></svg><span>Фото скоро</span></div>
+        <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото блюда<br>пока нет</span></div>
         <div class="dish-main">
           <h3>Наггетсы куриные</h3>
           <dl class="dish-prices">
@@ -218,88 +223,81 @@
     </div>
   </section>
   <section class="menu-section" id="bakery" aria-labelledby="bakery-title">
-    <div class="section-heading"><div><p class="eyebrow">Хачапури, пицца и лаваш</p><h2 id="bakery-title">Выпечка</h2></div><span class="section-count">9 позиций</span></div>
+    <div class="section-heading"><div><h2 id="bakery-title">Выпечка</h2></div><span class="section-count">9 блюд</span></div>
     <div class="dish-grid">
       <article class="dish" data-dish="khachapuri-puff">
         <!-- TODO-PHOTO: replace with a real photo of khachapuri-puff. -->
-        <div class="dish-photo" aria-hidden="true"><svg width="64" height="64"><use href="#plate"></use></svg><span>Фото скоро</span></div>
+        <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото блюда<br>пока нет</span></div>
         <div class="dish-main">
           <h3>Хачапури слоёное</h3>
           <dl class="dish-prices">
             <div><dt>400 г</dt><dd><data value="450">450&nbsp;₽</data></dd></div>
           </dl>
         </div>
-        <p class="dish-description" data-placeholder="ingredients">Состав уточняйте при заказе — расскажем об ингредиентах по телефону.</p>
       </article>
       <article class="dish" data-dish="khachapuri-megrelian">
         <!-- TODO-PHOTO: replace with a real photo of khachapuri-megrelian. -->
-        <div class="dish-photo" aria-hidden="true"><svg width="64" height="64"><use href="#plate"></use></svg><span>Фото скоро</span></div>
+        <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото блюда<br>пока нет</span></div>
         <div class="dish-main">
           <h3>Хачапури по-мегрельски</h3>
           <dl class="dish-prices">
             <div><dt>400 г</dt><dd><data value="450">450&nbsp;₽</data></dd></div>
           </dl>
         </div>
-        <p class="dish-description" data-placeholder="ingredients">Состав уточняйте при заказе — расскажем об ингредиентах по телефону.</p>
       </article>
       <article class="dish" data-dish="khachapuri-adjarian">
         <!-- TODO-PHOTO: replace with a real photo of khachapuri-adjarian. -->
-        <div class="dish-photo" aria-hidden="true"><svg width="64" height="64"><use href="#plate"></use></svg><span>Фото скоро</span></div>
+        <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото блюда<br>пока нет</span></div>
         <div class="dish-main">
           <h3>Хачапури по-аджарски</h3>
           <dl class="dish-prices">
             <div><dt>400 г</dt><dd><data value="550">550&nbsp;₽</data></dd></div>
           </dl>
         </div>
-        <p class="dish-description" data-placeholder="ingredients">Состав уточняйте при заказе — расскажем об ингредиентах по телефону.</p>
       </article>
       <article class="dish" data-dish="pizza-pepperoni">
         <!-- TODO-PHOTO: replace with a real photo of pizza-pepperoni. -->
-        <div class="dish-photo" aria-hidden="true"><svg width="64" height="64"><use href="#plate"></use></svg><span>Фото скоро</span></div>
+        <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото блюда<br>пока нет</span></div>
         <div class="dish-main">
           <h3>Пицца с пепперони</h3>
           <dl class="dish-prices">
             <div><dt>500 г</dt><dd><data value="550">550&nbsp;₽</data></dd></div>
           </dl>
         </div>
-        <p class="dish-description" data-placeholder="ingredients">Состав уточняйте при заказе — расскажем об ингредиентах по телефону.</p>
       </article>
       <article class="dish" data-dish="pizza-ham">
         <!-- TODO-PHOTO: replace with a real photo of pizza-ham. -->
-        <div class="dish-photo" aria-hidden="true"><svg width="64" height="64"><use href="#plate"></use></svg><span>Фото скоро</span></div>
+        <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото блюда<br>пока нет</span></div>
         <div class="dish-main">
           <h3>Пицца с ветчиной</h3>
           <dl class="dish-prices">
             <div><dt>500 г</dt><dd><data value="550">550&nbsp;₽</data></dd></div>
           </dl>
         </div>
-        <p class="dish-description" data-placeholder="ingredients">Состав уточняйте при заказе — расскажем об ингредиентах по телефону.</p>
       </article>
       <article class="dish" data-dish="pizza-chicken">
         <!-- TODO-PHOTO: replace with a real photo of pizza-chicken. -->
-        <div class="dish-photo" aria-hidden="true"><svg width="64" height="64"><use href="#plate"></use></svg><span>Фото скоро</span></div>
+        <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото блюда<br>пока нет</span></div>
         <div class="dish-main">
           <h3>Пицца с курицей</h3>
           <dl class="dish-prices">
             <div><dt>500 г</dt><dd><data value="550">550&nbsp;₽</data></dd></div>
           </dl>
         </div>
-        <p class="dish-description" data-placeholder="ingredients">Состав уточняйте при заказе — расскажем об ингредиентах по телефону.</p>
       </article>
       <article class="dish" data-dish="pizza-cheese">
         <!-- TODO-PHOTO: replace with a real photo of pizza-cheese. -->
-        <div class="dish-photo" aria-hidden="true"><svg width="64" height="64"><use href="#plate"></use></svg><span>Фото скоро</span></div>
+        <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото блюда<br>пока нет</span></div>
         <div class="dish-main">
           <h3>Пицца сырная</h3>
           <dl class="dish-prices">
             <div><dt>500 г</dt><dd><data value="550">550&nbsp;₽</data></dd></div>
           </dl>
         </div>
-        <p class="dish-description" data-placeholder="ingredients">Состав уточняйте при заказе — расскажем об ингредиентах по телефону.</p>
       </article>
       <article class="dish" data-dish="lavash-thin">
         <!-- TODO-PHOTO: replace with a real photo of lavash-thin. -->
-        <div class="dish-photo" aria-hidden="true"><svg width="64" height="64"><use href="#plate"></use></svg><span>Фото скоро</span></div>
+        <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото блюда<br>пока нет</span></div>
         <div class="dish-main">
           <h3>Лаваш тонкий</h3>
           <dl class="dish-prices">
@@ -309,7 +307,7 @@
       </article>
       <article class="dish" data-dish="lavash-tandoor">
         <!-- TODO-PHOTO: replace with a real photo of lavash-tandoor. -->
-        <div class="dish-photo" aria-hidden="true"><svg width="64" height="64"><use href="#plate"></use></svg><span>Фото скоро</span></div>
+        <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото блюда<br>пока нет</span></div>
         <div class="dish-main">
           <h3>Лаваш тандырный</h3>
           <dl class="dish-prices">
@@ -320,11 +318,11 @@
     </div>
   </section>
   <section class="menu-section" id="sets" aria-labelledby="sets-title">
-    <div class="section-heading"><div><p class="eyebrow">Для компании</p><h2 id="sets-title">Сеты</h2></div><span class="section-count">4 позиций</span></div>
+    <div class="section-heading"><div><h2 id="sets-title">Сеты</h2></div><span class="section-count">4 сета</span></div>
     <div class="dish-grid">
       <article class="dish dish-set" data-dish="set-big">
         <!-- TODO-PHOTO: replace with a real photo of set-big. -->
-        <div class="dish-photo" aria-hidden="true"><svg width="64" height="64"><use href="#plate"></use></svg><span>Фото скоро</span></div>
+        <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото блюда<br>пока нет</span></div>
         <div class="dish-main">
           <h3>Большой сет</h3>
           <dl class="dish-prices">
@@ -335,7 +333,7 @@
       </article>
       <article class="dish dish-set" data-dish="set-four">
         <!-- TODO-PHOTO: replace with a real photo of set-four. -->
-        <div class="dish-photo" aria-hidden="true"><svg width="64" height="64"><use href="#plate"></use></svg><span>Фото скоро</span></div>
+        <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото блюда<br>пока нет</span></div>
         <div class="dish-main">
           <h3>Сет на четверых</h3>
           <dl class="dish-prices">
@@ -346,7 +344,7 @@
       </article>
       <article class="dish dish-set" data-dish="set-three">
         <!-- TODO-PHOTO: replace with a real photo of set-three. -->
-        <div class="dish-photo" aria-hidden="true"><svg width="64" height="64"><use href="#plate"></use></svg><span>Фото скоро</span></div>
+        <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото блюда<br>пока нет</span></div>
         <div class="dish-main">
           <h3>Сет на троих</h3>
           <dl class="dish-prices">
@@ -357,7 +355,7 @@
       </article>
       <article class="dish dish-set" data-dish="set-two">
         <!-- TODO-PHOTO: replace with a real photo of set-two. -->
-        <div class="dish-photo" aria-hidden="true"><svg width="64" height="64"><use href="#plate"></use></svg><span>Фото скоро</span></div>
+        <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото блюда<br>пока нет</span></div>
         <div class="dish-main">
           <h3>Сет на двоих</h3>
           <dl class="dish-prices">
@@ -372,8 +370,34 @@
   </div>
 </main>
 <footer class="foot wrap"><span>© 2026 Ресторан «Гурман»</span><a href="/">На главную</a><span>Тюмень, ул. Линейная, 66</span></footer>
-<div class="order-bar"><div class="wrap"><span>Заказ по телефону</span><a class="call-button" href="tel:+73452217565" data-goal="call_delivery" data-place="delivery-page">Позвонить <span>21-75-65</span></a></div></div>
+<div class="order-bar"><div class="wrap"><a class="call-button" href="tel:+73452217565" data-goal="call_delivery" data-place="delivery-page">Позвонить <span>21-75-65</span></a></div></div>
 <script>
+(function () {
+  var nav = document.querySelector('.menu-nav');
+  var links = Array.from(nav.querySelectorAll('a'));
+  var sections = links.map(function (link) { return document.querySelector(link.hash); });
+  var scheduled = false;
+  function updateSection() {
+    var current = sections[0];
+    var offset = nav.offsetHeight + 24;
+    sections.forEach(function (section) {
+      if (section.getBoundingClientRect().top <= offset) current = section;
+    });
+    links.forEach(function (link) {
+      if (link.hash === '#' + current.id) link.setAttribute('aria-current', 'location');
+      else link.removeAttribute('aria-current');
+    });
+    scheduled = false;
+  }
+  function scheduleUpdate() {
+    if (scheduled) return;
+    scheduled = true;
+    requestAnimationFrame(updateSection);
+  }
+  window.addEventListener('scroll', scheduleUpdate, { passive: true });
+  window.addEventListener('resize', scheduleUpdate);
+  updateSection();
+})();
 (function () {
   if (location.hostname !== 'xn----7sbblh9beecscegov.xn--p1ai') return;
   window.ym = window.ym || function () { (window.ym.a = window.ym.a || []).push(arguments); };

@@ -1,0 +1,2714 @@
+{
+  "tool": "comp-spec",
+  "version": 1,
+  "createdAt": "2026-11-10T20:18:31.491Z",
+  "comp": ".impeccable/mocks/delivery-vitrine-b.png",
+  "warnings": [
+    "region photo-well-1: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region camera-1: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region photo-well-2: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region camera-2: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region photo-well-3: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region camera-3: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)"
+  ],
+  "uncoveredInkCells": [],
+  "compSize": {
+    "width": 984,
+    "height": 1599
+  },
+  "aspect": 0.6154,
+  "orientation": "portrait",
+  "palette": [
+    {
+      "hex": "#f5f5f5",
+      "coverage": 0.8718
+    },
+    {
+      "hex": "#383947",
+      "coverage": 0.0805
+    },
+    {
+      "hex": "#1c1c1c",
+      "coverage": 0.0289
+    },
+    {
+      "hex": "#545657",
+      "coverage": 0.0098
+    },
+    {
+      "hex": "#c8cbd0",
+      "coverage": 0.0089
+    }
+  ],
+  "bands": [
+    {
+      "y": 0.0385,
+      "strength": 0.23
+    },
+    {
+      "y": 0.0865,
+      "strength": 0.7179
+    },
+    {
+      "y": 0.1106,
+      "strength": 0.565
+    },
+    {
+      "y": 0.1346,
+      "strength": 0.217
+    },
+    {
+      "y": 0.2067,
+      "strength": 0.7756
+    },
+    {
+      "y": 0.2308,
+      "strength": 0.2887
+    },
+    {
+      "y": 0.2981,
+      "strength": 0.6436
+    },
+    {
+      "y": 0.3702,
+      "strength": 0.5363
+    },
+    {
+      "y": 0.4519,
+      "strength": 0.2151
+    },
+    {
+      "y": 0.5096,
+      "strength": 0.2418
+    },
+    {
+      "y": 0.5625,
+      "strength": 0.4868
+    },
+    {
+      "y": 0.5962,
+      "strength": 0.2136
+    },
+    {
+      "y": 0.625,
+      "strength": 0.2328
+    },
+    {
+      "y": 0.7067,
+      "strength": 0.2582
+    },
+    {
+      "y": 0.75,
+      "strength": 0.6272
+    },
+    {
+      "y": 0.7837,
+      "strength": 0.2971
+    },
+    {
+      "y": 0.851,
+      "strength": 0.2486
+    },
+    {
+      "y": 0.9038,
+      "strength": 1
+    },
+    {
+      "y": 0.9519,
+      "strength": 0.2268
+    },
+    {
+      "y": 0.9904,
+      "strength": 1
+    }
+  ],
+  "regions": [
+    {
+      "id": "brand",
+      "kind": "text",
+      "note": "Bold sans restaurant wordmark Гурман.",
+      "grid": "A0:C0",
+      "coverBox": {
+        "x": 0,
+        "y": 0,
+        "w": 0.3,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.0305,
+        "y": 0.0113,
+        "w": 0.2134,
+        "h": 0.0413
+      },
+      "px": {
+        "x": 30,
+        "y": 18,
+        "w": 210,
+        "h": 66
+      },
+      "aspect": 3.1818,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.7133
+        },
+        {
+          "hex": "#1b1a1a",
+          "coverage": 0.2276
+        },
+        {
+          "hex": "#aeaeaf",
+          "coverage": 0.0221
+        },
+        {
+          "hex": "#7f807e",
+          "coverage": 0.0208
+        },
+        {
+          "hex": "#4e4d4e",
+          "coverage": 0.0163
+        }
+      ],
+      "detail": {
+        "energy": 31.9757
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 6,
+          "capHeightPx": 39.5,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.7215,
+          "advTall": 0.4937,
+          "advX": 0.7215,
+          "gap": 0.1519,
+          "xRatio": 0.7692,
+          "stemW": 0.2097,
+          "contrast": 1.197,
+          "serif": null,
+          "densTall": 0.6548,
+          "densX": 0.6888,
+          "weight": 0.6548
+        },
+        "widthClass": "wide",
+        "weightClass": "bold"
+      }
+    },
+    {
+      "id": "pdf",
+      "kind": "control",
+      "note": "Underlined PDF text link.",
+      "grid": "I0:J0",
+      "coverBox": {
+        "x": 0.8,
+        "y": 0,
+        "w": 0.2,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.8791,
+        "y": 0.015,
+        "w": 0.0976,
+        "h": 0.0375
+      },
+      "px": {
+        "x": 865,
+        "y": 24,
+        "w": 96,
+        "h": 60
+      },
+      "aspect": 1.6,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.7625
+        },
+        {
+          "hex": "#1e1e1f",
+          "coverage": 0.1781
+        },
+        {
+          "hex": "#c2c3c2",
+          "coverage": 0.0391
+        },
+        {
+          "hex": "#8b8b8c",
+          "coverage": 0.0172
+        },
+        {
+          "hex": "#303828",
+          "coverage": 0.0031
+        }
+      ],
+      "detail": {
+        "energy": 19.8011
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "note": "Bold sans heading Меню на вынос.",
+      "grid": "A0:G1",
+      "coverBox": {
+        "x": 0,
+        "y": 0,
+        "w": 0.7,
+        "h": 0.2
+      },
+      "box": {
+        "x": 0.0264,
+        "y": 0.0713,
+        "w": 0.5976,
+        "h": 0.0826
+      },
+      "px": {
+        "x": 26,
+        "y": 114,
+        "w": 588,
+        "h": 132
+      },
+      "aspect": 4.4545,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.7636
+        },
+        {
+          "hex": "#1e1e1e",
+          "coverage": 0.1541
+        },
+        {
+          "hex": "#5c5d60",
+          "coverage": 0.0452
+        },
+        {
+          "hex": "#c2c2c3",
+          "coverage": 0.0293
+        },
+        {
+          "hex": "#919193",
+          "coverage": 0.0078
+        }
+      ],
+      "detail": {
+        "energy": 58.1857
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 12,
+          "capHeightPx": 55.2,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.6794,
+          "advTall": 1.0871,
+          "advX": 0.6704,
+          "gap": 0.1087,
+          "xRatio": 0.7341,
+          "stemW": 0.2101,
+          "contrast": 1.2453,
+          "serif": 0.9945,
+          "densTall": 0.6296,
+          "densX": 0.6791,
+          "weight": 0.6296
+        },
+        "widthClass": "normal",
+        "weightClass": "bold",
+        "chosen": {
+          "family": "Encode Sans Semi Expanded",
+          "weight": 700,
+          "fontSizePx": 79,
+          "source": "catalog",
+          "estimatedSize": true,
+          "stamp": "558c1e64ab2e"
+        }
+      }
+    },
+    {
+      "id": "address",
+      "kind": "text",
+      "note": "Secondary address line Тюмень · Линейная, 66.",
+      "grid": "A1:F1",
+      "coverBox": {
+        "x": 0,
+        "y": 0.1,
+        "w": 0.6,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.0244,
+        "y": 0.1226,
+        "w": 0.439,
+        "h": 0.03
+      },
+      "px": {
+        "x": 24,
+        "y": 196,
+        "w": 432,
+        "h": 48
+      },
+      "aspect": 9,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.8216
+        },
+        {
+          "hex": "#535458",
+          "coverage": 0.1301
+        },
+        {
+          "hex": "#b3b4b5",
+          "coverage": 0.0322
+        },
+        {
+          "hex": "#808186",
+          "coverage": 0.0139
+        },
+        {
+          "hex": "#383842",
+          "coverage": 0.0022
+        }
+      ],
+      "detail": {
+        "energy": 58.259
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 18,
+          "capHeightPx": 26.6,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.6385,
+          "advTall": 0.507,
+          "advX": 0.6385,
+          "gap": 0.1502,
+          "xRatio": 0.7582,
+          "stemW": 0.145,
+          "contrast": 1.1047,
+          "serif": 0.698,
+          "densTall": 0.4952,
+          "densX": 0.5146,
+          "weight": 0.4952
+        },
+        "widthClass": "normal",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "nav-shashlik",
+      "kind": "control",
+      "note": "Selected Шашлыки section link, bold with dark underline.",
+      "grid": "A1:C2",
+      "coverBox": {
+        "x": 0,
+        "y": 0.1,
+        "w": 0.3,
+        "h": 0.2
+      },
+      "box": {
+        "x": 0.0224,
+        "y": 0.267,
+        "w": 0.2774,
+        "h": 0.0331
+      },
+      "px": {
+        "x": 22,
+        "y": 427,
+        "w": 273,
+        "h": 53
+      },
+      "aspect": 5.1509,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.6304
+        },
+        {
+          "hex": "#1c1b1c",
+          "coverage": 0.2989
+        },
+        {
+          "hex": "#c7c7c7",
+          "coverage": 0.0387
+        },
+        {
+          "hex": "#7b7c7c",
+          "coverage": 0.0215
+        },
+        {
+          "hex": "#1a2414",
+          "coverage": 0.0105
+        }
+      ],
+      "detail": {
+        "energy": 51.0869
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "nav-snacks",
+      "kind": "control",
+      "note": "Закуски section link in secondary text.",
+      "grid": "D1:F2",
+      "coverBox": {
+        "x": 0.3,
+        "y": 0.1,
+        "w": 0.3,
+        "h": 0.2
+      },
+      "box": {
+        "x": 0.3293,
+        "y": 0.1839,
+        "w": 0.1687,
+        "h": 0.0338
+      },
+      "px": {
+        "x": 324,
+        "y": 294,
+        "w": 166,
+        "h": 54
+      },
+      "aspect": 3.0741,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.7877
+        },
+        {
+          "hex": "#53565a",
+          "coverage": 0.1161
+        },
+        {
+          "hex": "#888a8d",
+          "coverage": 0.0645
+        },
+        {
+          "hex": "#b7b9bc",
+          "coverage": 0.0298
+        },
+        {
+          "hex": "#484050",
+          "coverage": 0.002
+        }
+      ],
+      "detail": {
+        "energy": 25.1266
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "nav-bakery",
+      "kind": "control",
+      "note": "Выпечка section link in secondary text.",
+      "grid": "F1:H2",
+      "coverBox": {
+        "x": 0.5,
+        "y": 0.1,
+        "w": 0.3,
+        "h": 0.2
+      },
+      "box": {
+        "x": 0.565,
+        "y": 0.1839,
+        "w": 0.1829,
+        "h": 0.0294
+      },
+      "px": {
+        "x": 556,
+        "y": 294,
+        "w": 180,
+        "h": 47
+      },
+      "aspect": 3.8298,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.7594
+        },
+        {
+          "hex": "#525559",
+          "coverage": 0.1406
+        },
+        {
+          "hex": "#888a8d",
+          "coverage": 0.0521
+        },
+        {
+          "hex": "#bcbec2",
+          "coverage": 0.0448
+        },
+        {
+          "hex": "#383843",
+          "coverage": 0.0031
+        }
+      ],
+      "detail": {
+        "energy": 29.5812
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "nav-sets",
+      "kind": "control",
+      "note": "Сеты section link in secondary text.",
+      "grid": "I1:J2",
+      "coverBox": {
+        "x": 0.8,
+        "y": 0.1,
+        "w": 0.2,
+        "h": 0.2
+      },
+      "box": {
+        "x": 0.8242,
+        "y": 0.1826,
+        "w": 0.1159,
+        "h": 0.03
+      },
+      "px": {
+        "x": 811,
+        "y": 292,
+        "w": 114,
+        "h": 48
+      },
+      "aspect": 2.375,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.8191
+        },
+        {
+          "hex": "#505357",
+          "coverage": 0.1299
+        },
+        {
+          "hex": "#b0b2b2",
+          "coverage": 0.0263
+        },
+        {
+          "hex": "#7a7b83",
+          "coverage": 0.0247
+        }
+      ],
+      "detail": {
+        "energy": 16.9028
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "navigation-rule",
+      "kind": "chrome",
+      "note": "Thin neutral divider below the navigation.",
+      "grid": "A2:J2",
+      "box": {
+        "x": 0,
+        "y": 0.2,
+        "w": 1,
+        "h": 0.1
+      },
+      "px": {
+        "x": 0,
+        "y": 320,
+        "w": 984,
+        "h": 160
+      },
+      "aspect": 6.15,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.9241
+        },
+        {
+          "hex": "#1f1f20",
+          "coverage": 0.0477
+        },
+        {
+          "hex": "#5a5b5e",
+          "coverage": 0.019
+        },
+        {
+          "hex": "#a5a6a6",
+          "coverage": 0.0092
+        }
+      ],
+      "detail": {
+        "energy": 32.0063
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "section-title",
+      "kind": "text",
+      "note": "Bold sans section heading Шашлыки.",
+      "grid": "A2:D3",
+      "coverBox": {
+        "x": 0,
+        "y": 0.2,
+        "w": 0.4,
+        "h": 0.2
+      },
+      "box": {
+        "x": 0.0264,
+        "y": 0.2664,
+        "w": 0.313,
+        "h": 0.0375
+      },
+      "px": {
+        "x": 26,
+        "y": 426,
+        "w": 308,
+        "h": 60
+      },
+      "aspect": 5.1333,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.6483
+        },
+        {
+          "hex": "#1c1d1c",
+          "coverage": 0.2648
+        },
+        {
+          "hex": "#c4c4c4",
+          "coverage": 0.0581
+        },
+        {
+          "hex": "#8a8989",
+          "coverage": 0.0166
+        },
+        {
+          "hex": "#555557",
+          "coverage": 0.0122
+        }
+      ],
+      "detail": {
+        "energy": 50.2186
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 8,
+          "capHeightPx": 41.3,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.7263,
+          "advTall": 1.2105,
+          "advX": 0.7263,
+          "gap": 0.1453,
+          "xRatio": 0.7526,
+          "stemW": 0.2143,
+          "contrast": 1.1698,
+          "serif": 1.0051,
+          "densTall": 0.6456,
+          "densX": 0.6704,
+          "weight": 0.6456
+        },
+        "widthClass": "wide",
+        "weightClass": "bold"
+      }
+    },
+    {
+      "id": "section-count",
+      "kind": "text",
+      "note": "Secondary section count 11 блюд.",
+      "grid": "D2:F3",
+      "coverBox": {
+        "x": 0.3,
+        "y": 0.2,
+        "w": 0.3,
+        "h": 0.2
+      },
+      "box": {
+        "x": 0.372,
+        "y": 0.2708,
+        "w": 0.1687,
+        "h": 0.0338
+      },
+      "px": {
+        "x": 366,
+        "y": 433,
+        "w": 166,
+        "h": 54
+      },
+      "aspect": 3.0741,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.8224
+        },
+        {
+          "hex": "#636368",
+          "coverage": 0.1012
+        },
+        {
+          "hex": "#a1a0a3",
+          "coverage": 0.0694
+        },
+        {
+          "hex": "#bfc3c8",
+          "coverage": 0.0069
+        }
+      ],
+      "detail": {
+        "energy": 20.4837
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 6,
+          "capHeightPx": 29.3,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.6489,
+          "advTall": 0.5464,
+          "advX": 0.7855,
+          "gap": 0.1708,
+          "xRatio": 0.7336,
+          "stemW": 0.1353,
+          "contrast": 1.0561,
+          "serif": 2.8026,
+          "densTall": 0.3991,
+          "densX": 0.4941,
+          "weight": 0.3991
+        },
+        "widthClass": "wide",
+        "weightClass": "regular"
+      }
+    },
+    {
+      "id": "photo-well-1",
+      "kind": "chrome",
+      "note": "Flat pale-gray rounded rectangular empty photo well. This is a CSS geometry background, no photograph or illustration.",
+      "grid": "A3:D4",
+      "codeDrawn": true,
+      "box": {
+        "x": 0,
+        "y": 0.3,
+        "w": 0.4,
+        "h": 0.2
+      },
+      "px": {
+        "x": 0,
+        "y": 480,
+        "w": 394,
+        "h": 320
+      },
+      "aspect": 1.2312,
+      "palette": [
+        {
+          "hex": "#efeff1",
+          "coverage": 0.9566
+        },
+        {
+          "hex": "#53565a",
+          "coverage": 0.0201
+        },
+        {
+          "hex": "#aaaaab",
+          "coverage": 0.0104
+        },
+        {
+          "hex": "#1a1a1a",
+          "coverage": 0.0094
+        },
+        {
+          "hex": "#787f82",
+          "coverage": 0.0035
+        }
+      ],
+      "detail": {
+        "energy": 14.0037
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "camera-1",
+      "kind": "chrome",
+      "note": "Small simple camera outline glyph; an icon, not an illustration.",
+      "grid": "B3:C4",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.1,
+        "y": 0.3,
+        "w": 0.2,
+        "h": 0.2
+      },
+      "px": {
+        "x": 98,
+        "y": 480,
+        "w": 197,
+        "h": 320
+      },
+      "aspect": 0.6156,
+      "palette": [
+        {
+          "hex": "#ebecee",
+          "coverage": 0.9346
+        },
+        {
+          "hex": "#53565b",
+          "coverage": 0.0376
+        },
+        {
+          "hex": "#babcbe",
+          "coverage": 0.015
+        },
+        {
+          "hex": "#828487",
+          "coverage": 0.0128
+        }
+      ],
+      "detail": {
+        "energy": 9.9834
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "photo-label-1",
+      "kind": "text",
+      "note": "Two-line empty-state text Фото блюда / пока нет.",
+      "grid": "A4:C4",
+      "coverBox": {
+        "x": 0,
+        "y": 0.4,
+        "w": 0.3,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.0732,
+        "y": 0.4003,
+        "w": 0.1951,
+        "h": 0.0713
+      },
+      "px": {
+        "x": 72,
+        "y": 640,
+        "w": 192,
+        "h": 114
+      },
+      "aspect": 1.6842,
+      "palette": [
+        {
+          "hex": "#e9eaed",
+          "coverage": 0.861
+        },
+        {
+          "hex": "#525659",
+          "coverage": 0.0905
+        },
+        {
+          "hex": "#808588",
+          "coverage": 0.03
+        },
+        {
+          "hex": "#adb2b7",
+          "coverage": 0.0136
+        },
+        {
+          "hex": "#353840",
+          "coverage": 0.0049
+        }
+      ],
+      "detail": {
+        "energy": 23.681
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 2,
+          "glyphs": 17,
+          "capHeightPx": 20,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.7102,
+          "advTall": 0.7899,
+          "advX": 0.6883,
+          "gap": 0.1459,
+          "xRatio": 0.6625,
+          "stemW": 0.1544,
+          "contrast": 0.9974,
+          "serif": 0.5227,
+          "densTall": 0.5422,
+          "densX": 0.5048,
+          "weight": 0.5422
+        },
+        "widthClass": "normal",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "dish-title-1",
+      "kind": "text",
+      "note": "Bold dish name Свиная шея.",
+      "grid": "D3:J3",
+      "coverBox": {
+        "x": 0.3,
+        "y": 0.3,
+        "w": 0.7,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.3486,
+        "y": 0.3415,
+        "w": 0.311,
+        "h": 0.0338
+      },
+      "px": {
+        "x": 343,
+        "y": 546,
+        "w": 306,
+        "h": 54
+      },
+      "aspect": 5.6667,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.6872
+        },
+        {
+          "hex": "#1c1c1c",
+          "coverage": 0.2452
+        },
+        {
+          "hex": "#626161",
+          "coverage": 0.0403
+        },
+        {
+          "hex": "#afb0b0",
+          "coverage": 0.0223
+        },
+        {
+          "hex": "#868486",
+          "coverage": 0.0049
+        }
+      ],
+      "detail": {
+        "energy": 57.1941
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 9,
+          "capHeightPx": 36.6,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.6838,
+          "advTall": 0.9026,
+          "advX": 0.6838,
+          "gap": 0.1368,
+          "xRatio": 0.7431,
+          "stemW": 0.2097,
+          "contrast": 1.2217,
+          "serif": null,
+          "densTall": 0.4648,
+          "densX": 0.7051,
+          "weight": 0.4648
+        },
+        "widthClass": "normal",
+        "weightClass": "regular"
+      }
+    },
+    {
+      "id": "weight-first-1",
+      "kind": "text",
+      "note": "Portion weight 200 г.",
+      "grid": "D3:F4",
+      "coverBox": {
+        "x": 0.3,
+        "y": 0.3,
+        "w": 0.3,
+        "h": 0.2
+      },
+      "box": {
+        "x": 0.3435,
+        "y": 0.3402,
+        "w": 0.2561,
+        "h": 0.0338
+      },
+      "px": {
+        "x": 338,
+        "y": 544,
+        "w": 252,
+        "h": 54
+      },
+      "aspect": 4.6667,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.7084
+        },
+        {
+          "hex": "#1e1e1f",
+          "coverage": 0.2383
+        },
+        {
+          "hex": "#bab9ba",
+          "coverage": 0.0206
+        },
+        {
+          "hex": "#7f7e7f",
+          "coverage": 0.0193
+        },
+        {
+          "hex": "#4e4d4f",
+          "coverage": 0.0133
+        }
+      ],
+      "detail": {
+        "energy": 42.522
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 7,
+          "capHeightPx": 36.6,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.6838,
+          "advTall": 0.9026,
+          "advX": 0.6838,
+          "gap": 0.1368,
+          "xRatio": 0.7431,
+          "stemW": 0.2091,
+          "contrast": 1.1771,
+          "serif": null,
+          "densTall": 0.4651,
+          "densX": 0.7057,
+          "weight": 0.4651
+        },
+        "widthClass": "normal",
+        "weightClass": "regular"
+      }
+    },
+    {
+      "id": "price-first-1",
+      "kind": "text",
+      "note": "Bold portion price 300 ₽.",
+      "grid": "I3:J4",
+      "coverBox": {
+        "x": 0.8,
+        "y": 0.3,
+        "w": 0.2,
+        "h": 0.2
+      },
+      "box": {
+        "x": 0.812,
+        "y": 0.4428,
+        "w": 0.1707,
+        "h": 0.0338
+      },
+      "px": {
+        "x": 799,
+        "y": 708,
+        "w": 168,
+        "h": 54
+      },
+      "aspect": 3.1111,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.7761
+        },
+        {
+          "hex": "#1e1e1f",
+          "coverage": 0.1741
+        },
+        {
+          "hex": "#615e62",
+          "coverage": 0.0199
+        },
+        {
+          "hex": "#9b9c9c",
+          "coverage": 0.0179
+        },
+        {
+          "hex": "#bfc0c0",
+          "coverage": 0.0119
+        }
+      ],
+      "detail": {
+        "energy": 27.9519
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 5,
+          "capHeightPx": 31.5,
+          "inkIsDark": true,
+          "allCaps": true,
+          "advance": 0.7309,
+          "advTall": 0.7309,
+          "advX": null,
+          "gap": 0.2701,
+          "xRatio": null,
+          "stemW": 0.2061,
+          "contrast": 1.2209,
+          "serif": 1.4167,
+          "densTall": 0.5103,
+          "densX": null,
+          "weight": 0.5103
+        },
+        "widthClass": "normal",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "price-rule-1",
+      "kind": "chrome",
+      "note": "Thin neutral divider between portion rows.",
+      "grid": "D4:J4",
+      "box": {
+        "x": 0.3,
+        "y": 0.4,
+        "w": 0.7,
+        "h": 0.1
+      },
+      "px": {
+        "x": 295,
+        "y": 640,
+        "w": 689,
+        "h": 160
+      },
+      "aspect": 4.3063,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.9417
+        },
+        {
+          "hex": "#1e1e1e",
+          "coverage": 0.0336
+        },
+        {
+          "hex": "#ccced8",
+          "coverage": 0.0133
+        },
+        {
+          "hex": "#616161",
+          "coverage": 0.007
+        },
+        {
+          "hex": "#979797",
+          "coverage": 0.0045
+        }
+      ],
+      "detail": {
+        "energy": 23.2408
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "weight-second-1",
+      "kind": "text",
+      "note": "Portion weight 1 кг.",
+      "grid": "D4:E4",
+      "coverBox": {
+        "x": 0.3,
+        "y": 0.4,
+        "w": 0.2,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.3486,
+        "y": 0.4003,
+        "w": 0.1159,
+        "h": 0.0263
+      },
+      "px": {
+        "x": 343,
+        "y": 640,
+        "w": 114,
+        "h": 42
+      },
+      "aspect": 2.7143,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.7878
+        },
+        {
+          "hex": "#171717",
+          "coverage": 0.1415
+        },
+        {
+          "hex": "#99989a",
+          "coverage": 0.0249
+        },
+        {
+          "hex": "#686869",
+          "coverage": 0.0249
+        },
+        {
+          "hex": "#cbc9cb",
+          "coverage": 0.021
+        }
+      ],
+      "detail": {
+        "energy": 25.5771
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 4,
+          "capHeightPx": 29.1,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.6873,
+          "advTall": 0.6873,
+          "advX": 0.5154,
+          "gap": 0.1375,
+          "xRatio": 0.753,
+          "stemW": 0.1413,
+          "contrast": 1.1293,
+          "serif": null,
+          "densTall": 0.4201,
+          "densX": 0.3546,
+          "weight": 0.4201
+        },
+        "widthClass": "condensed",
+        "weightClass": "regular"
+      }
+    },
+    {
+      "id": "price-second-1",
+      "kind": "text",
+      "note": "Bold larger-portion price 1 430 ₽.",
+      "grid": "I4:J4",
+      "coverBox": {
+        "x": 0.8,
+        "y": 0.4,
+        "w": 0.2,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.812,
+        "y": 0.4453,
+        "w": 0.1707,
+        "h": 0.03
+      },
+      "px": {
+        "x": 799,
+        "y": 712,
+        "w": 168,
+        "h": 48
+      },
+      "aspect": 3.5,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.74
+        },
+        {
+          "hex": "#1e1f1e",
+          "coverage": 0.2031
+        },
+        {
+          "hex": "#8f8f8f",
+          "coverage": 0.0313
+        },
+        {
+          "hex": "#5c5b5c",
+          "coverage": 0.0134
+        },
+        {
+          "hex": "#c1c1c2",
+          "coverage": 0.0123
+        }
+      ],
+      "detail": {
+        "energy": 31.6233
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 5,
+          "capHeightPx": 31.5,
+          "inkIsDark": true,
+          "allCaps": true,
+          "advance": 0.731,
+          "advTall": 0.731,
+          "advX": null,
+          "gap": 0.2702,
+          "xRatio": null,
+          "stemW": 0.206,
+          "contrast": 1.2206,
+          "serif": 1.4166,
+          "densTall": 0.5096,
+          "densX": null,
+          "weight": 0.5096
+        },
+        "widthClass": "normal",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "dish-divider-1",
+      "kind": "chrome",
+      "note": "Thin full-width rule separating product rows.",
+      "grid": "A5:J5",
+      "box": {
+        "x": 0,
+        "y": 0.5,
+        "w": 1,
+        "h": 0.1
+      },
+      "px": {
+        "x": 0,
+        "y": 800,
+        "w": 984,
+        "h": 160
+      },
+      "aspect": 6.15,
+      "palette": [
+        {
+          "hex": "#f4f4f4",
+          "coverage": 0.9514
+        },
+        {
+          "hex": "#1b1b1b",
+          "coverage": 0.0315
+        },
+        {
+          "hex": "#4e4f51",
+          "coverage": 0.0093
+        },
+        {
+          "hex": "#b2b2b2",
+          "coverage": 0.0056
+        },
+        {
+          "hex": "#7f7f7f",
+          "coverage": 0.0022
+        }
+      ],
+      "detail": {
+        "energy": 23.5905
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "photo-well-2",
+      "kind": "chrome",
+      "note": "Flat pale-gray rounded rectangular empty photo well. This is a CSS geometry background, no photograph or illustration.",
+      "grid": "A5:D6",
+      "codeDrawn": true,
+      "box": {
+        "x": 0,
+        "y": 0.5,
+        "w": 0.4,
+        "h": 0.2
+      },
+      "px": {
+        "x": 0,
+        "y": 800,
+        "w": 394,
+        "h": 320
+      },
+      "aspect": 1.2312,
+      "palette": [
+        {
+          "hex": "#eeefef",
+          "coverage": 0.9579
+        },
+        {
+          "hex": "#4d5054",
+          "coverage": 0.0199
+        },
+        {
+          "hex": "#1b1b1b",
+          "coverage": 0.0084
+        },
+        {
+          "hex": "#b6b8b8",
+          "coverage": 0.0083
+        },
+        {
+          "hex": "#848686",
+          "coverage": 0.0055
+        }
+      ],
+      "detail": {
+        "energy": 15.0292
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "camera-2",
+      "kind": "chrome",
+      "note": "Small simple camera outline glyph; an icon, not an illustration.",
+      "grid": "B5:C6",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.1,
+        "y": 0.5,
+        "w": 0.2,
+        "h": 0.2
+      },
+      "px": {
+        "x": 98,
+        "y": 800,
+        "w": 197,
+        "h": 320
+      },
+      "aspect": 0.6156,
+      "palette": [
+        {
+          "hex": "#ebebeb",
+          "coverage": 0.9399
+        },
+        {
+          "hex": "#4d5055",
+          "coverage": 0.0377
+        },
+        {
+          "hex": "#b2b6ba",
+          "coverage": 0.0128
+        },
+        {
+          "hex": "#7f8487",
+          "coverage": 0.0096
+        }
+      ],
+      "detail": {
+        "energy": 10.6554
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "photo-label-2",
+      "kind": "text",
+      "note": "Two-line empty-state text Фото блюда / пока нет.",
+      "grid": "A6:C6",
+      "coverBox": {
+        "x": 0,
+        "y": 0.6,
+        "w": 0.3,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.0732,
+        "y": 0.5997,
+        "w": 0.1951,
+        "h": 0.0638
+      },
+      "px": {
+        "x": 72,
+        "y": 959,
+        "w": 192,
+        "h": 102
+      },
+      "aspect": 1.8824,
+      "palette": [
+        {
+          "hex": "#e9e9ea",
+          "coverage": 0.8332
+        },
+        {
+          "hex": "#4d5155",
+          "coverage": 0.0938
+        },
+        {
+          "hex": "#b4b7b9",
+          "coverage": 0.0441
+        },
+        {
+          "hex": "#828689",
+          "coverage": 0.029
+        }
+      ],
+      "detail": {
+        "energy": 25.2649
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 2,
+          "glyphs": 17,
+          "capHeightPx": 19.8,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.7093,
+          "advTall": 0.8254,
+          "advX": 0.6766,
+          "gap": 0.1351,
+          "xRatio": 0.6664,
+          "stemW": 0.1529,
+          "contrast": 0.9762,
+          "serif": 0.7867,
+          "densTall": 0.5348,
+          "densX": 0.5012,
+          "weight": 0.5348
+        },
+        "widthClass": "normal",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "dish-title-2",
+      "kind": "text",
+      "note": "Bold dish name Свиные рёбра.",
+      "grid": "D5:J5",
+      "coverBox": {
+        "x": 0.3,
+        "y": 0.5,
+        "w": 0.7,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.3486,
+        "y": 0.5303,
+        "w": 0.3659,
+        "h": 0.0413
+      },
+      "px": {
+        "x": 343,
+        "y": 848,
+        "w": 360,
+        "h": 66
+      },
+      "aspect": 5.4545,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.738
+        },
+        {
+          "hex": "#1d1d1d",
+          "coverage": 0.2068
+        },
+        {
+          "hex": "#9f9f9f",
+          "coverage": 0.0356
+        },
+        {
+          "hex": "#696969",
+          "coverage": 0.0153
+        },
+        {
+          "hex": "#484848",
+          "coverage": 0.0042
+        }
+      ],
+      "detail": {
+        "energy": 55.7522
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 12,
+          "capHeightPx": 36.8,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.6662,
+          "advTall": 0.707,
+          "advX": 0.6526,
+          "gap": 0.1088,
+          "xRatio": 0.7233,
+          "stemW": 0.2075,
+          "contrast": 1.2085,
+          "serif": null,
+          "densTall": 0.5586,
+          "densX": 0.6938,
+          "weight": 0.5586
+        },
+        "widthClass": "normal",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "weight-first-2",
+      "kind": "text",
+      "note": "Portion weight 200 г.",
+      "grid": "D5:F6",
+      "coverBox": {
+        "x": 0.3,
+        "y": 0.5,
+        "w": 0.3,
+        "h": 0.2
+      },
+      "box": {
+        "x": 0.3435,
+        "y": 0.5316,
+        "w": 0.2561,
+        "h": 0.0425
+      },
+      "px": {
+        "x": 338,
+        "y": 850,
+        "w": 252,
+        "h": 68
+      },
+      "aspect": 3.7059,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.7645
+        },
+        {
+          "hex": "#191919",
+          "coverage": 0.1826
+        },
+        {
+          "hex": "#c2c2c2",
+          "coverage": 0.0241
+        },
+        {
+          "hex": "#6c6b6c",
+          "coverage": 0.0188
+        },
+        {
+          "hex": "#404041",
+          "coverage": 0.0099
+        }
+      ],
+      "detail": {
+        "energy": 34.7982
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 9,
+          "capHeightPx": 35.7,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.6718,
+          "advTall": 0.5458,
+          "advX": 0.6718,
+          "gap": 0.14,
+          "xRatio": 0.7424,
+          "stemW": 0.2073,
+          "contrast": 1.164,
+          "serif": null,
+          "densTall": 0.535,
+          "densX": 0.7262,
+          "weight": 0.535
+        },
+        "widthClass": "normal",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "price-first-2",
+      "kind": "text",
+      "note": "Bold portion price 300 ₽.",
+      "grid": "I5:J6",
+      "coverBox": {
+        "x": 0.8,
+        "y": 0.5,
+        "w": 0.2,
+        "h": 0.2
+      },
+      "box": {
+        "x": 0.812,
+        "y": 0.6354,
+        "w": 0.1707,
+        "h": 0.03
+      },
+      "px": {
+        "x": 799,
+        "y": 1016,
+        "w": 168,
+        "h": 48
+      },
+      "aspect": 3.5,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.7341
+        },
+        {
+          "hex": "#1f1f20",
+          "coverage": 0.1989
+        },
+        {
+          "hex": "#bcbcbc",
+          "coverage": 0.0302
+        },
+        {
+          "hex": "#818181",
+          "coverage": 0.0257
+        },
+        {
+          "hex": "#4d5052",
+          "coverage": 0.0112
+        }
+      ],
+      "detail": {
+        "energy": 32.1187
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 5,
+          "capHeightPx": 31.7,
+          "inkIsDark": true,
+          "allCaps": true,
+          "advance": 0.7248,
+          "advTall": 0.7248,
+          "advX": null,
+          "gap": 0.2679,
+          "xRatio": null,
+          "stemW": 0.2081,
+          "contrast": 1.2082,
+          "serif": null,
+          "densTall": 0.5133,
+          "densX": null,
+          "weight": 0.5133
+        },
+        "widthClass": "normal",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "price-rule-2",
+      "kind": "chrome",
+      "note": "Thin neutral divider between portion rows.",
+      "grid": "D6:J6",
+      "box": {
+        "x": 0.3,
+        "y": 0.6,
+        "w": 0.7,
+        "h": 0.1
+      },
+      "px": {
+        "x": 295,
+        "y": 959,
+        "w": 689,
+        "h": 160
+      },
+      "aspect": 4.3063,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.9583
+        },
+        {
+          "hex": "#1f2020",
+          "coverage": 0.0303
+        },
+        {
+          "hex": "#939393",
+          "coverage": 0.0052
+        },
+        {
+          "hex": "#585858",
+          "coverage": 0.0036
+        },
+        {
+          "hex": "#c3c3c3",
+          "coverage": 0.0026
+        }
+      ],
+      "detail": {
+        "energy": 19.6203
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "weight-second-2",
+      "kind": "text",
+      "note": "Portion weight 1 кг.",
+      "grid": "D6:E6",
+      "coverBox": {
+        "x": 0.3,
+        "y": 0.6,
+        "w": 0.2,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.3486,
+        "y": 0.5997,
+        "w": 0.1159,
+        "h": 0.0188
+      },
+      "px": {
+        "x": 343,
+        "y": 959,
+        "w": 114,
+        "h": 30
+      },
+      "aspect": 3.8,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.7916
+        },
+        {
+          "hex": "#1f1f1f",
+          "coverage": 0.1478
+        },
+        {
+          "hex": "#676767",
+          "coverage": 0.0343
+        },
+        {
+          "hex": "#acacac",
+          "coverage": 0.0211
+        },
+        {
+          "hex": "#888088",
+          "coverage": 0.0053
+        }
+      ],
+      "detail": {
+        "energy": 23.782
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 4,
+          "capHeightPx": 20.7,
+          "inkIsDark": true,
+          "allCaps": true,
+          "advance": 0.9533,
+          "advTall": 0.9533,
+          "advX": null,
+          "gap": 0.2172,
+          "xRatio": null,
+          "stemW": 0.2069,
+          "contrast": 1.1727,
+          "serif": null,
+          "densTall": 0.4354,
+          "densX": null,
+          "weight": 0.4354
+        },
+        "widthClass": "wide",
+        "weightClass": "regular"
+      }
+    },
+    {
+      "id": "price-second-2",
+      "kind": "text",
+      "note": "Bold larger-portion price 1 430 ₽.",
+      "grid": "I6:J6",
+      "coverBox": {
+        "x": 0.8,
+        "y": 0.6,
+        "w": 0.2,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.812,
+        "y": 0.6373,
+        "w": 0.1707,
+        "h": 0.03
+      },
+      "px": {
+        "x": 799,
+        "y": 1019,
+        "w": 168,
+        "h": 48
+      },
+      "aspect": 3.5,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.7341
+        },
+        {
+          "hex": "#1f1f20",
+          "coverage": 0.1989
+        },
+        {
+          "hex": "#bcbcbc",
+          "coverage": 0.0302
+        },
+        {
+          "hex": "#818181",
+          "coverage": 0.0257
+        },
+        {
+          "hex": "#4d5052",
+          "coverage": 0.0112
+        }
+      ],
+      "detail": {
+        "energy": 31.9645
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 5,
+          "capHeightPx": 31.7,
+          "inkIsDark": true,
+          "allCaps": true,
+          "advance": 0.7248,
+          "advTall": 0.7248,
+          "advX": null,
+          "gap": 0.2679,
+          "xRatio": null,
+          "stemW": 0.2081,
+          "contrast": 1.2081,
+          "serif": null,
+          "densTall": 0.5133,
+          "densX": null,
+          "weight": 0.5133
+        },
+        "widthClass": "normal",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "dish-divider-2",
+      "kind": "chrome",
+      "note": "Thin full-width rule separating product rows.",
+      "grid": "A7:J7",
+      "box": {
+        "x": 0,
+        "y": 0.7,
+        "w": 1,
+        "h": 0.1
+      },
+      "px": {
+        "x": 0,
+        "y": 1119,
+        "w": 984,
+        "h": 160
+      },
+      "aspect": 6.15,
+      "palette": [
+        {
+          "hex": "#f3f3f3",
+          "coverage": 0.939
+        },
+        {
+          "hex": "#1b1b1b",
+          "coverage": 0.0409
+        },
+        {
+          "hex": "#484a4c",
+          "coverage": 0.0101
+        },
+        {
+          "hex": "#bcbdbd",
+          "coverage": 0.0056
+        },
+        {
+          "hex": "#808080",
+          "coverage": 0.0044
+        }
+      ],
+      "detail": {
+        "energy": 31.3659
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "photo-well-3",
+      "kind": "chrome",
+      "note": "Flat pale-gray rounded rectangular empty photo well. This is a CSS geometry background, no photograph or illustration.",
+      "grid": "A7:D8",
+      "codeDrawn": true,
+      "box": {
+        "x": 0,
+        "y": 0.7,
+        "w": 0.4,
+        "h": 0.2
+      },
+      "px": {
+        "x": 0,
+        "y": 1119,
+        "w": 394,
+        "h": 320
+      },
+      "aspect": 1.2312,
+      "palette": [
+        {
+          "hex": "#eeefef",
+          "coverage": 0.9574
+        },
+        {
+          "hex": "#4a4e52",
+          "coverage": 0.0229
+        },
+        {
+          "hex": "#1b1b1b",
+          "coverage": 0.0086
+        },
+        {
+          "hex": "#828486",
+          "coverage": 0.0075
+        },
+        {
+          "hex": "#b3b7b7",
+          "coverage": 0.0036
+        }
+      ],
+      "detail": {
+        "energy": 15.2664
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "camera-3",
+      "kind": "chrome",
+      "note": "Small simple camera outline glyph; an icon, not an illustration.",
+      "grid": "B7:C8",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.1,
+        "y": 0.7,
+        "w": 0.2,
+        "h": 0.2
+      },
+      "px": {
+        "x": 98,
+        "y": 1119,
+        "w": 197,
+        "h": 320
+      },
+      "aspect": 0.6156,
+      "palette": [
+        {
+          "hex": "#ebebeb",
+          "coverage": 0.9391
+        },
+        {
+          "hex": "#494d52",
+          "coverage": 0.0374
+        },
+        {
+          "hex": "#adb1b5",
+          "coverage": 0.0123
+        },
+        {
+          "hex": "#73797e",
+          "coverage": 0.0112
+        }
+      ],
+      "detail": {
+        "energy": 10.7645
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "photo-label-3",
+      "kind": "text",
+      "note": "Two-line empty-state text Фото блюда / пока нет.",
+      "grid": "A8:C8",
+      "coverBox": {
+        "x": 0,
+        "y": 0.8,
+        "w": 0.3,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.0732,
+        "y": 0.8036,
+        "w": 0.1951,
+        "h": 0.0488
+      },
+      "px": {
+        "x": 72,
+        "y": 1285,
+        "w": 192,
+        "h": 78
+      },
+      "aspect": 2.4615,
+      "palette": [
+        {
+          "hex": "#e8e9e9",
+          "coverage": 0.8299
+        },
+        {
+          "hex": "#4a4f53",
+          "coverage": 0.1052
+        },
+        {
+          "hex": "#85888c",
+          "coverage": 0.0433
+        },
+        {
+          "hex": "#b1b5b9",
+          "coverage": 0.021
+        },
+        {
+          "hex": "#282828",
+          "coverage": 0.0006
+        }
+      ],
+      "detail": {
+        "energy": 29.5043
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 2,
+          "glyphs": 17,
+          "capHeightPx": 20.2,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.6973,
+          "advTall": 0.8064,
+          "advX": 0.6543,
+          "gap": 0.132,
+          "xRatio": 0.6712,
+          "stemW": 0.1496,
+          "contrast": 0.9631,
+          "serif": 0.9661,
+          "densTall": 0.5361,
+          "densX": 0.4998,
+          "weight": 0.5361
+        },
+        "widthClass": "normal",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "dish-title-3",
+      "kind": "text",
+      "note": "Bold dish name Куриное ассорти.",
+      "grid": "D7:J7",
+      "coverBox": {
+        "x": 0.3,
+        "y": 0.7,
+        "w": 0.7,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.3486,
+        "y": 0.7223,
+        "w": 0.4268,
+        "h": 0.0375
+      },
+      "px": {
+        "x": 343,
+        "y": 1155,
+        "w": 420,
+        "h": 60
+      },
+      "aspect": 7,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.7351
+        },
+        {
+          "hex": "#1c1c1c",
+          "coverage": 0.2097
+        },
+        {
+          "hex": "#878787",
+          "coverage": 0.0195
+        },
+        {
+          "hex": "#555555",
+          "coverage": 0.0184
+        },
+        {
+          "hex": "#b8b8b8",
+          "coverage": 0.0173
+        }
+      ],
+      "detail": {
+        "energy": 68.0358
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 13,
+          "capHeightPx": 33.7,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.7269,
+          "advTall": null,
+          "advX": 0.7269,
+          "gap": 0.1187,
+          "xRatio": 0.7771,
+          "stemW": 0.2241,
+          "contrast": 1.2128,
+          "serif": null,
+          "densTall": null,
+          "densX": 0.6305,
+          "weight": 0.6305
+        },
+        "widthClass": "wide",
+        "weightClass": "bold"
+      }
+    },
+    {
+      "id": "weight-first-3",
+      "kind": "text",
+      "note": "Portion weight 200 г.",
+      "grid": "D7:F8",
+      "coverBox": {
+        "x": 0.3,
+        "y": 0.7,
+        "w": 0.3,
+        "h": 0.2
+      },
+      "box": {
+        "x": 0.3506,
+        "y": 0.7223,
+        "w": 0.249,
+        "h": 0.0381
+      },
+      "px": {
+        "x": 345,
+        "y": 1155,
+        "w": 245,
+        "h": 61
+      },
+      "aspect": 4.0164,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.748
+        },
+        {
+          "hex": "#1c1c1c",
+          "coverage": 0.2079
+        },
+        {
+          "hex": "#b5b4b6",
+          "coverage": 0.0256
+        },
+        {
+          "hex": "#4b4c4c",
+          "coverage": 0.0099
+        },
+        {
+          "hex": "#79787b",
+          "coverage": 0.0087
+        }
+      ],
+      "detail": {
+        "energy": 40.632
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 7,
+          "capHeightPx": 33.7,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.7419,
+          "advTall": null,
+          "advX": 0.7419,
+          "gap": 0.1335,
+          "xRatio": 0.7771,
+          "stemW": 0.2236,
+          "contrast": 1.2281,
+          "serif": null,
+          "densTall": null,
+          "densX": 0.6726,
+          "weight": 0.6726
+        },
+        "widthClass": "wide",
+        "weightClass": "black"
+      }
+    },
+    {
+      "id": "price-first-3",
+      "kind": "text",
+      "note": "Bold portion price 260 ₽.",
+      "grid": "I7:J8",
+      "coverBox": {
+        "x": 0.8,
+        "y": 0.7,
+        "w": 0.2,
+        "h": 0.2
+      },
+      "box": {
+        "x": 0.8425,
+        "y": 0.8274,
+        "w": 0.1402,
+        "h": 0.03
+      },
+      "px": {
+        "x": 829,
+        "y": 1323,
+        "w": 138,
+        "h": 48
+      },
+      "aspect": 2.875,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.6868
+        },
+        {
+          "hex": "#1c1c1c",
+          "coverage": 0.2239
+        },
+        {
+          "hex": "#a8a9a8",
+          "coverage": 0.0316
+        },
+        {
+          "hex": "#cfd0d0",
+          "coverage": 0.0288
+        },
+        {
+          "hex": "#767678",
+          "coverage": 0.0288
+        }
+      ],
+      "detail": {
+        "energy": 29.12
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 4,
+          "capHeightPx": 31.2,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.7378,
+          "advTall": 0.7378,
+          "advX": null,
+          "gap": 0.1283,
+          "xRatio": 0.8331,
+          "stemW": 0.2173,
+          "contrast": 1.2209,
+          "serif": null,
+          "densTall": 0.5859,
+          "densX": null,
+          "weight": 0.5859
+        },
+        "widthClass": "normal",
+        "weightClass": "bold"
+      }
+    },
+    {
+      "id": "price-rule-3",
+      "kind": "chrome",
+      "note": "Thin neutral divider between portion rows.",
+      "grid": "D8:J8",
+      "box": {
+        "x": 0.3,
+        "y": 0.8,
+        "w": 0.7,
+        "h": 0.1
+      },
+      "px": {
+        "x": 295,
+        "y": 1279,
+        "w": 689,
+        "h": 160
+      },
+      "aspect": 4.3063,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.9771
+        },
+        {
+          "hex": "#191919",
+          "coverage": 0.0195
+        },
+        {
+          "hex": "#919191",
+          "coverage": 0.0019
+        },
+        {
+          "hex": "#383838",
+          "coverage": 0.0009
+        },
+        {
+          "hex": "#c8c8c8",
+          "coverage": 0.0006
+        }
+      ],
+      "detail": {
+        "energy": 12.713
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "weight-second-3",
+      "kind": "text",
+      "note": "Portion weight 1 кг.",
+      "grid": "D8:E8",
+      "coverBox": {
+        "x": 0.3,
+        "y": 0.8,
+        "w": 0.2,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.3486,
+        "y": 0.8261,
+        "w": 0.0854,
+        "h": 0.03
+      },
+      "px": {
+        "x": 343,
+        "y": 1321,
+        "w": 84,
+        "h": 48
+      },
+      "aspect": 1.75,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.8638
+        },
+        {
+          "hex": "#1a1919",
+          "coverage": 0.0938
+        },
+        {
+          "hex": "#8f8d91",
+          "coverage": 0.0313
+        },
+        {
+          "hex": "#545454",
+          "coverage": 0.0089
+        },
+        {
+          "hex": "#c8c8d8",
+          "coverage": 0.0022
+        }
+      ],
+      "detail": {
+        "energy": 12.584
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 3,
+          "capHeightPx": 27.8,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.6105,
+          "advTall": 0.6105,
+          "advX": 0.5746,
+          "gap": 0.3232,
+          "xRatio": 0.7722,
+          "stemW": 0.1446,
+          "contrast": 1.1412,
+          "serif": null,
+          "densTall": 0.3747,
+          "densX": 0.4361,
+          "weight": 0.3747
+        },
+        "widthClass": "condensed",
+        "weightClass": "regular"
+      }
+    },
+    {
+      "id": "price-second-3",
+      "kind": "text",
+      "note": "Bold larger-portion price 950 ₽.",
+      "grid": "I8:J8",
+      "coverBox": {
+        "x": 0.8,
+        "y": 0.8,
+        "w": 0.2,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.8425,
+        "y": 0.8261,
+        "w": 0.1402,
+        "h": 0.03
+      },
+      "px": {
+        "x": 829,
+        "y": 1321,
+        "w": 138,
+        "h": 48
+      },
+      "aspect": 2.875,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.6935
+        },
+        {
+          "hex": "#191919",
+          "coverage": 0.2262
+        },
+        {
+          "hex": "#adafae",
+          "coverage": 0.0368
+        },
+        {
+          "hex": "#424242",
+          "coverage": 0.0232
+        },
+        {
+          "hex": "#7a797a",
+          "coverage": 0.0204
+        }
+      ],
+      "detail": {
+        "energy": 29.1966
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 4,
+          "capHeightPx": 31.2,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.7378,
+          "advTall": 0.7378,
+          "advX": null,
+          "gap": 0.1283,
+          "xRatio": 0.8331,
+          "stemW": 0.2173,
+          "contrast": 1.2209,
+          "serif": null,
+          "densTall": 0.5858,
+          "densX": null,
+          "weight": 0.5858
+        },
+        "widthClass": "normal",
+        "weightClass": "bold"
+      }
+    },
+    {
+      "id": "call-action",
+      "kind": "control",
+      "note": "Solid graphite phone link with white Позвонить and 21-75-65 on two centered lines.",
+      "grid": "A9:J9",
+      "box": {
+        "x": 0,
+        "y": 0.9,
+        "w": 1,
+        "h": 0.1
+      },
+      "px": {
+        "x": 0,
+        "y": 1439,
+        "w": 984,
+        "h": 160
+      },
+      "aspect": 6.15,
+      "palette": [
+        {
+          "hex": "#373847",
+          "coverage": 0.7535
+        },
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.2191
+        },
+        {
+          "hex": "#192828",
+          "coverage": 0.0176
+        },
+        {
+          "hex": "#a7a9aa",
+          "coverage": 0.0058
+        },
+        {
+          "hex": "#6b7173",
+          "coverage": 0.0041
+        }
+      ],
+      "detail": {
+        "energy": 40.6243
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    }
+  ]
+}

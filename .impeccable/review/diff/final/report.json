@@ -1,0 +1,1473 @@
+{
+  "tool": "comp-diff",
+  "version": 1,
+  "createdAt": "2026-11-10T23:06:03.751Z",
+  "label": "desktop",
+  "comp": ".impeccable/mocks/delivery-vitrine-b.png",
+  "build": ".impeccable/review/desktop.png",
+  "spec": ".impeccable/build/spec.json",
+  "compSize": "984x1599",
+  "buildSize": "1440x6239",
+  "align": "top",
+  "overall": 0.6052,
+  "verdict": "drift",
+  "scores": {
+    "overall": 0.6052,
+    "structure": 0.524,
+    "color": 0.8779,
+    "colorIntersection": 0.7697,
+    "paletteMatch": 0.9362,
+    "detail": 0.2094,
+    "detailRaw": 0.2979,
+    "detailAdded": 0.1771,
+    "bands": 1
+  },
+  "palette": {
+    "comp": [
+      {
+        "hex": "#f5f5f5",
+        "coverage": 0.8645
+      },
+      {
+        "hex": "#383947",
+        "coverage": 0.0798
+      },
+      {
+        "hex": "#1c1c1c",
+        "coverage": 0.0287
+      },
+      {
+        "hex": "#545657",
+        "coverage": 0.0097
+      },
+      {
+        "hex": "#c8cbd0",
+        "coverage": 0.0089
+      },
+      {
+        "hex": "#8b8d8f",
+        "coverage": 0.0084
+      }
+    ],
+    "build": [
+      {
+        "hex": "#f7f8f8",
+        "coverage": 0.9647
+      },
+      {
+        "hex": "#32323c",
+        "coverage": 0.0236
+      },
+      {
+        "hex": "#818383",
+        "coverage": 0.006
+      },
+      {
+        "hex": "#b8b8b8",
+        "coverage": 0.0038
+      },
+      {
+        "hex": "#515151",
+        "coverage": 0.002
+      }
+    ]
+  },
+  "regions": [
+    {
+      "id": "brand",
+      "x": 0.0305,
+      "y": 0.0113,
+      "w": 0.2134,
+      "h": 0.0413,
+      "kind": "text",
+      "score": {
+        "overall": 0.4762,
+        "structure": 0.4584,
+        "color": 0.8526,
+        "colorIntersection": 0.7322,
+        "paletteMatch": 0.9175,
+        "detail": 0.1006,
+        "detailRaw": 0.1163,
+        "detailAdded": 0.0313,
+        "bands": 0.1879
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 7,
+          "y": 8,
+          "w": 195,
+          "h": 50
+        },
+        "build": {
+          "x": 125,
+          "y": 24,
+          "w": 66,
+          "h": 18
+        }
+      }
+    },
+    {
+      "id": "pdf",
+      "x": 0.8791,
+      "y": 0.015,
+      "w": 0.0976,
+      "h": 0.0375,
+      "kind": "control",
+      "score": {
+        "overall": 0.5126,
+        "structure": 0.5653,
+        "color": 0.7377,
+        "colorIntersection": 0.691,
+        "paletteMatch": 0.7628,
+        "detail": 0,
+        "detailRaw": 0,
+        "detailAdded": 0,
+        "bands": 0.4
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 8,
+          "y": 10,
+          "w": 79,
+          "h": 41
+        },
+        "build": null
+      }
+    },
+    {
+      "id": "title",
+      "x": 0.0264,
+      "y": 0.0713,
+      "w": 0.5976,
+      "h": 0.0826,
+      "kind": "text",
+      "score": {
+        "overall": 0.4804,
+        "structure": 0.3185,
+        "color": 0.8976,
+        "colorIntersection": 0.7849,
+        "paletteMatch": 0.9583,
+        "detail": 0.1705,
+        "detailRaw": 0.2121,
+        "detailAdded": 0.0833,
+        "bands": 0.7111
+      },
+      "verdict": "contradicted",
+      "inkBox": {
+        "comp": {
+          "x": 7,
+          "y": 11,
+          "w": 576,
+          "h": 114
+        },
+        "build": {
+          "x": 127,
+          "y": 0,
+          "w": 313,
+          "h": 107
+        }
+      }
+    },
+    {
+      "id": "address",
+      "x": 0.0244,
+      "y": 0.1226,
+      "w": 0.439,
+      "h": 0.03,
+      "kind": "text",
+      "score": {
+        "overall": 0.5392,
+        "structure": 0.5161,
+        "color": 0.9023,
+        "colorIntersection": 0.8123,
+        "paletteMatch": 0.9507,
+        "detail": 0.0595,
+        "detailRaw": 0.1116,
+        "detailAdded": 0.1042,
+        "bands": 0.4667
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 9,
+          "y": 9,
+          "w": 413,
+          "h": 34
+        },
+        "build": {
+          "x": 131,
+          "y": 9,
+          "w": 167,
+          "h": 16
+        }
+      }
+    },
+    {
+      "id": "nav-shashlik",
+      "x": 0.0224,
+      "y": 0.267,
+      "w": 0.2774,
+      "h": 0.0331,
+      "kind": "control",
+      "score": {
+        "overall": 0.3686,
+        "structure": 0.317,
+        "color": 0.6417,
+        "colorIntersection": 0.6337,
+        "paletteMatch": 0.646,
+        "detail": 0.007,
+        "detailRaw": 0.0227,
+        "detailAdded": 0.0313,
+        "bands": 0.4
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 11,
+          "y": 5,
+          "w": 258,
+          "h": 43
+        },
+        "build": {
+          "x": 158,
+          "y": 0,
+          "w": 43,
+          "h": 6
+        }
+      }
+    },
+    {
+      "id": "nav-snacks",
+      "x": 0.3293,
+      "y": 0.1839,
+      "w": 0.1687,
+      "h": 0.0338,
+      "kind": "control",
+      "score": {
+        "overall": 0.5171,
+        "structure": 0.5398,
+        "color": 0.7836,
+        "colorIntersection": 0.7854,
+        "paletteMatch": 0.7826,
+        "detail": 0,
+        "detailRaw": 0,
+        "detailAdded": 0.125,
+        "bands": 0
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 8,
+          "y": 5,
+          "w": 152,
+          "h": 37
+        },
+        "build": null
+      }
+    },
+    {
+      "id": "nav-bakery",
+      "x": 0.565,
+      "y": 0.1839,
+      "w": 0.1829,
+      "h": 0.0294,
+      "kind": "control",
+      "score": {
+        "overall": 0.4633,
+        "structure": 0.4514,
+        "color": 0.7434,
+        "colorIntersection": 0.7278,
+        "paletteMatch": 0.7519,
+        "detail": 0,
+        "detailRaw": 0,
+        "detailAdded": 0,
+        "bands": 0.4
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 12,
+          "y": 6,
+          "w": 162,
+          "h": 29
+        },
+        "build": null
+      }
+    },
+    {
+      "id": "nav-sets",
+      "x": 0.8242,
+      "y": 0.1826,
+      "w": 0.1159,
+      "h": 0.03,
+      "kind": "control",
+      "score": {
+        "overall": 0.5494,
+        "structure": 0.6027,
+        "color": 0.7949,
+        "colorIntersection": 0.7734,
+        "paletteMatch": 0.8064,
+        "detail": 0,
+        "detailRaw": 0,
+        "detailAdded": 0,
+        "bands": 0.4
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 8,
+          "y": 7,
+          "w": 96,
+          "h": 30
+        },
+        "build": null
+      }
+    },
+    {
+      "id": "navigation-rule",
+      "x": 0,
+      "y": 0.2,
+      "w": 1,
+      "h": 0.1,
+      "kind": "chrome",
+      "score": {
+        "overall": 0.5564,
+        "structure": 0.6846,
+        "color": 0.9471,
+        "colorIntersection": 0.9025,
+        "paletteMatch": 0.9711,
+        "detail": 0,
+        "detailRaw": 0.0338,
+        "detailAdded": 0.1875,
+        "bands": 0.5333
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 27,
+          "y": 0,
+          "w": 888,
+          "h": 158
+        },
+        "build": {
+          "x": 171,
+          "y": 46,
+          "w": 660,
+          "h": 67
+        }
+      }
+    },
+    {
+      "id": "section-title",
+      "x": 0.0264,
+      "y": 0.2664,
+      "w": 0.313,
+      "h": 0.0375,
+      "kind": "text",
+      "score": {
+        "overall": 0.3563,
+        "structure": 0.3046,
+        "color": 0.6513,
+        "colorIntersection": 0.6396,
+        "paletteMatch": 0.6576,
+        "detail": 0.0079,
+        "detailRaw": 0.0235,
+        "detailAdded": 0.0313,
+        "bands": 0.4
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 7,
+          "y": 6,
+          "w": 292,
+          "h": 43
+        },
+        "build": {
+          "x": 154,
+          "y": 1,
+          "w": 102,
+          "h": 59
+        }
+      }
+    },
+    {
+      "id": "section-count",
+      "x": 0.372,
+      "y": 0.2708,
+      "w": 0.1687,
+      "h": 0.0338,
+      "kind": "text",
+      "score": {
+        "overall": 0.4982,
+        "structure": 0.5804,
+        "color": 0.8132,
+        "colorIntersection": 0.8072,
+        "paletteMatch": 0.8164,
+        "detail": 0.031,
+        "detailRaw": 0.0362,
+        "detailAdded": 0.0104,
+        "bands": 0
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 6,
+          "y": 10,
+          "w": 149,
+          "h": 35
+        },
+        "build": null
+      }
+    },
+    {
+      "id": "photo-well-1",
+      "x": 0,
+      "y": 0.3,
+      "w": 0.4,
+      "h": 0.2,
+      "kind": "chrome",
+      "score": {
+        "overall": 0.5367,
+        "structure": 0.6577,
+        "color": 0.7257,
+        "colorIntersection": 0.4593,
+        "paletteMatch": 0.8692,
+        "detail": 0.123,
+        "detailRaw": 0.2532,
+        "detailAdded": 0.2604,
+        "bands": 0.6286
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 80,
+          "y": 73,
+          "w": 314,
+          "h": 196
+        },
+        "build": {
+          "x": 153,
+          "y": 4,
+          "w": 241,
+          "h": 304
+        }
+      }
+    },
+    {
+      "id": "camera-1",
+      "x": 0.1,
+      "y": 0.3,
+      "w": 0.2,
+      "h": 0.2,
+      "kind": "chrome",
+      "score": {
+        "overall": 0.5341,
+        "structure": 0.6773,
+        "color": 0.6287,
+        "colorIntersection": 0.2667,
+        "paletteMatch": 0.8237,
+        "detail": 0.1352,
+        "detailRaw": 0.255,
+        "detailAdded": 0.2396,
+        "bands": 0.7067
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 0,
+          "y": 122,
+          "w": 159,
+          "h": 143
+        },
+        "build": {
+          "x": 55,
+          "y": 4,
+          "w": 142,
+          "h": 304
+        }
+      }
+    },
+    {
+      "id": "photo-label-1",
+      "x": 0.0732,
+      "y": 0.4003,
+      "w": 0.1951,
+      "h": 0.0713,
+      "kind": "text",
+      "score": {
+        "overall": 0.4572,
+        "structure": 0.4856,
+        "color": 0.5604,
+        "colorIntersection": 0.1254,
+        "paletteMatch": 0.7946,
+        "detail": 0.1497,
+        "detailRaw": 0.181,
+        "detailAdded": 0.0625,
+        "bands": 0.5182
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 8,
+          "y": 0,
+          "w": 177,
+          "h": 105
+        },
+        "build": {
+          "x": 81,
+          "y": 9,
+          "w": 111,
+          "h": 105
+        }
+      }
+    },
+    {
+      "id": "dish-title-1",
+      "x": 0.3486,
+      "y": 0.3415,
+      "w": 0.311,
+      "h": 0.0338,
+      "kind": "text",
+      "score": {
+        "overall": 0.4093,
+        "structure": 0.3916,
+        "color": 0.6791,
+        "colorIntersection": 0.6759,
+        "paletteMatch": 0.6808,
+        "detail": 0.0246,
+        "detailRaw": 0.0246,
+        "detailAdded": 0,
+        "bands": 0.4
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 7,
+          "y": 7,
+          "w": 293,
+          "h": 38
+        },
+        "build": null
+      }
+    },
+    {
+      "id": "weight-first-1",
+      "x": 0.3435,
+      "y": 0.3402,
+      "w": 0.2561,
+      "h": 0.0338,
+      "kind": "text",
+      "score": {
+        "overall": 0.4376,
+        "structure": 0.4391,
+        "color": 0.6971,
+        "colorIntersection": 0.6878,
+        "paletteMatch": 0.702,
+        "detail": 0.0254,
+        "detailRaw": 0.0254,
+        "detailAdded": 0,
+        "bands": 0.4
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 12,
+          "y": 9,
+          "w": 240,
+          "h": 38
+        },
+        "build": null
+      }
+    },
+    {
+      "id": "price-first-1",
+      "x": 0.812,
+      "y": 0.4428,
+      "w": 0.1707,
+      "h": 0.0338,
+      "kind": "text",
+      "score": {
+        "overall": 0.4826,
+        "structure": 0.4185,
+        "color": 0.8933,
+        "colorIntersection": 0.7972,
+        "paletteMatch": 0.9451,
+        "detail": 0,
+        "detailRaw": 0.0488,
+        "detailAdded": 0.1146,
+        "bands": 0.5
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 7,
+          "y": 10,
+          "w": 151,
+          "h": 33
+        },
+        "build": {
+          "x": 1,
+          "y": 16,
+          "w": 31,
+          "h": 38
+        }
+      }
+    },
+    {
+      "id": "price-rule-1",
+      "x": 0.3,
+      "y": 0.4,
+      "w": 0.7,
+      "h": 0.1,
+      "kind": "chrome",
+      "score": {
+        "overall": 0.5185,
+        "structure": 0.5448,
+        "color": 0.9177,
+        "colorIntersection": 0.8233,
+        "paletteMatch": 0.9685,
+        "detail": 0.0178,
+        "detailRaw": 0.1792,
+        "detailAdded": 0.3229,
+        "bands": 0.6267
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 56,
+          "y": 1,
+          "w": 606,
+          "h": 110
+        },
+        "build": {
+          "x": 0,
+          "y": 0,
+          "w": 536,
+          "h": 122
+        }
+      }
+    },
+    {
+      "id": "weight-second-1",
+      "x": 0.3486,
+      "y": 0.4003,
+      "w": 0.1159,
+      "h": 0.0263,
+      "kind": "text",
+      "score": {
+        "overall": 0.369,
+        "structure": 0.3447,
+        "color": 0.7702,
+        "colorIntersection": 0.5556,
+        "paletteMatch": 0.8857,
+        "detail": 0.0276,
+        "detailRaw": 0.1214,
+        "detailAdded": 0.1875,
+        "bands": 0
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 8,
+          "y": 5,
+          "w": 99,
+          "h": 30
+        },
+        "build": {
+          "x": 0,
+          "y": 24,
+          "w": 114,
+          "h": 24
+        }
+      }
+    },
+    {
+      "id": "price-second-1",
+      "x": 0.812,
+      "y": 0.4453,
+      "w": 0.1707,
+      "h": 0.03,
+      "kind": "text",
+      "score": {
+        "overall": 0.4677,
+        "structure": 0.3788,
+        "color": 0.8812,
+        "colorIntersection": 0.7669,
+        "paletteMatch": 0.9428,
+        "detail": 0,
+        "detailRaw": 0.051,
+        "detailAdded": 0.1146,
+        "bands": 0.58
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 7,
+          "y": 6,
+          "w": 151,
+          "h": 33
+        },
+        "build": {
+          "x": 1,
+          "y": 12,
+          "w": 31,
+          "h": 36
+        }
+      }
+    },
+    {
+      "id": "dish-divider-1",
+      "x": 0,
+      "y": 0.5,
+      "w": 1,
+      "h": 0.1,
+      "kind": "chrome",
+      "score": {
+        "overall": 0.4609,
+        "structure": 0.6886,
+        "color": 0.8728,
+        "colorIntersection": 0.7544,
+        "paletteMatch": 0.9366,
+        "detail": 0.0069,
+        "detailRaw": 0.0694,
+        "detailAdded": 0.125,
+        "bands": 0
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 128,
+          "y": 19,
+          "w": 828,
+          "h": 140
+        },
+        "build": {
+          "x": 171,
+          "y": 39,
+          "w": 660,
+          "h": 120
+        }
+      }
+    },
+    {
+      "id": "photo-well-2",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.4,
+      "h": 0.2,
+      "kind": "chrome",
+      "score": {
+        "overall": 0.5117,
+        "structure": 0.6816,
+        "color": 0.722,
+        "colorIntersection": 0.4482,
+        "paletteMatch": 0.8695,
+        "detail": 0.1606,
+        "detailRaw": 0.2544,
+        "detailAdded": 0.1875,
+        "bands": 0.35
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 80,
+          "y": 61,
+          "w": 314,
+          "h": 196
+        },
+        "build": {
+          "x": 171,
+          "y": 39,
+          "w": 223,
+          "h": 274
+        }
+      }
+    },
+    {
+      "id": "camera-2",
+      "x": 0.1,
+      "y": 0.5,
+      "w": 0.2,
+      "h": 0.2,
+      "kind": "chrome",
+      "score": {
+        "overall": 0.537,
+        "structure": 0.7041,
+        "color": 0.6184,
+        "colorIntersection": 0.2501,
+        "paletteMatch": 0.8166,
+        "detail": 0.1403,
+        "detailRaw": 0.2289,
+        "detailAdded": 0.1771,
+        "bands": 0.6727
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 0,
+          "y": 110,
+          "w": 160,
+          "h": 142
+        },
+        "build": {
+          "x": 73,
+          "y": 39,
+          "w": 124,
+          "h": 274
+        }
+      }
+    },
+    {
+      "id": "photo-label-2",
+      "x": 0.0732,
+      "y": 0.5997,
+      "w": 0.1951,
+      "h": 0.0638,
+      "kind": "text",
+      "score": {
+        "overall": 0.4666,
+        "structure": 0.5432,
+        "color": 0.5516,
+        "colorIntersection": 0.0942,
+        "paletteMatch": 0.798,
+        "detail": 0.1302,
+        "detailRaw": 0.1563,
+        "detailAdded": 0.0521,
+        "bands": 0.3758
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 8,
+          "y": 0,
+          "w": 178,
+          "h": 93
+        },
+        "build": {
+          "x": 99,
+          "y": 14,
+          "w": 60,
+          "h": 51
+        }
+      }
+    },
+    {
+      "id": "dish-title-2",
+      "x": 0.3486,
+      "y": 0.5303,
+      "w": 0.3659,
+      "h": 0.0413,
+      "kind": "text",
+      "score": {
+        "overall": 0.3997,
+        "structure": 0.3677,
+        "color": 0.861,
+        "colorIntersection": 0.7291,
+        "paletteMatch": 0.932,
+        "detail": 0.0041,
+        "detailRaw": 0.0405,
+        "detailAdded": 0.0729,
+        "bands": 0
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 7,
+          "y": 11,
+          "w": 346,
+          "h": 48
+        },
+        "build": {
+          "x": 0,
+          "y": 0,
+          "w": 297,
+          "h": 32
+        }
+      }
+    },
+    {
+      "id": "weight-first-2",
+      "x": 0.3435,
+      "y": 0.5316,
+      "w": 0.2561,
+      "h": 0.0425,
+      "kind": "text",
+      "score": {
+        "overall": 0.437,
+        "structure": 0.4539,
+        "color": 0.8404,
+        "colorIntersection": 0.7439,
+        "paletteMatch": 0.8924,
+        "detail": 0,
+        "detailRaw": 0,
+        "detailAdded": 0.0417,
+        "bands": 0
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 12,
+          "y": 9,
+          "w": 240,
+          "h": 48
+        },
+        "build": {
+          "x": 0,
+          "y": 0,
+          "w": 75,
+          "h": 5
+        }
+      }
+    },
+    {
+      "id": "price-first-2",
+      "x": 0.812,
+      "y": 0.6354,
+      "w": 0.1707,
+      "h": 0.03,
+      "kind": "text",
+      "score": {
+        "overall": 0.4364,
+        "structure": 0.4313,
+        "color": 0.7196,
+        "colorIntersection": 0.7098,
+        "paletteMatch": 0.7248,
+        "detail": 0.0057,
+        "detailRaw": 0.0057,
+        "detailAdded": 0,
+        "bands": 0.4
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 7,
+          "y": 10,
+          "w": 151,
+          "h": 32
+        },
+        "build": null
+      }
+    },
+    {
+      "id": "price-rule-2",
+      "x": 0.3,
+      "y": 0.6,
+      "w": 0.7,
+      "h": 0.1,
+      "kind": "chrome",
+      "score": {
+        "overall": 0.5013,
+        "structure": 0.702,
+        "color": 0.9758,
+        "colorIntersection": 0.9564,
+        "paletteMatch": 0.9862,
+        "detail": 0.0466,
+        "detailRaw": 0.1664,
+        "detailAdded": 0.2396,
+        "bands": 0
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 54,
+          "y": 0,
+          "w": 608,
+          "h": 99
+        },
+        "build": {
+          "x": 0,
+          "y": 1,
+          "w": 536,
+          "h": 156
+        }
+      }
+    },
+    {
+      "id": "weight-second-2",
+      "x": 0.3486,
+      "y": 0.5997,
+      "w": 0.1159,
+      "h": 0.0188,
+      "kind": "text",
+      "score": {
+        "overall": 0.5195,
+        "structure": 0.5014,
+        "color": 0.9403,
+        "colorIntersection": 0.8933,
+        "paletteMatch": 0.9657,
+        "detail": 0.2248,
+        "detailRaw": 0.3133,
+        "detailAdded": 0.1771,
+        "bands": 0
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 8,
+          "y": 0,
+          "w": 99,
+          "h": 30
+        },
+        "build": {
+          "x": 1,
+          "y": 10,
+          "w": 113,
+          "h": 10
+        }
+      }
+    },
+    {
+      "id": "price-second-2",
+      "x": 0.812,
+      "y": 0.6373,
+      "w": 0.1707,
+      "h": 0.03,
+      "kind": "text",
+      "score": {
+        "overall": 0.4497,
+        "structure": 0.4605,
+        "color": 0.7147,
+        "colorIntersection": 0.6959,
+        "paletteMatch": 0.7248,
+        "detail": 0.005,
+        "detailRaw": 0.005,
+        "detailAdded": 0,
+        "bands": 0.4
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 7,
+          "y": 7,
+          "w": 151,
+          "h": 32
+        },
+        "build": null
+      }
+    },
+    {
+      "id": "dish-divider-2",
+      "x": 0,
+      "y": 0.7,
+      "w": 1,
+      "h": 0.1,
+      "kind": "chrome",
+      "score": {
+        "overall": 0.5128,
+        "structure": 0.6806,
+        "color": 0.85,
+        "colorIntersection": 0.7141,
+        "paletteMatch": 0.9232,
+        "detail": 0.0383,
+        "detailRaw": 0.1216,
+        "detailAdded": 0.1667,
+        "bands": 0.35
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 27,
+          "y": 4,
+          "w": 935,
+          "h": 156
+        },
+        "build": {
+          "x": 171,
+          "y": 3,
+          "w": 660,
+          "h": 138
+        }
+      }
+    },
+    {
+      "id": "photo-well-3",
+      "x": 0,
+      "y": 0.7,
+      "w": 0.4,
+      "h": 0.2,
+      "kind": "chrome",
+      "score": {
+        "overall": 0.529,
+        "structure": 0.6969,
+        "color": 0.7199,
+        "colorIntersection": 0.438,
+        "paletteMatch": 0.8718,
+        "detail": 0.1082,
+        "detailRaw": 0.2228,
+        "detailAdded": 0.2292,
+        "bands": 0.52
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 79,
+          "y": 46,
+          "w": 315,
+          "h": 195
+        },
+        "build": {
+          "x": 171,
+          "y": 3,
+          "w": 223,
+          "h": 317
+        }
+      }
+    },
+    {
+      "id": "camera-3",
+      "x": 0.1,
+      "y": 0.7,
+      "w": 0.2,
+      "h": 0.2,
+      "kind": "chrome",
+      "score": {
+        "overall": 0.5518,
+        "structure": 0.7069,
+        "color": 0.6179,
+        "colorIntersection": 0.2434,
+        "paletteMatch": 0.8195,
+        "detail": 0.0923,
+        "detailRaw": 0.1965,
+        "detailAdded": 0.2083,
+        "bands": 0.8455
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 0,
+          "y": 92,
+          "w": 160,
+          "h": 143
+        },
+        "build": {
+          "x": 73,
+          "y": 3,
+          "w": 124,
+          "h": 317
+        }
+      }
+    },
+    {
+      "id": "photo-label-3",
+      "x": 0.0732,
+      "y": 0.8036,
+      "w": 0.1951,
+      "h": 0.0488,
+      "kind": "text",
+      "score": {
+        "overall": 0.4013,
+        "structure": 0.4881,
+        "color": 0.5365,
+        "colorIntersection": 0.094,
+        "paletteMatch": 0.7748,
+        "detail": 0.0154,
+        "detailRaw": 0.0831,
+        "detailAdded": 0.1354,
+        "bands": 0.2083
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 7,
+          "y": 10,
+          "w": 179,
+          "h": 59
+        },
+        "build": {
+          "x": 99,
+          "y": 43,
+          "w": 60,
+          "h": 35
+        }
+      }
+    },
+    {
+      "id": "dish-title-3",
+      "x": 0.3486,
+      "y": 0.7223,
+      "w": 0.4268,
+      "h": 0.0375,
+      "kind": "text",
+      "score": {
+        "overall": 0.4561,
+        "structure": 0.3834,
+        "color": 0.8773,
+        "colorIntersection": 0.7802,
+        "paletteMatch": 0.9296,
+        "detail": 0.0673,
+        "detailRaw": 0.1298,
+        "detailAdded": 0.125,
+        "bands": 0.35
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 9,
+          "y": 10,
+          "w": 401,
+          "h": 43
+        },
+        "build": {
+          "x": 2,
+          "y": 41,
+          "w": 299,
+          "h": 12
+        }
+      }
+    },
+    {
+      "id": "weight-first-3",
+      "x": 0.3506,
+      "y": 0.7223,
+      "w": 0.249,
+      "h": 0.0381,
+      "kind": "text",
+      "score": {
+        "overall": 0.4813,
+        "structure": 0.3762,
+        "color": 0.8811,
+        "colorIntersection": 0.7981,
+        "paletteMatch": 0.9258,
+        "detail": 0.0864,
+        "detailRaw": 0.1489,
+        "detailAdded": 0.125,
+        "bands": 0.6
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 7,
+          "y": 10,
+          "w": 237,
+          "h": 43
+        },
+        "build": {
+          "x": 0,
+          "y": 41,
+          "w": 174,
+          "h": 12
+        }
+      }
+    },
+    {
+      "id": "price-first-3",
+      "x": 0.8425,
+      "y": 0.8274,
+      "w": 0.1402,
+      "h": 0.03,
+      "kind": "text",
+      "score": {
+        "overall": 0.4761,
+        "structure": 0.4665,
+        "color": 0.8087,
+        "colorIntersection": 0.6703,
+        "paletteMatch": 0.8832,
+        "detail": 0.0042,
+        "detailRaw": 0.0094,
+        "detailAdded": 0.0104,
+        "bands": 0.4
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 9,
+          "y": 5,
+          "w": 119,
+          "h": 33
+        },
+        "build": {
+          "x": 0,
+          "y": 20,
+          "w": 2,
+          "h": 5
+        }
+      }
+    },
+    {
+      "id": "price-rule-3",
+      "x": 0.3,
+      "y": 0.8,
+      "w": 0.7,
+      "h": 0.1,
+      "kind": "chrome",
+      "score": {
+        "overall": 0.6057,
+        "structure": 0.7496,
+        "color": 0.978,
+        "colorIntersection": 0.9526,
+        "paletteMatch": 0.9917,
+        "detail": 0.0351,
+        "detailRaw": 0.1445,
+        "detailAdded": 0.2188,
+        "bands": 0.6
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 54,
+          "y": 0,
+          "w": 610,
+          "h": 82
+        },
+        "build": {
+          "x": 0,
+          "y": 33,
+          "w": 536,
+          "h": 127
+        }
+      }
+    },
+    {
+      "id": "weight-second-3",
+      "x": 0.3486,
+      "y": 0.8261,
+      "w": 0.0854,
+      "h": 0.03,
+      "kind": "text",
+      "score": {
+        "overall": 0.5623,
+        "structure": 0.664,
+        "color": 0.9212,
+        "colorIntersection": 0.8611,
+        "paletteMatch": 0.9536,
+        "detail": 0,
+        "detailRaw": 0,
+        "detailAdded": 0.125,
+        "bands": 0
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 9,
+          "y": 10,
+          "w": 69,
+          "h": 29
+        },
+        "build": {
+          "x": 3,
+          "y": 0,
+          "w": 80,
+          "h": 6
+        }
+      }
+    },
+    {
+      "id": "price-second-3",
+      "x": 0.8425,
+      "y": 0.8261,
+      "w": 0.1402,
+      "h": 0.03,
+      "kind": "text",
+      "score": {
+        "overall": 0.4602,
+        "structure": 0.4322,
+        "color": 0.816,
+        "colorIntersection": 0.6709,
+        "paletteMatch": 0.8941,
+        "detail": 0.0011,
+        "detailRaw": 0.0063,
+        "detailAdded": 0.0104,
+        "bands": 0.4
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 9,
+          "y": 7,
+          "w": 119,
+          "h": 33
+        },
+        "build": {
+          "x": 0,
+          "y": 0,
+          "w": 2,
+          "h": 27
+        }
+      }
+    },
+    {
+      "id": "call-action",
+      "x": 0,
+      "y": 0.9,
+      "w": 1,
+      "h": 0.1,
+      "kind": "control",
+      "score": {
+        "overall": 0.3036,
+        "structure": 0.2664,
+        "color": 0.484,
+        "colorIntersection": 0.2187,
+        "paletteMatch": 0.6268,
+        "detail": 0.0715,
+        "detailRaw": 0.1236,
+        "detailAdded": 0.1042,
+        "bands": 0.4167
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 0,
+          "y": 0,
+          "w": 984,
+          "h": 160
+        },
+        "build": {
+          "x": 154,
+          "y": 0,
+          "w": 677,
+          "h": 160
+        }
+      }
+    }
+  ],
+  "files": {
+    "sideBySide": "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/side-by-side.png",
+    "heatmap": "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/heatmap.png",
+    "regionFiles": [
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/brand.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/pdf.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/title.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/address.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/nav-shashlik.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/nav-snacks.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/nav-bakery.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/nav-sets.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/navigation-rule.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/section-title.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/section-count.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/photo-well-1.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/camera-1.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/photo-label-1.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/dish-title-1.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/weight-first-1.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/price-first-1.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/price-rule-1.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/weight-second-1.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/price-second-1.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/dish-divider-1.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/photo-well-2.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/camera-2.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/photo-label-2.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/dish-title-2.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/weight-first-2.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/price-first-2.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/price-rule-2.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/weight-second-2.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/price-second-2.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/dish-divider-2.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/photo-well-3.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/camera-3.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/photo-label-3.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/dish-title-3.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/weight-first-3.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/price-first-3.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/price-rule-3.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/weight-second-3.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/price-second-3.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions/call-action.png"
+    ]
+  }
+}

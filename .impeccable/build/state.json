@@ -1,0 +1,309 @@
+{
+  "tool": "build-phase",
+  "version": 2,
+  "startedAt": "2026-11-10T20:05:13.160Z",
+  "comp": ".impeccable/mocks/delivery-vitrine-b.png",
+  "direction": "9e5a2ec8",
+  "breakpoint": "984x1599",
+  "artifact": "delivery/index.html",
+  "phase": "hero",
+  "phases": {
+    "comps": {
+      "status": "closed",
+      "openedAt": "2026-11-10T20:05:13.159Z",
+      "closedAt": "2026-11-10T20:17:05.256Z",
+      "attempts": 2,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "3 comps, 1 approved",
+        "approved": ".impeccable/mocks/delivery-vitrine-b.png",
+        "at": "2026-11-10T20:17:05.256Z"
+      },
+      "forced": null
+    },
+    "spec": {
+      "status": "closed",
+      "openedAt": "2026-11-10T20:17:05.271Z",
+      "closedAt": "2026-11-10T20:19:54.138Z",
+      "attempts": 3,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "41 regions, 0 plates, 23 text regions measured",
+        "at": "2026-11-10T20:19:54.138Z"
+      },
+      "forced": null
+    },
+    "plates": {
+      "status": "closed",
+      "openedAt": "2026-11-10T20:19:54.138Z",
+      "closedAt": "2026-11-10T20:19:54.237Z",
+      "attempts": 1,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "no plates owed",
+        "at": "2026-11-10T20:19:54.237Z"
+      },
+      "forced": null
+    },
+    "hero": {
+      "status": "open",
+      "openedAt": "2026-11-10T20:19:54.237Z",
+      "closedAt": null,
+      "attempts": 1,
+      "notes": [
+        {
+          "at": "2026-11-10T22:57:35.736Z",
+          "text": "Resumed 2026-11-11 with user-authorized Chrome capture. The approved B is the visual authority. Prior OCR region boxes overlap (navigation and weights); semantic flow follows the visible comp. All 29 dishes, portions, prices, and four set descriptions retained. First three dishes follow B; pork-loin remains fourth. Self-hosted Golos Text replaces the catalog-ranked Latin face for Cyrillic coverage. No new food imagery."
+        },
+        {
+          "at": "2026-11-10T23:06:49.588Z",
+          "text": "Actual Chrome evidence captured and opened: hero-repro984x1599, desktop1440x6239 full page, mobile390x4882 full page, and viewport first frames. Hero comp-diff overall0.8895 verdictmatch; hard-veto remains for preserved overlapping OCR portion boxes, so no phase is force-closed. Production sections, persistent section feedback, and responsive layouts are implemented and handed to the fresh finish reviewer. Desktop portrait-reference diff is advisory for the changed comparison topology."
+        }
+      ],
+      "gate": {
+        "ok": false,
+        "reasons": [
+          "region price-first-1 (text) is contradicted (structure 42%, detail added 31%): the composition of this text region differs from the comp; re-derive it from the spec box",
+          "region weight-second-1 (text) is contradicted (structure 39%, detail added 29%): the composition of this text region differs from the comp; re-derive it from the spec box",
+          "region price-second-1 (text) is contradicted (structure 39%, detail added 26%): the composition of this text region differs from the comp; re-derive it from the spec box",
+          "region price-first-2 (text) is contradicted (structure 45%, detail added 18%): the composition of this text region differs from the comp; re-derive it from the spec box",
+          "region weight-second-2 (text) is contradicted (structure 35%, detail added 36%): the composition of this text region differs from the comp; re-derive it from the spec box",
+          "region price-second-2 (text) is contradicted (structure 42%, detail added 21%): the composition of this text region differs from the comp; re-derive it from the spec box",
+          "region price-first-3 (text) is contradicted (structure 38%, detail added 21%): the composition of this text region differs from the comp; re-derive it from the spec box",
+          "control nav-shashlik drifts to 63% (structure 46%, color 86%): its chrome differs from the comp's; open .impeccable/review/diff/hero/regions/nav-shashlik.png and match the border, fill, radius, chevron or arrow, and label size",
+          "control nav-snacks drifts to 64% (structure 48%, color 93%): its chrome differs from the comp's; open .impeccable/review/diff/hero/regions/nav-snacks.png and match the border, fill, radius, chevron or arrow, and label size",
+          "control nav-sets drifts to 63% (structure 50%, color 92%): its chrome differs from the comp's; open .impeccable/review/diff/hero/regions/nav-sets.png and match the border, fill, radius, chevron or arrow, and label size"
+        ],
+        "summary": "hero 89% (match)",
+        "score": 0.8895,
+        "verdict": "match",
+        "report": ".impeccable/review/diff/hero/report.json",
+        "sideBySide": "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/side-by-side.png",
+        "worst": [
+          "weight-second-2 contradicted 43%",
+          "weight-second-1 contradicted 47%",
+          "price-first-1 contradicted 49%"
+        ],
+        "worstIds": [
+          "weight-second-2",
+          "weight-second-1",
+          "price-first-1"
+        ],
+        "worstCrops": [
+          {
+            "id": "weight-second-2",
+            "verdict": "contradicted",
+            "score": {
+              "overall": 0.4289,
+              "structure": 0.3529,
+              "color": 0.9242,
+              "colorIntersection": 0.8589,
+              "paletteMatch": 0.9594,
+              "detail": 0.1429,
+              "detailRaw": 0.3252,
+              "detailAdded": 0.3646,
+              "bands": 0
+            },
+            "file": ".impeccable/review/diff/hero/regions/weight-second-2.png"
+          },
+          {
+            "id": "weight-second-1",
+            "verdict": "contradicted",
+            "score": {
+              "overall": 0.4672,
+              "structure": 0.3884,
+              "color": 0.912,
+              "colorIntersection": 0.8699,
+              "paletteMatch": 0.9347,
+              "detail": 0.1266,
+              "detailRaw": 0.2724,
+              "detailAdded": 0.2917,
+              "bands": 0.26
+            },
+            "file": ".impeccable/review/diff/hero/regions/weight-second-1.png"
+          },
+          {
+            "id": "price-first-1",
+            "verdict": "contradicted",
+            "score": {
+              "overall": 0.4917,
+              "structure": 0.4151,
+              "color": 0.9097,
+              "colorIntersection": 0.8399,
+              "paletteMatch": 0.9472,
+              "detail": 0.1707,
+              "detailRaw": 0.3269,
+              "detailAdded": 0.3125,
+              "bands": 0.3111
+            },
+            "file": ".impeccable/review/diff/hero/regions/price-first-1.png"
+          }
+        ],
+        "advisories": [
+          "(advisory, above the 72% bar; fix in the polish pass before responsive) 3 readings:",
+          "  chrome price-rule-1: its rule sits 57px into the box in the comp and 71px in the build (+14px), so the strip is taller than the comp's; match the height, not only the position",
+          "  chrome price-rule-2: its rule sits 45px into the box in the comp and 55px in the build (+10px), so the strip is taller than the comp's; match the height, not only the position",
+          "  chrome price-rule-3: its rule sits 28px into the box in the comp and 38px in the build (+10px), so the strip is taller than the comp's; match the height, not only the position"
+        ],
+        "regionVerdicts": {
+          "brand": "match",
+          "pdf": "drift",
+          "title": "drift",
+          "address": "drift",
+          "nav-shashlik": "drift",
+          "nav-snacks": "drift",
+          "nav-bakery": "drift",
+          "nav-sets": "drift",
+          "navigation-rule": "match",
+          "section-title": "drift",
+          "section-count": "drift",
+          "photo-well-1": "drift",
+          "camera-1": "drift",
+          "photo-label-1": "drift",
+          "dish-title-1": "drift",
+          "weight-first-1": "drift",
+          "price-first-1": "contradicted",
+          "price-rule-1": "drift",
+          "weight-second-1": "contradicted",
+          "price-second-1": "contradicted",
+          "dish-divider-1": "drift",
+          "photo-well-2": "drift",
+          "camera-2": "drift",
+          "photo-label-2": "drift",
+          "dish-title-2": "drift",
+          "weight-first-2": "match",
+          "price-first-2": "contradicted",
+          "price-rule-2": "drift",
+          "weight-second-2": "contradicted",
+          "price-second-2": "contradicted",
+          "dish-divider-2": "drift",
+          "photo-well-3": "drift",
+          "camera-3": "drift",
+          "photo-label-3": "drift",
+          "dish-title-3": "drift",
+          "weight-first-3": "drift",
+          "price-first-3": "contradicted",
+          "price-rule-3": "drift",
+          "weight-second-3": "drift",
+          "price-second-3": "drift",
+          "call-action": "match"
+        },
+        "at": "2026-11-10T23:05:52.586Z"
+      },
+      "forced": null,
+      "records": 2,
+      "readingsSeen": {
+        "text brand: cap height 27.5px in the build, 39.5px in the comp (-30%); set font-size so the cap height renders at 39.5px": 1,
+        "text photo-label-1: cap height 25.3px in the build, 20px in the comp (+27%); set font-size so the cap height renders at 20px": 1,
+        "text dish-title-3: letter-spacing is tighter than the comp's (gap 0.055 vs 0.119 of the cap height); set letter-spacing to open it by about 2px": 1,
+        "text photo-label-1: 1 line in the build, 2 in the comp; the measure (max-width, font-size, letter-spacing) wraps it differently, so the block is a different shape": 1,
+        "chrome price-rule-1: its rule sits 57px into the box in the comp and 79px in the build (+22px), so the strip is taller than the comp's; match the height, not only the position": 1,
+        "chrome price-rule-2: its rule sits 45px into the box in the comp and 63px in the build (+18px), so the strip is taller than the comp's; match the height, not only the position": 1,
+        "chrome price-rule-3: its rule sits 28px into the box in the comp and 46px in the build (+18px), so the strip is taller than the comp's; match the height, not only the position": 1,
+        "control call-action: its rule sits 7px into the box in the comp and 127px in the build (+120px), so the strip is taller than the comp's; match the height, not only the position": 1,
+        "chrome price-rule-1: its rule sits 57px into the box in the comp and 71px in the build (+14px), so the strip is taller than the comp's; match the height, not only the position": 1,
+        "chrome price-rule-2: its rule sits 45px into the box in the comp and 55px in the build (+10px), so the strip is taller than the comp's; match the height, not only the position": 1,
+        "chrome price-rule-3: its rule sits 28px into the box in the comp and 38px in the build (+10px), so the strip is taller than the comp's; match the height, not only the position": 1
+      },
+      "history": [
+        {
+          "at": "2026-11-10T23:05:52.586Z",
+          "score": 0.8895,
+          "worstIds": [
+            "weight-second-2",
+            "weight-second-1",
+            "price-first-1"
+          ],
+          "regionVerdicts": {
+            "brand": "match",
+            "pdf": "drift",
+            "title": "drift",
+            "address": "drift",
+            "nav-shashlik": "drift",
+            "nav-snacks": "drift",
+            "nav-bakery": "drift",
+            "nav-sets": "drift",
+            "navigation-rule": "match",
+            "section-title": "drift",
+            "section-count": "drift",
+            "photo-well-1": "drift",
+            "camera-1": "drift",
+            "photo-label-1": "drift",
+            "dish-title-1": "drift",
+            "weight-first-1": "drift",
+            "price-first-1": "contradicted",
+            "price-rule-1": "drift",
+            "weight-second-1": "contradicted",
+            "price-second-1": "contradicted",
+            "dish-divider-1": "drift",
+            "photo-well-2": "drift",
+            "camera-2": "drift",
+            "photo-label-2": "drift",
+            "dish-title-2": "drift",
+            "weight-first-2": "match",
+            "price-first-2": "contradicted",
+            "price-rule-2": "drift",
+            "weight-second-2": "contradicted",
+            "price-second-2": "contradicted",
+            "dish-divider-2": "drift",
+            "photo-well-3": "drift",
+            "camera-3": "drift",
+            "photo-label-3": "drift",
+            "dish-title-3": "drift",
+            "weight-first-3": "drift",
+            "price-first-3": "contradicted",
+            "price-rule-3": "drift",
+            "weight-second-3": "drift",
+            "price-second-3": "drift",
+            "call-action": "match"
+          },
+          "artifactHash": "4cd1cc8f802c"
+        }
+      ]
+    },
+    "sections": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "motion": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "responsive": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "review": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    }
+  },
+  "finish": null,
+  "plates": {}
+}

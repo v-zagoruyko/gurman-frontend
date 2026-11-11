@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-11T06:38:00Z",
+  "title": "Design System: Gurman Delivery Menu",
+  "extensions": {
+    "colorMeta": {
+      "paper": { "role": "neutral", "displayName": "Paper White" },
+      "ink": { "role": "primary", "displayName": "Charcoal Ink" },
+      "muted": { "role": "neutral", "displayName": "Muted Gray" },
+      "photo-well": { "role": "neutral", "displayName": "Photo-Well Gray" },
+      "divider": { "role": "neutral", "displayName": "Divider Gray" },
+      "action": { "role": "secondary", "displayName": "Graphite Action" }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Page Display", "purpose": "Menu title." },
+      "body": { "displayName": "Body", "purpose": "Address, portions, and supporting text." },
+      "dish-title": { "displayName": "Dish Title", "purpose": "Names each menu item." }
+    },
+    "shadows": [],
+    "motion": [],
+    "breakpoints": [
+      { "name": "compact", "value": "600px" },
+      { "name": "wide-layout", "value": "1100px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Section Navigation",
+      "kind": "nav",
+      "refersTo": "section-link",
+      "description": "Plain section links with a dark underline for the current section.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Разделы меню\"><a class=\"ds-active\" aria-current=\"location\" href=\"#shashlik\">Шашлыки</a><a href=\"#snacks\">Закуски</a><a href=\"#bakery\">Выпечка</a><a href=\"#sets\">Сеты</a></nav>",
+      "css": ".ds-nav { display: flex; justify-content: space-between; gap: 16px; border-bottom: 1px solid var(--line); background: var(--paper); } .ds-nav a { position: relative; display: inline-flex; align-items: center; min-height: 54px; color: var(--muted); font: 400 19px/1.3 'Golos Text', sans-serif; white-space: nowrap; } .ds-nav .ds-active { color: var(--ink); font-weight: 600; } .ds-nav .ds-active::after { position: absolute; right: 0; bottom: 0; left: 0; height: 2px; background: var(--ink); content: ''; }"
+    },
+    {
+      "name": "Dish Photo Placeholder",
+      "kind": "custom",
+      "refersTo": "photo-placeholder",
+      "description": "A neutral, labelled photo well that makes missing item photography explicit.",
+      "html": "<div class=\"ds-photo\" role=\"img\" aria-label=\"Фото блюда пока нет\"><svg viewBox=\"0 0 32 32\" aria-hidden=\"true\"><path d=\"M11 6h10l3 4h3a3 3 0 0 1 3 3v13a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V13a3 3 0 0 1 3-3h3z\"/><circle cx=\"16\" cy=\"19\" r=\"6\"/></svg><span>Фото блюда<br>пока нет</span></div>",
+      "css": ".ds-photo { display: flex; aspect-ratio: 1.08; flex-direction: column; align-items: center; justify-content: center; gap: 5px; border-radius: 8px; background: var(--photo); color: var(--muted); text-align: center; font: 400 14px/1.2 'Golos Text', sans-serif; } .ds-photo svg { width: 32px; height: 32px; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }"
+    },
+    {
+      "name": "Portion Comparison",
+      "kind": "custom",
+      "refersTo": "portion-comparison",
+      "description": "Two portion and price pairs aligned as one dish comparison.",
+      "html": "<dl class=\"ds-portions\"><div><dt>200 г</dt><dd>300 ₽</dd></div><div><dt>1 кг</dt><dd>1 430 ₽</dd></div></dl>",
+      "css": ".ds-portions { margin: 0; color: var(--ink); font: 400 19px/1.35 'Golos Text', sans-serif; font-variant-numeric: lining-nums tabular-nums; } .ds-portions > div { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; padding-block: 4px; } .ds-portions > div + div { border-top: 1px solid var(--line); } .ds-portions dd { margin: 0; font-weight: 600; white-space: nowrap; }"
+    },
+    {
+      "name": "Dish Row",
+      "kind": "custom",
+      "refersTo": "portion-comparison",
+      "description": "Pairs one photo placeholder and dish identity with its portion prices.",
+      "html": "<article class=\"ds-dish\"><div class=\"ds-photo\">Фото блюда<br>пока нет</div><div><h3>Свиная шея</h3><dl class=\"ds-portions\"><div><dt>200 г</dt><dd>300 ₽</dd></div><div><dt>1 кг</dt><dd>1 430 ₽</dd></div></dl></div></article>",
+      "css": ".ds-dish { display: grid; grid-template-columns: 30.4% minmax(0, 1fr); column-gap: 4%; align-items: start; padding-block: 8px; border-bottom: 1px solid var(--line); background: var(--paper); color: var(--ink); } .ds-dish h3 { margin: 0 0 8px; font: 600 20px/1.3 'Golos Text', sans-serif; } .ds-dish .ds-portions { font-size: 19px; }"
+    },
+    {
+      "name": "Phone Action",
+      "kind": "button",
+      "refersTo": "call-button",
+      "description": "Persistent graphite phone link for the confirmed delivery number.",
+      "html": "<a class=\"ds-call\" href=\"tel:+73452217565\"><span>Позвонить</span><span>21-75-65</span></a>",
+      "css": ".ds-call { display: flex; min-height: 54px; align-items: center; justify-content: center; gap: 12px; padding: 10px 16px; border-radius: 8px; background: var(--action); color: #fff; font: 600 20px/1.1 'Golos Text', sans-serif; text-decoration: none; } .ds-call:hover { background: var(--ink); } .ds-call:focus-visible { outline: 3px solid var(--action); outline-offset: 3px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Спокойная витрина",
+    "overview": "This design system applies to the delivery menu surface only. It presents each dish as one calm comparison unit: a labelled photo well, a name, and aligned portion prices. The banquet homepage keeps its existing visual system.",
+    "keyCharacteristics": [
+      "Quiet monochrome colors with one graphite action surface.",
+      "Open comparison rows with thin dividers, not card shells.",
+      "One humanist sans-serif family with tabular numeric alignment.",
+      "An individual neutral photo placeholder for every dish until real photography arrives."
+    ],
+    "rules": [
+      { "name": "The Honest Image Rule", "body": "Use only a real photo belonging to that dish; otherwise keep its own labelled neutral photo well.", "section": "components" },
+      { "name": "The One Family Rule", "body": "Use Golos Text throughout and build hierarchy with size, weight, and alignment.", "section": "typography" }
+    ],
+    "dos": [
+      "Keep each dish name next to its portion and price comparison.",
+      "Preserve confirmed content and the phone and PDF paths."
+    ],
+    "donts": [
+      "Do not generate or reuse food photos across dishes.",
+      "Do not add newspaper columns, gradients, ornaments, or unverified menu claims."
+    ]
+  }
+}

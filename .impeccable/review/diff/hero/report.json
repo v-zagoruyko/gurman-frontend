@@ -1,0 +1,1518 @@
+{
+  "tool": "comp-diff",
+  "version": 1,
+  "createdAt": "2026-11-10T23:05:52.501Z",
+  "label": "hero",
+  "comp": ".impeccable/mocks/delivery-vitrine-b.png",
+  "build": ".impeccable/review/hero-repro.png",
+  "spec": ".impeccable/build/spec.json",
+  "compSize": "984x1599",
+  "buildSize": "984x1599",
+  "align": "top",
+  "overall": 0.8895,
+  "verdict": "match",
+  "scores": {
+    "overall": 0.8895,
+    "structure": 0.8439,
+    "color": 0.8932,
+    "colorIntersection": 0.8235,
+    "paletteMatch": 0.9307,
+    "detail": 0.8833,
+    "detailRaw": 0.8937,
+    "detailAdded": 0.0208,
+    "bands": 1
+  },
+  "palette": {
+    "comp": [
+      {
+        "hex": "#f5f5f5",
+        "coverage": 0.8645
+      },
+      {
+        "hex": "#383947",
+        "coverage": 0.0798
+      },
+      {
+        "hex": "#1c1c1c",
+        "coverage": 0.0287
+      },
+      {
+        "hex": "#545657",
+        "coverage": 0.0097
+      },
+      {
+        "hex": "#c8cbd0",
+        "coverage": 0.0089
+      },
+      {
+        "hex": "#8b8d8f",
+        "coverage": 0.0084
+      }
+    ],
+    "build": [
+      {
+        "hex": "#f5f8f8",
+        "coverage": 0.8706
+      },
+      {
+        "hex": "#33333e",
+        "coverage": 0.1099
+      },
+      {
+        "hex": "#5b5c5c",
+        "coverage": 0.0137
+      },
+      {
+        "hex": "#b1b1b1",
+        "coverage": 0.0042
+      },
+      {
+        "hex": "#828888",
+        "coverage": 0.0015
+      }
+    ]
+  },
+  "regions": [
+    {
+      "id": "brand",
+      "x": 0.0305,
+      "y": 0.0113,
+      "w": 0.2134,
+      "h": 0.0413,
+      "kind": "text",
+      "score": {
+        "overall": 0.8304,
+        "structure": 0.8059,
+        "color": 0.8902,
+        "colorIntersection": 0.8329,
+        "paletteMatch": 0.9211,
+        "detail": 0.7358,
+        "detailRaw": 0.7618,
+        "detailAdded": 0.0521,
+        "bands": 0.9455
+      },
+      "verdict": "match",
+      "inkBox": {
+        "comp": {
+          "x": 7,
+          "y": 8,
+          "w": 195,
+          "h": 50
+        },
+        "build": {
+          "x": 2,
+          "y": 8,
+          "w": 193,
+          "h": 52
+        }
+      }
+    },
+    {
+      "id": "pdf",
+      "x": 0.8791,
+      "y": 0.015,
+      "w": 0.0976,
+      "h": 0.0375,
+      "kind": "control",
+      "score": {
+        "overall": 0.7742,
+        "structure": 0.8133,
+        "color": 0.8922,
+        "colorIntersection": 0.7889,
+        "paletteMatch": 0.9478,
+        "detail": 0.4799,
+        "detailRaw": 0.5632,
+        "detailAdded": 0.1667,
+        "bands": 0.6417
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 8,
+          "y": 10,
+          "w": 79,
+          "h": 41
+        },
+        "build": {
+          "x": 12,
+          "y": 7,
+          "w": 80,
+          "h": 38
+        }
+      }
+    },
+    {
+      "id": "title",
+      "x": 0.0264,
+      "y": 0.0713,
+      "w": 0.5976,
+      "h": 0.0826,
+      "kind": "text",
+      "score": {
+        "overall": 0.7011,
+        "structure": 0.5425,
+        "color": 0.9186,
+        "colorIntersection": 0.8519,
+        "paletteMatch": 0.9545,
+        "detail": 0.7039,
+        "detailRaw": 0.7716,
+        "detailAdded": 0.1354,
+        "bands": 0.9467
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 7,
+          "y": 11,
+          "w": 576,
+          "h": 114
+        },
+        "build": {
+          "x": 2,
+          "y": 3,
+          "w": 586,
+          "h": 122
+        }
+      }
+    },
+    {
+      "id": "address",
+      "x": 0.0244,
+      "y": 0.1226,
+      "w": 0.439,
+      "h": 0.03,
+      "kind": "text",
+      "score": {
+        "overall": 0.7818,
+        "structure": 0.6899,
+        "color": 0.9422,
+        "colorIntersection": 0.8935,
+        "paletteMatch": 0.9684,
+        "detail": 0.8419,
+        "detailRaw": 0.8628,
+        "detailAdded": 0.0417,
+        "bands": 0.75
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 9,
+          "y": 9,
+          "w": 413,
+          "h": 34
+        },
+        "build": {
+          "x": 4,
+          "y": 9,
+          "w": 421,
+          "h": 34
+        }
+      }
+    },
+    {
+      "id": "nav-shashlik",
+      "x": 0.0224,
+      "y": 0.267,
+      "w": 0.2774,
+      "h": 0.0331,
+      "kind": "control",
+      "score": {
+        "overall": 0.6281,
+        "structure": 0.4568,
+        "color": 0.8598,
+        "colorIntersection": 0.7621,
+        "paletteMatch": 0.9124,
+        "detail": 0.6079,
+        "detailRaw": 0.6287,
+        "detailAdded": 0.0417,
+        "bands": 0.5667
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 11,
+          "y": 5,
+          "w": 258,
+          "h": 43
+        },
+        "build": {
+          "x": 10,
+          "y": 12,
+          "w": 263,
+          "h": 41
+        }
+      }
+    },
+    {
+      "id": "nav-snacks",
+      "x": 0.3293,
+      "y": 0.1839,
+      "w": 0.1687,
+      "h": 0.0338,
+      "kind": "control",
+      "score": {
+        "overall": 0.6383,
+        "structure": 0.4752,
+        "color": 0.9265,
+        "colorIntersection": 0.8898,
+        "paletteMatch": 0.9463,
+        "detail": 0.5009,
+        "detailRaw": 0.5738,
+        "detailAdded": 0.1458,
+        "bands": 0.5667
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 8,
+          "y": 5,
+          "w": 152,
+          "h": 37
+        },
+        "build": {
+          "x": 0,
+          "y": 9,
+          "w": 151,
+          "h": 38
+        }
+      }
+    },
+    {
+      "id": "nav-bakery",
+      "x": 0.565,
+      "y": 0.1839,
+      "w": 0.1829,
+      "h": 0.0294,
+      "kind": "control",
+      "score": {
+        "overall": 0.7717,
+        "structure": 0.7206,
+        "color": 0.9156,
+        "colorIntersection": 0.8394,
+        "paletteMatch": 0.9567,
+        "detail": 0.6349,
+        "detailRaw": 0.7026,
+        "detailAdded": 0.1354,
+        "bands": 0.6
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 12,
+          "y": 6,
+          "w": 162,
+          "h": 29
+        },
+        "build": {
+          "x": 14,
+          "y": 9,
+          "w": 166,
+          "h": 30
+        }
+      }
+    },
+    {
+      "id": "nav-sets",
+      "x": 0.8242,
+      "y": 0.1826,
+      "w": 0.1159,
+      "h": 0.03,
+      "kind": "control",
+      "score": {
+        "overall": 0.6331,
+        "structure": 0.5005,
+        "color": 0.9226,
+        "colorIntersection": 0.8713,
+        "paletteMatch": 0.9502,
+        "detail": 0.4246,
+        "detailRaw": 0.508,
+        "detailAdded": 0.1667,
+        "bands": 0.5
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 8,
+          "y": 7,
+          "w": 96,
+          "h": 30
+        },
+        "build": {
+          "x": 17,
+          "y": 11,
+          "w": 95,
+          "h": 30
+        }
+      }
+    },
+    {
+      "id": "navigation-rule",
+      "x": 0,
+      "y": 0.2,
+      "w": 1,
+      "h": 0.1,
+      "kind": "chrome",
+      "score": {
+        "overall": 0.8367,
+        "structure": 0.8588,
+        "color": 0.9655,
+        "colorIntersection": 0.928,
+        "paletteMatch": 0.9857,
+        "detail": 0.6989,
+        "detailRaw": 0.7093,
+        "detailAdded": 0.0208,
+        "bands": 0.8
+      },
+      "verdict": "match",
+      "inkBox": {
+        "comp": {
+          "x": 27,
+          "y": 0,
+          "w": 888,
+          "h": 158
+        },
+        "build": {
+          "x": 28,
+          "y": 0,
+          "w": 895,
+          "h": 160
+        }
+      }
+    },
+    {
+      "id": "section-title",
+      "x": 0.0264,
+      "y": 0.2664,
+      "w": 0.313,
+      "h": 0.0375,
+      "kind": "text",
+      "score": {
+        "overall": 0.6178,
+        "structure": 0.5056,
+        "color": 0.873,
+        "colorIntersection": 0.7721,
+        "paletteMatch": 0.9274,
+        "detail": 0.6229,
+        "detailRaw": 0.6802,
+        "detailAdded": 0.1146,
+        "bands": 0.5333
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 7,
+          "y": 6,
+          "w": 292,
+          "h": 43
+        },
+        "build": {
+          "x": 6,
+          "y": 13,
+          "w": 270,
+          "h": 42
+        }
+      }
+    },
+    {
+      "id": "section-count",
+      "x": 0.372,
+      "y": 0.2708,
+      "w": 0.1687,
+      "h": 0.0338,
+      "kind": "text",
+      "score": {
+        "overall": 0.6871,
+        "structure": 0.7356,
+        "color": 0.9281,
+        "colorIntersection": 0.8652,
+        "paletteMatch": 0.9619,
+        "detail": 0.4144,
+        "detailRaw": 0.5186,
+        "detailAdded": 0.2083,
+        "bands": 0.2514
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 6,
+          "y": 10,
+          "w": 149,
+          "h": 35
+        },
+        "build": {
+          "x": 1,
+          "y": 17,
+          "w": 159,
+          "h": 35
+        }
+      }
+    },
+    {
+      "id": "photo-well-1",
+      "x": 0,
+      "y": 0.3,
+      "w": 0.4,
+      "h": 0.2,
+      "kind": "chrome",
+      "score": {
+        "overall": 0.7895,
+        "structure": 0.877,
+        "color": 0.7006,
+        "colorIntersection": 0.4414,
+        "paletteMatch": 0.8403,
+        "detail": 0.7723,
+        "detailRaw": 0.8036,
+        "detailAdded": 0.0625,
+        "bands": 0.7619
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 80,
+          "y": 73,
+          "w": 314,
+          "h": 196
+        },
+        "build": {
+          "x": 81,
+          "y": 0,
+          "w": 313,
+          "h": 289
+        }
+      }
+    },
+    {
+      "id": "camera-1",
+      "x": 0.1,
+      "y": 0.3,
+      "w": 0.2,
+      "h": 0.2,
+      "kind": "chrome",
+      "score": {
+        "overall": 0.7911,
+        "structure": 0.8704,
+        "color": 0.5967,
+        "colorIntersection": 0.2418,
+        "paletteMatch": 0.7879,
+        "detail": 0.8292,
+        "detailRaw": 0.8292,
+        "detailAdded": 0,
+        "bands": 0.8667
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 0,
+          "y": 122,
+          "w": 159,
+          "h": 143
+        },
+        "build": {
+          "x": 0,
+          "y": 0,
+          "w": 158,
+          "h": 265
+        }
+      }
+    },
+    {
+      "id": "photo-label-1",
+      "x": 0.0732,
+      "y": 0.4003,
+      "w": 0.1951,
+      "h": 0.0713,
+      "kind": "text",
+      "score": {
+        "overall": 0.7632,
+        "structure": 0.8158,
+        "color": 0.5363,
+        "colorIntersection": 0.1374,
+        "paletteMatch": 0.7511,
+        "detail": 0.8445,
+        "detailRaw": 0.8445,
+        "detailAdded": 0,
+        "bands": 0.9455
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 8,
+          "y": 0,
+          "w": 177,
+          "h": 105
+        },
+        "build": {
+          "x": 9,
+          "y": 0,
+          "w": 175,
+          "h": 105
+        }
+      }
+    },
+    {
+      "id": "dish-title-1",
+      "x": 0.3486,
+      "y": 0.3415,
+      "w": 0.311,
+      "h": 0.0338,
+      "kind": "text",
+      "score": {
+        "overall": 0.6988,
+        "structure": 0.6574,
+        "color": 0.8785,
+        "colorIntersection": 0.7911,
+        "paletteMatch": 0.9255,
+        "detail": 0.5031,
+        "detailRaw": 0.576,
+        "detailAdded": 0.1458,
+        "bands": 0.75
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 7,
+          "y": 7,
+          "w": 293,
+          "h": 38
+        },
+        "build": {
+          "x": 6,
+          "y": 17,
+          "w": 293,
+          "h": 37
+        }
+      }
+    },
+    {
+      "id": "weight-first-1",
+      "x": 0.3435,
+      "y": 0.3402,
+      "w": 0.2561,
+      "h": 0.0338,
+      "kind": "text",
+      "score": {
+        "overall": 0.7671,
+        "structure": 0.7655,
+        "color": 0.886,
+        "colorIntersection": 0.7892,
+        "paletteMatch": 0.9381,
+        "detail": 0.4594,
+        "detailRaw": 0.5271,
+        "detailAdded": 0.1354,
+        "bands": 0.94
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 12,
+          "y": 9,
+          "w": 240,
+          "h": 38
+        },
+        "build": {
+          "x": 11,
+          "y": 19,
+          "w": 241,
+          "h": 35
+        }
+      }
+    },
+    {
+      "id": "price-first-1",
+      "x": 0.812,
+      "y": 0.4428,
+      "w": 0.1707,
+      "h": 0.0338,
+      "kind": "text",
+      "score": {
+        "overall": 0.4917,
+        "structure": 0.4151,
+        "color": 0.9097,
+        "colorIntersection": 0.8399,
+        "paletteMatch": 0.9472,
+        "detail": 0.1707,
+        "detailRaw": 0.3269,
+        "detailAdded": 0.3125,
+        "bands": 0.3111
+      },
+      "verdict": "contradicted",
+      "inkBox": {
+        "comp": {
+          "x": 7,
+          "y": 10,
+          "w": 151,
+          "h": 33
+        },
+        "build": {
+          "x": 3,
+          "y": 30,
+          "w": 153,
+          "h": 24
+        }
+      }
+    },
+    {
+      "id": "price-rule-1",
+      "x": 0.3,
+      "y": 0.4,
+      "w": 0.7,
+      "h": 0.1,
+      "kind": "chrome",
+      "score": {
+        "overall": 0.6535,
+        "structure": 0.8441,
+        "color": 0.9634,
+        "colorIntersection": 0.9363,
+        "paletteMatch": 0.9779,
+        "detail": 0.2448,
+        "detailRaw": 0.375,
+        "detailAdded": 0.2604,
+        "bands": 0.3733
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 56,
+          "y": 1,
+          "w": 606,
+          "h": 110
+        },
+        "build": {
+          "x": 53,
+          "y": 18,
+          "w": 607,
+          "h": 112
+        }
+      }
+    },
+    {
+      "id": "weight-second-1",
+      "x": 0.3486,
+      "y": 0.4003,
+      "w": 0.1159,
+      "h": 0.0263,
+      "kind": "text",
+      "score": {
+        "overall": 0.4672,
+        "structure": 0.3884,
+        "color": 0.912,
+        "colorIntersection": 0.8699,
+        "paletteMatch": 0.9347,
+        "detail": 0.1266,
+        "detailRaw": 0.2724,
+        "detailAdded": 0.2917,
+        "bands": 0.26
+      },
+      "verdict": "contradicted",
+      "inkBox": {
+        "comp": {
+          "x": 8,
+          "y": 5,
+          "w": 99,
+          "h": 30
+        },
+        "build": {
+          "x": 6,
+          "y": 21,
+          "w": 106,
+          "h": 27
+        }
+      }
+    },
+    {
+      "id": "price-second-1",
+      "x": 0.812,
+      "y": 0.4453,
+      "w": 0.1707,
+      "h": 0.03,
+      "kind": "text",
+      "score": {
+        "overall": 0.4968,
+        "structure": 0.3917,
+        "color": 0.8994,
+        "colorIntersection": 0.818,
+        "paletteMatch": 0.9433,
+        "detail": 0.1967,
+        "detailRaw": 0.3269,
+        "detailAdded": 0.2604,
+        "bands": 0.4657
+      },
+      "verdict": "contradicted",
+      "inkBox": {
+        "comp": {
+          "x": 7,
+          "y": 6,
+          "w": 151,
+          "h": 33
+        },
+        "build": {
+          "x": 3,
+          "y": 26,
+          "w": 153,
+          "h": 22
+        }
+      }
+    },
+    {
+      "id": "dish-divider-1",
+      "x": 0,
+      "y": 0.5,
+      "w": 1,
+      "h": 0.1,
+      "kind": "chrome",
+      "score": {
+        "overall": 0.7485,
+        "structure": 0.8828,
+        "color": 0.8637,
+        "colorIntersection": 0.7514,
+        "paletteMatch": 0.9241,
+        "detail": 0.6317,
+        "detailRaw": 0.6578,
+        "detailAdded": 0.0521,
+        "bands": 0.4381
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 128,
+          "y": 19,
+          "w": 828,
+          "h": 140
+        },
+        "build": {
+          "x": 132,
+          "y": 64,
+          "w": 569,
+          "h": 95
+        }
+      }
+    },
+    {
+      "id": "photo-well-2",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.4,
+      "h": 0.2,
+      "kind": "chrome",
+      "score": {
+        "overall": 0.7564,
+        "structure": 0.8209,
+        "color": 0.6941,
+        "colorIntersection": 0.4309,
+        "paletteMatch": 0.8358,
+        "detail": 0.6721,
+        "detailRaw": 0.6982,
+        "detailAdded": 0.0521,
+        "bands": 0.85
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 80,
+          "y": 61,
+          "w": 314,
+          "h": 196
+        },
+        "build": {
+          "x": 81,
+          "y": 65,
+          "w": 313,
+          "h": 206
+        }
+      }
+    },
+    {
+      "id": "camera-2",
+      "x": 0.1,
+      "y": 0.5,
+      "w": 0.2,
+      "h": 0.2,
+      "kind": "chrome",
+      "score": {
+        "overall": 0.761,
+        "structure": 0.8496,
+        "color": 0.5865,
+        "colorIntersection": 0.2239,
+        "paletteMatch": 0.7817,
+        "detail": 0.7006,
+        "detailRaw": 0.7319,
+        "detailAdded": 0.0625,
+        "bands": 0.9455
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 0,
+          "y": 110,
+          "w": 160,
+          "h": 142
+        },
+        "build": {
+          "x": 0,
+          "y": 102,
+          "w": 158,
+          "h": 146
+        }
+      }
+    },
+    {
+      "id": "photo-label-2",
+      "x": 0.0732,
+      "y": 0.5997,
+      "w": 0.1951,
+      "h": 0.0638,
+      "kind": "text",
+      "score": {
+        "overall": 0.6659,
+        "structure": 0.7841,
+        "color": 0.5164,
+        "colorIntersection": 0.1078,
+        "paletteMatch": 0.7364,
+        "detail": 0.524,
+        "detailRaw": 0.6073,
+        "detailAdded": 0.1667,
+        "bands": 0.6618
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 8,
+          "y": 0,
+          "w": 178,
+          "h": 93
+        },
+        "build": {
+          "x": 9,
+          "y": 0,
+          "w": 175,
+          "h": 89
+        }
+      }
+    },
+    {
+      "id": "dish-title-2",
+      "x": 0.3486,
+      "y": 0.5303,
+      "w": 0.3659,
+      "h": 0.0413,
+      "kind": "text",
+      "score": {
+        "overall": 0.71,
+        "structure": 0.6327,
+        "color": 0.9018,
+        "colorIntersection": 0.8219,
+        "paletteMatch": 0.9449,
+        "detail": 0.6605,
+        "detailRaw": 0.7335,
+        "detailAdded": 0.1458,
+        "bands": 0.6909
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 7,
+          "y": 11,
+          "w": 346,
+          "h": 48
+        },
+        "build": {
+          "x": 6,
+          "y": 16,
+          "w": 352,
+          "h": 48
+        }
+      }
+    },
+    {
+      "id": "weight-first-2",
+      "x": 0.3435,
+      "y": 0.5316,
+      "w": 0.2561,
+      "h": 0.0425,
+      "kind": "text",
+      "score": {
+        "overall": 0.855,
+        "structure": 0.9005,
+        "color": 0.8999,
+        "colorIntersection": 0.8347,
+        "paletteMatch": 0.935,
+        "detail": 0.6692,
+        "detailRaw": 0.7369,
+        "detailAdded": 0.1354,
+        "bands": 0.7939
+      },
+      "verdict": "match",
+      "inkBox": {
+        "comp": {
+          "x": 12,
+          "y": 9,
+          "w": 240,
+          "h": 48
+        },
+        "build": {
+          "x": 11,
+          "y": 15,
+          "w": 241,
+          "h": 47
+        }
+      }
+    },
+    {
+      "id": "price-first-2",
+      "x": 0.812,
+      "y": 0.6354,
+      "w": 0.1707,
+      "h": 0.03,
+      "kind": "text",
+      "score": {
+        "overall": 0.5394,
+        "structure": 0.4467,
+        "color": 0.8893,
+        "colorIntersection": 0.8135,
+        "paletteMatch": 0.9301,
+        "detail": 0.283,
+        "detailRaw": 0.3716,
+        "detailAdded": 0.1771,
+        "bands": 0.5133
+      },
+      "verdict": "contradicted",
+      "inkBox": {
+        "comp": {
+          "x": 7,
+          "y": 10,
+          "w": 151,
+          "h": 32
+        },
+        "build": {
+          "x": 3,
+          "y": 24,
+          "w": 153,
+          "h": 24
+        }
+      }
+    },
+    {
+      "id": "price-rule-2",
+      "x": 0.3,
+      "y": 0.6,
+      "w": 0.7,
+      "h": 0.1,
+      "kind": "chrome",
+      "score": {
+        "overall": 0.7094,
+        "structure": 0.9376,
+        "color": 0.9684,
+        "colorIntersection": 0.9392,
+        "paletteMatch": 0.9841,
+        "detail": 0.5567,
+        "detailRaw": 0.6453,
+        "detailAdded": 0.1771,
+        "bands": 0
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 54,
+          "y": 0,
+          "w": 608,
+          "h": 99
+        },
+        "build": {
+          "x": 53,
+          "y": 2,
+          "w": 607,
+          "h": 111
+        }
+      }
+    },
+    {
+      "id": "weight-second-2",
+      "x": 0.3486,
+      "y": 0.5997,
+      "w": 0.1159,
+      "h": 0.0188,
+      "kind": "text",
+      "score": {
+        "overall": 0.4289,
+        "structure": 0.3529,
+        "color": 0.9242,
+        "colorIntersection": 0.8589,
+        "paletteMatch": 0.9594,
+        "detail": 0.1429,
+        "detailRaw": 0.3252,
+        "detailAdded": 0.3646,
+        "bands": 0
+      },
+      "verdict": "contradicted",
+      "inkBox": {
+        "comp": {
+          "x": 8,
+          "y": 0,
+          "w": 99,
+          "h": 30
+        },
+        "build": {
+          "x": 5,
+          "y": 11,
+          "w": 107,
+          "h": 32
+        }
+      }
+    },
+    {
+      "id": "price-second-2",
+      "x": 0.812,
+      "y": 0.6373,
+      "w": 0.1707,
+      "h": 0.03,
+      "kind": "text",
+      "score": {
+        "overall": 0.5054,
+        "structure": 0.4217,
+        "color": 0.8857,
+        "colorIntersection": 0.8016,
+        "paletteMatch": 0.931,
+        "detail": 0.3023,
+        "detailRaw": 0.4065,
+        "detailAdded": 0.2083,
+        "bands": 0.2779
+      },
+      "verdict": "contradicted",
+      "inkBox": {
+        "comp": {
+          "x": 7,
+          "y": 7,
+          "w": 151,
+          "h": 32
+        },
+        "build": {
+          "x": 2,
+          "y": 21,
+          "w": 154,
+          "h": 27
+        }
+      }
+    },
+    {
+      "id": "dish-divider-2",
+      "x": 0,
+      "y": 0.7,
+      "w": 1,
+      "h": 0.1,
+      "kind": "chrome",
+      "score": {
+        "overall": 0.7319,
+        "structure": 0.8408,
+        "color": 0.8436,
+        "colorIntersection": 0.7118,
+        "paletteMatch": 0.9145,
+        "detail": 0.6308,
+        "detailRaw": 0.6724,
+        "detailAdded": 0.0833,
+        "bands": 0.46
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 27,
+          "y": 4,
+          "w": 935,
+          "h": 156
+        },
+        "build": {
+          "x": 132,
+          "y": 50,
+          "w": 823,
+          "h": 110
+        }
+      }
+    },
+    {
+      "id": "photo-well-3",
+      "x": 0,
+      "y": 0.7,
+      "w": 0.4,
+      "h": 0.2,
+      "kind": "chrome",
+      "score": {
+        "overall": 0.7777,
+        "structure": 0.8224,
+        "color": 0.6932,
+        "colorIntersection": 0.4231,
+        "paletteMatch": 0.8387,
+        "detail": 0.7263,
+        "detailRaw": 0.7524,
+        "detailAdded": 0.0521,
+        "bands": 0.9
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 79,
+          "y": 46,
+          "w": 315,
+          "h": 195
+        },
+        "build": {
+          "x": 81,
+          "y": 50,
+          "w": 313,
+          "h": 205
+        }
+      }
+    },
+    {
+      "id": "camera-3",
+      "x": 0.1,
+      "y": 0.7,
+      "w": 0.2,
+      "h": 0.2,
+      "kind": "chrome",
+      "score": {
+        "overall": 0.7774,
+        "structure": 0.8491,
+        "color": 0.5813,
+        "colorIntersection": 0.2162,
+        "paletteMatch": 0.7779,
+        "detail": 0.7961,
+        "detailRaw": 0.7961,
+        "detailAdded": 0,
+        "bands": 0.9055
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 0,
+          "y": 92,
+          "w": 160,
+          "h": 143
+        },
+        "build": {
+          "x": 0,
+          "y": 86,
+          "w": 158,
+          "h": 145
+        }
+      }
+    },
+    {
+      "id": "photo-label-3",
+      "x": 0.0732,
+      "y": 0.8036,
+      "w": 0.1951,
+      "h": 0.0488,
+      "kind": "text",
+      "score": {
+        "overall": 0.7193,
+        "structure": 0.8617,
+        "color": 0.5268,
+        "colorIntersection": 0.1229,
+        "paletteMatch": 0.7443,
+        "detail": 0.617,
+        "detailRaw": 0.6639,
+        "detailAdded": 0.0938,
+        "bands": 0.6417
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 7,
+          "y": 10,
+          "w": 179,
+          "h": 59
+        },
+        "build": {
+          "x": 9,
+          "y": 6,
+          "w": 175,
+          "h": 59
+        }
+      }
+    },
+    {
+      "id": "dish-title-3",
+      "x": 0.3486,
+      "y": 0.7223,
+      "w": 0.4268,
+      "h": 0.0375,
+      "kind": "text",
+      "score": {
+        "overall": 0.5826,
+        "structure": 0.4148,
+        "color": 0.8933,
+        "colorIntersection": 0.8178,
+        "paletteMatch": 0.934,
+        "detail": 0.6601,
+        "detailRaw": 0.7278,
+        "detailAdded": 0.1354,
+        "bands": 0.5286
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 9,
+          "y": 10,
+          "w": 401,
+          "h": 43
+        },
+        "build": {
+          "x": 8,
+          "y": 14,
+          "w": 412,
+          "h": 46
+        }
+      }
+    },
+    {
+      "id": "weight-first-3",
+      "x": 0.3506,
+      "y": 0.7223,
+      "w": 0.249,
+      "h": 0.0381,
+      "kind": "text",
+      "score": {
+        "overall": 0.725,
+        "structure": 0.6341,
+        "color": 0.8944,
+        "colorIntersection": 0.823,
+        "paletteMatch": 0.9329,
+        "detail": 0.6553,
+        "detailRaw": 0.7126,
+        "detailAdded": 0.1146,
+        "bands": 0.86
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 7,
+          "y": 10,
+          "w": 237,
+          "h": 43
+        },
+        "build": {
+          "x": 6,
+          "y": 14,
+          "w": 239,
+          "h": 47
+        }
+      }
+    },
+    {
+      "id": "price-first-3",
+      "x": 0.8425,
+      "y": 0.8274,
+      "w": 0.1402,
+      "h": 0.03,
+      "kind": "text",
+      "score": {
+        "overall": 0.509,
+        "structure": 0.3813,
+        "color": 0.8794,
+        "colorIntersection": 0.7947,
+        "paletteMatch": 0.9251,
+        "detail": 0.3201,
+        "detailRaw": 0.4243,
+        "detailAdded": 0.2083,
+        "bands": 0.5046
+      },
+      "verdict": "contradicted",
+      "inkBox": {
+        "comp": {
+          "x": 9,
+          "y": 5,
+          "w": 119,
+          "h": 33
+        },
+        "build": {
+          "x": 10,
+          "y": 20,
+          "w": 116,
+          "h": 28
+        }
+      }
+    },
+    {
+      "id": "price-rule-3",
+      "x": 0.3,
+      "y": 0.8,
+      "w": 0.7,
+      "h": 0.1,
+      "kind": "chrome",
+      "score": {
+        "overall": 0.6423,
+        "structure": 0.9505,
+        "color": 0.9749,
+        "colorIntersection": 0.9467,
+        "paletteMatch": 0.9901,
+        "detail": 0.2635,
+        "detailRaw": 0.3937,
+        "detailAdded": 0.2604,
+        "bands": 0
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 54,
+          "y": 0,
+          "w": 610,
+          "h": 82
+        },
+        "build": {
+          "x": 53,
+          "y": 0,
+          "w": 607,
+          "h": 96
+        }
+      }
+    },
+    {
+      "id": "weight-second-3",
+      "x": 0.3486,
+      "y": 0.8261,
+      "w": 0.0854,
+      "h": 0.03,
+      "kind": "text",
+      "score": {
+        "overall": 0.5728,
+        "structure": 0.6138,
+        "color": 0.9261,
+        "colorIntersection": 0.8661,
+        "paletteMatch": 0.9585,
+        "detail": 0.229,
+        "detailRaw": 0.3124,
+        "detailAdded": 0.1667,
+        "bands": 0
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 9,
+          "y": 10,
+          "w": 69,
+          "h": 29
+        },
+        "build": {
+          "x": 8,
+          "y": 22,
+          "w": 76,
+          "h": 26
+        }
+      }
+    },
+    {
+      "id": "price-second-3",
+      "x": 0.8425,
+      "y": 0.8261,
+      "w": 0.1402,
+      "h": 0.03,
+      "kind": "text",
+      "score": {
+        "overall": 0.5207,
+        "structure": 0.396,
+        "color": 0.8707,
+        "colorIntersection": 0.7929,
+        "paletteMatch": 0.9126,
+        "detail": 0.3552,
+        "detailRaw": 0.4437,
+        "detailAdded": 0.1771,
+        "bands": 0.5176
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 9,
+          "y": 7,
+          "w": 119,
+          "h": 33
+        },
+        "build": {
+          "x": 10,
+          "y": 22,
+          "w": 116,
+          "h": 26
+        }
+      }
+    },
+    {
+      "id": "call-action",
+      "x": 0,
+      "y": 0.9,
+      "w": 1,
+      "h": 0.1,
+      "kind": "control",
+      "score": {
+        "overall": 0.9066,
+        "structure": 0.923,
+        "color": 0.9291,
+        "colorIntersection": 0.8923,
+        "paletteMatch": 0.9489,
+        "detail": 0.8304,
+        "detailRaw": 0.872,
+        "detailAdded": 0.0833,
+        "bands": 0.5972
+      },
+      "verdict": "match",
+      "inkBox": {
+        "comp": {
+          "x": 0,
+          "y": 0,
+          "w": 984,
+          "h": 160
+        },
+        "build": {
+          "x": 0,
+          "y": 0,
+          "w": 984,
+          "h": 160
+        }
+      }
+    }
+  ],
+  "files": {
+    "sideBySide": "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/side-by-side.png",
+    "heatmap": "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/heatmap.png",
+    "regionFiles": [
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/brand.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/pdf.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/title.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/address.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/nav-shashlik.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/nav-snacks.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/nav-bakery.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/nav-sets.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/navigation-rule.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/section-title.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/section-count.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/photo-well-1.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/camera-1.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/photo-label-1.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/dish-title-1.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/weight-first-1.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/price-first-1.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/price-rule-1.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/weight-second-1.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/price-second-1.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/dish-divider-1.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/photo-well-2.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/camera-2.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/photo-label-2.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/dish-title-2.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/weight-first-2.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/price-first-2.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/price-rule-2.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/weight-second-2.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/price-second-2.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/dish-divider-2.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/photo-well-3.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/camera-3.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/photo-label-3.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/dish-title-3.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/weight-first-3.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/price-first-3.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/price-rule-3.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/weight-second-3.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/price-second-3.png",
+      "/Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/hero/regions/call-action.png"
+    ]
+  }
+}

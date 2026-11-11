@@ -1,0 +1,49 @@
+COMP-DIFF [desktop] overall 61% (drift) structure 52% color 88% detail 21% bands 100%
+PALETTE comp #f5f5f5(86%) #383947(8%) #1c1c1c(3%) #545657(1%) #c8cbd0(1%)
+PALETTE build #f7f8f8(96%) #32323c(2%) #818383(1%) #b8b8b8(0%) #515151(0%)
+REGION brand              missing       48%  structure  46%  color  85%  detail  10%
+REGION pdf                missing       51%  structure  57%  color  74%  detail   0%
+REGION title              contradicted  48%  structure  32%  color  90%  detail  17%
+REGION address            missing       54%  structure  52%  color  90%  detail   6%
+REGION nav-shashlik       missing       37%  structure  32%  color  64%  detail   1%
+REGION nav-snacks         missing       52%  structure  54%  color  78%  detail   0%
+REGION nav-bakery         missing       46%  structure  45%  color  74%  detail   0%
+REGION nav-sets           missing       55%  structure  60%  color  79%  detail   0%
+REGION navigation-rule    missing       56%  structure  68%  color  95%  detail   0%
+REGION section-title      missing       36%  structure  30%  color  65%  detail   1%
+REGION section-count      missing       50%  structure  58%  color  81%  detail   3%
+REGION photo-well-1       drift         54%  structure  66%  color  73%  detail  12%  +invented detail
+REGION camera-1           drift         53%  structure  68%  color  63%  detail  14%
+REGION photo-label-1      missing       46%  structure  49%  color  56%  detail  15%
+REGION dish-title-1       missing       41%  structure  39%  color  68%  detail   2%
+REGION weight-first-1     missing       44%  structure  44%  color  70%  detail   3%
+REGION price-first-1      missing       48%  structure  42%  color  89%  detail   0%
+REGION price-rule-1       missing       52%  structure  54%  color  92%  detail   2%  +invented detail
+REGION weight-second-1    missing       37%  structure  34%  color  77%  detail   3%
+REGION price-second-1     missing       47%  structure  38%  color  88%  detail   0%
+REGION dish-divider-1     missing       46%  structure  69%  color  87%  detail   1%
+REGION photo-well-2       drift         51%  structure  68%  color  72%  detail  16%
+REGION camera-2           drift         54%  structure  70%  color  62%  detail  14%
+REGION photo-label-2      missing       47%  structure  54%  color  55%  detail  13%
+REGION dish-title-2       missing       40%  structure  37%  color  86%  detail   0%
+REGION weight-first-2     missing       44%  structure  45%  color  84%  detail   0%
+REGION price-first-2      missing       44%  structure  43%  color  72%  detail   1%
+REGION price-rule-2       drift         50%  structure  70%  color  98%  detail   5%
+REGION weight-second-2    drift         52%  structure  50%  color  94%  detail  22%
+REGION price-second-2     missing       45%  structure  46%  color  71%  detail   1%
+REGION dish-divider-2     missing       51%  structure  68%  color  85%  detail   4%
+REGION photo-well-3       drift         53%  structure  70%  color  72%  detail  11%
+REGION camera-3           drift         55%  structure  71%  color  62%  detail   9%
+REGION photo-label-3      missing       40%  structure  49%  color  54%  detail   2%
+REGION dish-title-3       missing       46%  structure  38%  color  88%  detail   7%
+REGION weight-first-3     missing       48%  structure  38%  color  88%  detail   9%
+REGION price-first-3      missing       48%  structure  47%  color  81%  detail   0%
+REGION price-rule-3       missing       61%  structure  75%  color  98%  detail   4%
+REGION weight-second-3    missing       56%  structure  66%  color  92%  detail   0%
+REGION price-second-3     missing       46%  structure  43%  color  82%  detail   0%
+REGION call-action        missing       30%  structure  27%  color  48%  detail   7%
+FILES side-by-side /Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/side-by-side.png
+FILES heatmap /Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/heatmap.png
+FILES regions 41 under /Users/zagoruykov/Projects/Personal/gurman-frontend/.impeccable/review/diff/final/regions
+WORST call-action (missing, 30%); section-title (missing, 36%); nav-shashlik (missing, 37%)
+OPEN the side-by-side and the worst region pairs before deciding anything; the numbers rank, the crops decide.
