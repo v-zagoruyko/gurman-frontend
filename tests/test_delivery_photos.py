@@ -9,6 +9,8 @@ PHOTO_DISHES = {
     'pork-neck', 'chicken-fillet', 'chicken-assortment',
     'lyulya-beef-lamb', 'fries', 'country-potatoes',
     'chicken-nuggets', 'khachapuri-megrelian', 'khachapuri-puff', 'set-big',
+    'lamb-on-bone', 'salmon-steak', 'lyulya-pork-beef',
+    'grilled-vegetables', 'pizza-pepperoni',
 }
 
 
