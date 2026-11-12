@@ -7,7 +7,7 @@ ROOT = Path(__file__).resolve().parents[1]
 PHOTO_DISHES = {
     'pork-neck', 'chicken-fillet', 'chicken-assortment',
     'lyulya-beef-lamb', 'fries', 'country-potatoes',
-    'chicken-nuggets', 'khachapuri-megrelian', 'set-big',
+    'chicken-nuggets', 'khachapuri-megrelian', 'khachapuri-puff', 'set-big',
 }
 
 
