@@ -11,6 +11,7 @@ PHOTO_DISHES = {
     'chicken-nuggets', 'khachapuri-megrelian', 'khachapuri-puff', 'set-big',
     'lamb-on-bone', 'salmon-steak', 'lyulya-pork-beef',
     'grilled-vegetables', 'pizza-pepperoni',
+    'chicken-wings', 'grilled-mushrooms', 'khachapuri-adjarian', 'pizza-ham',
 }
 
 
