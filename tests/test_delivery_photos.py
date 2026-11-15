@@ -11,7 +11,7 @@ PHOTO_DISHES = {
     'chicken-nuggets', 'khachapuri-megrelian', 'khachapuri-puff', 'set-big',
     'lamb-on-bone', 'salmon-steak', 'lyulya-pork-beef',
     'grilled-vegetables', 'pizza-pepperoni',
-    'chicken-wings', 'grilled-mushrooms', 'khachapuri-adjarian', 'pizza-ham',
+    'chicken-wings', 'grilled-mushrooms', 'khachapuri-adjarian', 'pizza-ham', 'set-two',
 }
 PAIRED_PHOTOS = {'chicken-fillet', 'chicken-assortment', 'lamb-on-bone', 'pork-neck',
                  'chicken-wings', 'lyulya-pork-beef', 'lyulya-beef-lamb'}
@@ -62,7 +62,6 @@ class DeliveryPhotosTest(unittest.TestCase):
             'chicken-wings': [('200', '280', 'chicken-wings.webp'), ('1000', '1000', 'chicken-wings-1kg.webp')],
             'lyulya-pork-beef': [('200', '390', 'lyulya-pork-beef.webp'), ('1000', '1400', 'lyulya-pork-beef-1kg.webp')],
             'lyulya-beef-lamb': [('200', '390', 'lyulya-beef-lamb.webp'), ('1000', '1500', 'lyulya-beef-lamb-1kg.webp')],
-            'salmon-steak': [('150', '450', 'salmon-steak.webp'), ('750', '2250', None)],
             'lyulya-chicken': [('200', '390', None), ('1000', '1500', None)],
         }
         self.assertEqual({dish for dish, portions in menu.portions.items() if portions}, set(expected))
@@ -70,6 +69,13 @@ class DeliveryPhotosTest(unittest.TestCase):
             with self.subTest(dish=dish):
                 actual = [(p['weight'], p['prices'], p['images']) for p in menu.portions[dish]]
                 self.assertEqual(actual, [(weight, [price], ['/assets/menu/' + photo] if photo else []) for weight, price, photo in portions])
+
+    def test_salmon_has_one_photo_with_both_portion_prices(self):
+        html = (ROOT / 'delivery/index.html').read_text()
+        card = html.split('data-dish="salmon-steak"')[1].split('</article>')[0]
+        self.assertEqual(card.count('<img'), 1)
+        self.assertIn('<data value="450">', card)
+        self.assertIn('<data value="2250">', card)
 
     def test_chicken_cards_use_confirmed_200g_photos(self):
         menu = MenuParser()
