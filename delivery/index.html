@@ -36,9 +36,9 @@
   </header>
   <nav class="menu-nav" aria-label="Разделы меню"><div class="wrap nav-links">
       <a href="#shashlik" aria-current="location">Шашлыки</a>
+      <a href="#sets">Сеты</a>
       <a href="#snacks">Закуски</a>
       <a href="#bakery">Выпечка</a>
-      <a href="#sets">Сеты</a>
   </div></nav>
   <div class="wrap" id="menu">
   <section class="menu-section" id="shashlik" aria-labelledby="shashlik-title">
@@ -139,14 +139,17 @@
           </figure>
         </div>
       </article>
-      <article class="dish" data-dish="salmon-steak">
-        <div class="dish-photo"><img src="/assets/menu/salmon-steak.webp" alt="Стейк из сёмги в контейнере" width="600" height="800" loading="lazy" decoding="async"></div>
-        <div class="dish-main">
-          <h3>Стейк из сёмги</h3>
-          <dl class="dish-prices">
-            <div><dt>150 г</dt><dd><data value="450">450&nbsp;₽</data></dd></div>
-            <div><dt>750 г</dt><dd><data value="2250">2 250&nbsp;₽</data></dd></div>
-          </dl>
+      <article class="dish dish-paired" data-dish="salmon-steak">
+        <h3>Стейк из сёмги</h3>
+        <div class="dish-portions">
+          <figure class="dish-portion" data-portion="150">
+            <div class="dish-photo"><img src="/assets/menu/salmon-steak.webp" alt="Стейк из сёмги — 150 г, в контейнере" width="600" height="800" loading="lazy" decoding="async"></div>
+            <figcaption><dl class="dish-prices"><div><dt>150 г</dt><dd><data value="450">450&nbsp;₽</data></dd></div></dl></figcaption>
+          </figure>
+          <figure class="dish-portion" data-portion="750">
+            <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото порции<br>пока нет</span></div>
+            <figcaption><dl class="dish-prices"><div><dt>750 г</dt><dd><data value="2250">2 250&nbsp;₽</data></dd></div></dl></figcaption>
+          </figure>
         </div>
       </article>
       <article class="dish dish-paired" data-dish="lyulya-pork-beef">
@@ -175,16 +178,66 @@
           </figure>
         </div>
       </article>
-      <article class="dish" data-dish="lyulya-chicken">
-        <!-- TODO-PHOTO: replace with a real photo of lyulya-chicken. -->
-        <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото блюда<br>пока нет</span></div>
+      <article class="dish dish-paired" data-dish="lyulya-chicken">
+        <h3>Люля куриный</h3>
+        <div class="dish-portions">
+          <figure class="dish-portion" data-portion="200">
+            <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото порции<br>пока нет</span></div>
+            <figcaption><dl class="dish-prices"><div><dt>200 г</dt><dd><data value="390">390&nbsp;₽</data></dd></div></dl></figcaption>
+          </figure>
+          <figure class="dish-portion" data-portion="1000">
+            <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото порции<br>пока нет</span></div>
+            <figcaption><dl class="dish-prices"><div><dt>1 кг</dt><dd><data value="1500">1 500&nbsp;₽</data></dd></div></dl></figcaption>
+          </figure>
+        </div>
+      </article>
+    </div>
+  </section>
+  <section class="menu-section" id="sets" aria-labelledby="sets-title">
+    <div class="section-heading"><div><h2 id="sets-title">Сеты</h2></div><span class="section-count">4 сета</span></div>
+    <div class="dish-grid">
+      <article class="dish dish-set" data-dish="set-big">
+        <div class="dish-photo"><img src="/assets/menu/set-big.webp" alt="Большой сет с мясом, хачапури, овощами гриль, картофелем фри и капустой" width="800" height="759" loading="lazy" decoding="async"></div>
         <div class="dish-main">
-          <h3>Люля куриный</h3>
+          <h3>Большой сет</h3>
           <dl class="dish-prices">
-            <div><dt>200 г</dt><dd><data value="390">390&nbsp;₽</data></dd></div>
-            <div><dt>1 кг</dt><dd><data value="1500">1 500&nbsp;₽</data></dd></div>
+            <div><dt>400 / 400 / 200 / 400 / 150 / 200 г</dt><dd><data value="2600">2 600&nbsp;₽</data></dd></div>
           </dl>
         </div>
+        <p class="dish-description">Свиная шея, куриное филе, люля из говядины и баранины, хачапури, овощи гриль, острая квашеная капуста, картофель фри, соусы на выбор.</p>
+      </article>
+      <article class="dish dish-set" data-dish="set-four">
+        <!-- TODO-PHOTO: replace with a real photo of set-four. -->
+        <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото блюда<br>пока нет</span></div>
+        <div class="dish-main">
+          <h3>Сет на четверых</h3>
+          <dl class="dish-prices">
+            <div><dt>400 / 400 / 200 / 150 / 200 г</dt><dd><data value="1700">1 700&nbsp;₽</data></dd></div>
+          </dl>
+        </div>
+        <p class="dish-description">Свиная шея, куриное филе, люля из говядины и баранины, острая квашеная капуста, картофель фри, соусы на выбор.</p>
+      </article>
+      <article class="dish dish-set" data-dish="set-three">
+        <!-- TODO-PHOTO: replace with a real photo of set-three. -->
+        <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото блюда<br>пока нет</span></div>
+        <div class="dish-main">
+          <h3>Сет на троих</h3>
+          <dl class="dish-prices">
+            <div><dt>400 / 400 / 150 / 200 г</dt><dd><data value="1600">1 600&nbsp;₽</data></dd></div>
+          </dl>
+        </div>
+        <p class="dish-description">Свиная шея, куриное ассорти, острая квашеная капуста, картофель фри, соусы на выбор.</p>
+      </article>
+      <article class="dish dish-set" data-dish="set-two">
+        <!-- TODO-PHOTO: replace with a real photo of set-two. -->
+        <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото блюда<br>пока нет</span></div>
+        <div class="dish-main">
+          <h3>Сет на двоих</h3>
+          <dl class="dish-prices">
+            <div><dt>200 / 200 / 150 / 200 г</dt><dd><data value="1000">1 000&nbsp;₽</data></dd></div>
+          </dl>
+        </div>
+        <p class="dish-description">Свиная шея, куриное ассорти, острая квашеная капуста, картофель фри, соусы на выбор.</p>
       </article>
     </div>
   </section>
@@ -325,54 +378,6 @@
             <div><dt>1 шт.</dt><dd><data value="100">100&nbsp;₽</data></dd></div>
           </dl>
         </div>
-      </article>
-    </div>
-  </section>
-  <section class="menu-section" id="sets" aria-labelledby="sets-title">
-    <div class="section-heading"><div><h2 id="sets-title">Сеты</h2></div><span class="section-count">4 сета</span></div>
-    <div class="dish-grid">
-      <article class="dish dish-set" data-dish="set-big">
-        <div class="dish-photo"><img src="/assets/menu/set-big.webp" alt="Большой сет с мясом, хачапури, овощами гриль, картофелем фри и капустой" width="800" height="759" loading="lazy" decoding="async"></div>
-        <div class="dish-main">
-          <h3>Большой сет</h3>
-          <dl class="dish-prices">
-            <div><dt>400 / 400 / 200 / 400 / 150 / 200 г</dt><dd><data value="2600">2 600&nbsp;₽</data></dd></div>
-          </dl>
-        </div>
-        <p class="dish-description">Свиная шея, куриное филе, люля из говядины и баранины, хачапури, овощи гриль, острая квашеная капуста, картофель фри, соусы на выбор.</p>
-      </article>
-      <article class="dish dish-set" data-dish="set-four">
-        <!-- TODO-PHOTO: replace with a real photo of set-four. -->
-        <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото блюда<br>пока нет</span></div>
-        <div class="dish-main">
-          <h3>Сет на четверых</h3>
-          <dl class="dish-prices">
-            <div><dt>400 / 400 / 200 / 150 / 200 г</dt><dd><data value="1700">1 700&nbsp;₽</data></dd></div>
-          </dl>
-        </div>
-        <p class="dish-description">Свиная шея, куриное филе, люля из говядины и баранины, острая квашеная капуста, картофель фри, соусы на выбор.</p>
-      </article>
-      <article class="dish dish-set" data-dish="set-three">
-        <!-- TODO-PHOTO: replace with a real photo of set-three. -->
-        <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото блюда<br>пока нет</span></div>
-        <div class="dish-main">
-          <h3>Сет на троих</h3>
-          <dl class="dish-prices">
-            <div><dt>400 / 400 / 150 / 200 г</dt><dd><data value="1600">1 600&nbsp;₽</data></dd></div>
-          </dl>
-        </div>
-        <p class="dish-description">Свиная шея, куриное ассорти, острая квашеная капуста, картофель фри, соусы на выбор.</p>
-      </article>
-      <article class="dish dish-set" data-dish="set-two">
-        <!-- TODO-PHOTO: replace with a real photo of set-two. -->
-        <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото блюда<br>пока нет</span></div>
-        <div class="dish-main">
-          <h3>Сет на двоих</h3>
-          <dl class="dish-prices">
-            <div><dt>200 / 200 / 150 / 200 г</dt><dd><data value="1000">1 000&nbsp;₽</data></dd></div>
-          </dl>
-        </div>
-        <p class="dish-description">Свиная шея, куриное ассорти, острая квашеная капуста, картофель фри, соусы на выбор.</p>
       </article>
     </div>
   </section>
