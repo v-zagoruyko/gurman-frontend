@@ -13,7 +13,8 @@ PHOTO_DISHES = {
     'grilled-vegetables', 'pizza-pepperoni',
     'chicken-wings', 'grilled-mushrooms', 'khachapuri-adjarian', 'pizza-ham',
 }
-PAIRED_PHOTOS = {'chicken-fillet', 'chicken-assortment', 'lamb-on-bone'}
+PAIRED_PHOTOS = {'chicken-fillet', 'chicken-assortment', 'lamb-on-bone', 'pork-neck',
+                 'chicken-wings', 'lyulya-pork-beef', 'lyulya-beef-lamb'}
 
 
 class MenuParser(HTMLParser):
@@ -52,12 +53,15 @@ class DeliveryPhotosTest(unittest.TestCase):
         menu = MenuParser()
         menu.feed((ROOT / 'delivery/index.html').read_text())
         expected = {
-            'pork-neck': [('200', '300', None), ('1000', '1430', 'pork-neck.webp')],
+            'pork-neck': [('200', '300', 'pork-neck-200g.webp'), ('1000', '1430', 'pork-neck.webp')],
             'pork-ribs': [('200', '300', None), ('1000', '1430', None)],
             'chicken-assortment': [('200', '260', 'chicken-assortment.webp'), ('1000', '950', 'chicken-assortment-1kg.webp')],
             'pork-loin': [('200', '300', None), ('1000', '1430', None)],
             'chicken-fillet': [('200', '280', 'chicken-fillet.webp'), ('1000', '1100', 'chicken-fillet-1kg.webp')],
             'lamb-on-bone': [('150', '650', 'lamb-on-bone.webp'), ('750', '3250', 'lamb-on-bone-750g.webp')],
+            'chicken-wings': [('200', '280', 'chicken-wings.webp'), ('1000', '1000', 'chicken-wings-1kg.webp')],
+            'lyulya-pork-beef': [('200', '390', 'lyulya-pork-beef.webp'), ('1000', '1400', 'lyulya-pork-beef-1kg.webp')],
+            'lyulya-beef-lamb': [('200', '390', 'lyulya-beef-lamb.webp'), ('1000', '1500', 'lyulya-beef-lamb-1kg.webp')],
         }
         self.assertEqual({dish for dish, portions in menu.portions.items() if portions}, set(expected))
         for dish, portions in expected.items():
