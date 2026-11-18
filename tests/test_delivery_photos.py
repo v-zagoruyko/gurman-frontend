@@ -60,6 +60,7 @@ class DeliveryPhotosTest(unittest.TestCase):
             'chicken-fillet': [('200', '280', 'chicken-fillet.webp'), ('1000', '1100', 'chicken-fillet-1kg.webp')],
             'lamb-on-bone': [('150', '650', 'lamb-on-bone.webp'), ('750', '3250', 'lamb-on-bone-750g.webp')],
             'chicken-wings': [('200', '280', 'chicken-wings.webp'), ('1000', '1000', 'chicken-wings-1kg.webp')],
+            'salmon-steak': [('150', '450', 'salmon-steak.webp'), ('750', '2250', None)],
             'lyulya-pork-beef': [('200', '390', 'lyulya-pork-beef.webp'), ('1000', '1400', 'lyulya-pork-beef-1kg.webp')],
             'lyulya-beef-lamb': [('200', '390', 'lyulya-beef-lamb.webp'), ('1000', '1500', 'lyulya-beef-lamb-1kg.webp')],
             'lyulya-chicken': [('200', '390', None), ('1000', '1500', None)],
@@ -70,12 +71,12 @@ class DeliveryPhotosTest(unittest.TestCase):
                 actual = [(p['weight'], p['prices'], p['images']) for p in menu.portions[dish]]
                 self.assertEqual(actual, [(weight, [price], ['/assets/menu/' + photo] if photo else []) for weight, price, photo in portions])
 
-    def test_salmon_has_one_photo_with_both_portion_prices(self):
+    def test_salmon_labels_the_missing_portion_photo(self):
         html = (ROOT / 'delivery/index.html').read_text()
         card = html.split('data-dish="salmon-steak"')[1].split('</article>')[0]
-        self.assertEqual(card.count('<img'), 1)
-        self.assertIn('<data value="450">', card)
-        self.assertIn('<data value="2250">', card)
+        missing = card.split('data-portion="750"', 1)
+        self.assertEqual(len(missing), 2)
+        self.assertIn('Фото порции<br>пока нет', missing[1].split('</figure>', 1)[0])
 
     def test_chicken_cards_use_confirmed_200g_photos(self):
         menu = MenuParser()

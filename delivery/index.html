@@ -2,9 +2,9 @@
 <html lang="ru">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="description" content="Меню ресторана «Гурман» в Тюмени: шашлыки, закуски, хачапури, пицца и сеты. Вес и цены, заказ по телефону 21-75-65.">
-<meta name="theme-color" content="#F3EDDC">
+<meta name="theme-color" content="#FFFFFF">
 <title>Меню — ресторан «Гурман», Тюмень</title>
 <link rel="canonical" href="https://xn----7sbblh9beecscegov.xn--p1ai/delivery/">
 <link rel="icon" href="/favicon.ico" sizes="48x48">
@@ -16,9 +16,6 @@
 <meta property="og:description" content="Шашлыки, закуски, выпечка и сеты. Выбирайте блюда и звоните: 21-75-65.">
 <meta property="og:url" content="https://xn----7sbblh9beecscegov.xn--p1ai/delivery/">
 <meta property="og:image" content="https://xn----7sbblh9beecscegov.xn--p1ai/assets/og.jpg">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
 <link rel="preload" href="/assets/fonts/golos-text.ttf" as="font" type="font/ttf" crossorigin>
 <link rel="stylesheet" href="/delivery/styles.css">
 </head>
@@ -142,12 +139,13 @@
       <article class="dish dish-paired" data-dish="salmon-steak">
         <h3>Стейк из сёмги</h3>
         <div class="dish-portions">
-          <figure class="dish-portion">
+          <figure class="dish-portion" data-portion="150">
             <div class="dish-photo"><img src="/assets/menu/salmon-steak.webp" alt="Стейк из сёмги — порция 150 г, в контейнере" width="600" height="800" loading="lazy" decoding="async"></div>
-            <figcaption><dl class="dish-prices">
-              <div><dt>150 г</dt><dd><data value="450">450&nbsp;₽</data></dd></div>
-              <div><dt>750 г</dt><dd><data value="2250">2 250&nbsp;₽</data></dd></div>
-            </dl></figcaption>
+            <figcaption><dl class="dish-prices"><div><dt>150 г</dt><dd><data value="450">450&nbsp;₽</data></dd></div></dl></figcaption>
+          </figure>
+          <figure class="dish-portion" data-portion="750">
+            <div class="dish-photo"><svg width="32" height="32" aria-hidden="true"><use href="#camera"></use></svg><span>Фото порции<br>пока нет</span></div>
+            <figcaption><dl class="dish-prices"><div><dt>750 г</dt><dd><data value="2250">2 250&nbsp;₽</data></dd></div></dl></figcaption>
           </figure>
         </div>
       </article>
@@ -194,7 +192,7 @@
   </section>
   <section class="menu-section" id="sets" aria-labelledby="sets-title">
     <div class="section-heading"><div><h2 id="sets-title">Сеты</h2></div><span class="section-count">4 сета</span></div>
-    <div class="dish-grid">
+    <div class="dish-grid grid-sets">
       <article class="dish dish-set" data-dish="set-big">
         <div class="dish-photo"><img src="/assets/menu/set-big.webp" alt="Большой сет с мясом, хачапури, овощами гриль, картофелем фри и капустой" width="800" height="759" loading="lazy" decoding="async"></div>
         <div class="dish-main">
@@ -241,7 +239,7 @@
   </section>
   <section class="menu-section" id="snacks" aria-labelledby="snacks-title">
     <div class="section-heading"><div><h2 id="snacks-title">Закуски</h2></div><span class="section-count">5 блюд</span></div>
-    <div class="dish-grid">
+    <div class="dish-grid grid-compact">
       <article class="dish" data-dish="fries">
         <div class="dish-photo"><img src="/assets/menu/fries.webp" alt="Картофель фри в контейнере" width="600" height="800" loading="lazy" decoding="async"></div>
         <div class="dish-main">
@@ -291,7 +289,7 @@
   </section>
   <section class="menu-section" id="bakery" aria-labelledby="bakery-title">
     <div class="section-heading"><div><h2 id="bakery-title">Выпечка</h2></div><span class="section-count">9 блюд</span></div>
-    <div class="dish-grid">
+    <div class="dish-grid grid-compact">
       <article class="dish" data-dish="khachapuri-puff">
         <div class="dish-photo"><img src="/assets/menu/khachapuri-puff.webp" alt="Слоёное хачапури в коробке" width="600" height="800" loading="lazy" decoding="async"></div>
         <div class="dish-main">
