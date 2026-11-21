@@ -12,7 +12,7 @@ PHOTO_DISHES = {
     'lamb-on-bone', 'salmon-steak', 'lyulya-pork-beef',
     'grilled-vegetables', 'pizza-pepperoni',
     'chicken-wings', 'grilled-mushrooms', 'khachapuri-adjarian', 'pizza-ham', 'set-two',
-    'pizza-cheese', 'pork-loin',
+    'pizza-cheese', 'pork-loin', 'lavash-thin',
 }
 PAIRED_PHOTOS = {'chicken-fillet', 'chicken-assortment', 'lamb-on-bone', 'pork-neck',
                  'chicken-wings', 'lyulya-pork-beef', 'lyulya-beef-lamb', 'pork-loin'}
