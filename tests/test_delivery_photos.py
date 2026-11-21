@@ -12,9 +12,10 @@ PHOTO_DISHES = {
     'lamb-on-bone', 'salmon-steak', 'lyulya-pork-beef',
     'grilled-vegetables', 'pizza-pepperoni',
     'chicken-wings', 'grilled-mushrooms', 'khachapuri-adjarian', 'pizza-ham', 'set-two',
+    'pizza-cheese', 'pork-loin',
 }
 PAIRED_PHOTOS = {'chicken-fillet', 'chicken-assortment', 'lamb-on-bone', 'pork-neck',
-                 'chicken-wings', 'lyulya-pork-beef', 'lyulya-beef-lamb'}
+                 'chicken-wings', 'lyulya-pork-beef', 'lyulya-beef-lamb', 'pork-loin'}
 
 
 class MenuParser(HTMLParser):
@@ -56,7 +57,7 @@ class DeliveryPhotosTest(unittest.TestCase):
             'pork-neck': [('200', '300', 'pork-neck-200g.webp'), ('1000', '1430', 'pork-neck.webp')],
             'pork-ribs': [('200', '300', None), ('1000', '1430', None)],
             'chicken-assortment': [('200', '260', 'chicken-assortment.webp'), ('1000', '950', 'chicken-assortment-1kg.webp')],
-            'pork-loin': [('200', '300', None), ('1000', '1430', None)],
+            'pork-loin': [('200', '300', 'pork-loin-200g.webp'), ('1000', '1430', 'pork-loin-1kg.webp')],
             'chicken-fillet': [('200', '280', 'chicken-fillet.webp'), ('1000', '1100', 'chicken-fillet-1kg.webp')],
             'lamb-on-bone': [('150', '650', 'lamb-on-bone.webp'), ('750', '3250', 'lamb-on-bone-750g.webp')],
             'chicken-wings': [('200', '280', 'chicken-wings.webp'), ('1000', '1000', 'chicken-wings-1kg.webp')],
