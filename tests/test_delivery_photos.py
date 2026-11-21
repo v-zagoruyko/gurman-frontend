@@ -12,7 +12,7 @@ PHOTO_DISHES = {
     'lamb-on-bone', 'salmon-steak', 'lyulya-pork-beef',
     'grilled-vegetables', 'pizza-pepperoni',
     'chicken-wings', 'grilled-mushrooms', 'khachapuri-adjarian', 'pizza-ham', 'set-two',
-    'pizza-cheese', 'pork-loin', 'lavash-thin',
+    'pizza-cheese', 'pork-loin', 'lavash-thin', 'lyulya-chicken',
 }
 PAIRED_PHOTOS = {'chicken-fillet', 'chicken-assortment', 'lamb-on-bone', 'pork-neck',
                  'chicken-wings', 'lyulya-pork-beef', 'lyulya-beef-lamb', 'pork-loin'}
@@ -64,7 +64,7 @@ class DeliveryPhotosTest(unittest.TestCase):
             'salmon-steak': [('150', '450', 'salmon-steak.webp'), ('750', '2250', None)],
             'lyulya-pork-beef': [('200', '390', 'lyulya-pork-beef.webp'), ('1000', '1400', 'lyulya-pork-beef-1kg.webp')],
             'lyulya-beef-lamb': [('200', '390', 'lyulya-beef-lamb.webp'), ('1000', '1500', 'lyulya-beef-lamb-1kg.webp')],
-            'lyulya-chicken': [('200', '390', None), ('1000', '1500', None)],
+            'lyulya-chicken': [('200', '390', 'lyulya-chicken-200g.webp'), ('1000', '1500', None)],
         }
         self.assertEqual({dish for dish, portions in menu.portions.items() if portions}, set(expected))
         for dish, portions in expected.items():
