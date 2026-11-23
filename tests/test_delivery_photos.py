@@ -63,7 +63,7 @@ class DeliveryPhotosTest(unittest.TestCase):
             'chicken-wings': [('200', '280', 'chicken-wings.webp'), ('1000', '1000', 'chicken-wings-1kg.webp')],
             'salmon-steak': [('150', '450', 'salmon-steak.webp'), ('750', '2250', None)],
             'lyulya-pork-beef': [('200', '390', 'lyulya-pork-beef-200g.webp'), ('1000', '1400', 'lyulya-pork-beef-1kg.webp')],
-            'lyulya-beef-lamb': [('200', '390', 'lyulya-beef-lamb.webp'), ('1000', '1500', 'lyulya-beef-lamb-1kg.webp')],
+            'lyulya-beef-lamb': [('200', '690', 'lyulya-beef-lamb.webp'), ('1000', '2500', 'lyulya-beef-lamb-1kg.webp')],
             'lyulya-chicken': [('200', '390', 'lyulya-chicken-200g.webp'), ('1000', '1500', None)],
         }
         self.assertEqual({dish for dish, portions in menu.portions.items() if portions}, set(expected))
