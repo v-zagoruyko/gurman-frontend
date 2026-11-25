@@ -6,7 +6,7 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
 PHOTO_DISHES = {
-    'pork-neck', 'chicken-fillet', 'chicken-assortment',
+    'pork-neck', 'pork-ribs', 'chicken-fillet', 'chicken-assortment',
     'lyulya-beef-lamb', 'fries', 'country-potatoes',
     'chicken-nuggets', 'khachapuri-megrelian', 'khachapuri-puff', 'set-big',
     'lamb-on-bone', 'salmon-steak', 'lyulya-pork-beef',
@@ -14,7 +14,7 @@ PHOTO_DISHES = {
     'chicken-wings', 'grilled-mushrooms', 'khachapuri-adjarian', 'pizza-ham', 'set-two',
     'pizza-cheese', 'pizza-chicken', 'pork-loin', 'lavash-thin', 'lyulya-chicken',
 }
-PAIRED_PHOTOS = {'chicken-fillet', 'chicken-assortment', 'lamb-on-bone', 'pork-neck',
+PAIRED_PHOTOS = {'chicken-fillet', 'chicken-assortment', 'lamb-on-bone', 'pork-neck', 'pork-ribs',
                  'chicken-wings', 'lyulya-pork-beef', 'lyulya-beef-lamb', 'pork-loin'}
 
 
@@ -55,7 +55,7 @@ class DeliveryPhotosTest(unittest.TestCase):
         menu.feed((ROOT / 'delivery/index.html').read_text())
         expected = {
             'pork-neck': [('200', '300', 'pork-neck-200g.webp'), ('1000', '1430', 'pork-neck.webp')],
-            'pork-ribs': [('200', '300', None), ('1000', '1430', None)],
+            'pork-ribs': [('200', '300', 'pork-ribs-200g.webp'), ('1000', '1430', 'pork-ribs-1kg.webp')],
             'chicken-assortment': [('200', '260', 'chicken-assortment.webp'), ('1000', '950', 'chicken-assortment-1kg.webp')],
             'pork-loin': [('200', '300', 'pork-loin-200g.webp'), ('1000', '1430', 'pork-loin-1kg.webp')],
             'chicken-fillet': [('200', '280', 'chicken-fillet.webp'), ('1000', '1100', 'chicken-fillet-1kg.webp')],
